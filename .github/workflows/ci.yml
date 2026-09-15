@@ -1,0 +1,62 @@
+name: ThinkForge CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Syntax check (npm run check)
+        run: npm run check
+      - name: Validate migration tree
+        run: npm run migrations:check
+      - name: Validate baseline environment contract
+        run: npm run env:check
+      - name: Run test suite
+        env:
+          # Required for the live verifier and cross-tenant isolation fixture.
+          # Configure all four against disposable staging data, never production.
+          SUPABASE_URL: ${{ secrets.CI_STAGING_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CI_STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          THINKFORGE_TEST_USER_JWT_A: ${{ secrets.CI_STAGING_TEST_USER_JWT_A }}
+          THINKFORGE_TEST_DECISION_ID_B: ${{ secrets.CI_STAGING_TEST_DECISION_ID_B }}
+        run: npm test
+      - name: Measure and enforce line coverage
+        run: npm run test:coverage
+      - name: Fail if the tenant-isolation test was skipped
+        env:
+          SUPABASE_URL: ${{ secrets.CI_STAGING_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CI_STAGING_SUPABASE_SERVICE_ROLE_KEY }}
+          THINKFORGE_TEST_USER_JWT_A: ${{ secrets.CI_STAGING_TEST_USER_JWT_A }}
+          THINKFORGE_TEST_DECISION_ID_B: ${{ secrets.CI_STAGING_TEST_DECISION_ID_B }}
+        run: |
+          set -e
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ] || [ -z "$THINKFORGE_TEST_USER_JWT_A" ] || [ -z "$THINKFORGE_TEST_DECISION_ID_B" ]; then
+            echo "CI_STAGING_SUPABASE_URL, CI_STAGING_SUPABASE_SERVICE_ROLE_KEY, CI_STAGING_TEST_USER_JWT_A, and CI_STAGING_TEST_DECISION_ID_B are required repo secrets."
+            echo "Without the dedicated cross-tenant fixture, this pipeline cannot prove tenant isolation. Failing on purpose."
+            exit 1
+          fi
+          OUTPUT=$(node --test --test-reporter=tap tests/live_stage1_stage2.integration.test.js)
+          echo "$OUTPUT"
+          if echo "$OUTPUT" | grep -qi "not ok"; then
+            echo "Tenant isolation test reported a failure - see output above."
+            exit 1
+          fi
+          if echo "$OUTPUT" | grep -qi "# skip"; then
+            echo "Tenant isolation test skipped despite credentials being configured - investigate."
+            exit 1
+          fi
+      - name: Structural completeness index
+        run: npm run quality:structural-index
+      - name: Research readiness snapshot
+        run: npm run research:readiness

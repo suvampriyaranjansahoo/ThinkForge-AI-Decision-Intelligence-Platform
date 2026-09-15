@@ -1,0 +1,4488 @@
+{
+  "synthetic": true,
+  "generatedByModel": true,
+  "studyId": "stage1-synthetic-human-simulation-v1",
+  "raters": [
+    "SIM-R1-SKEPTIC",
+    "SIM-R2-QUALITATIVE",
+    "SIM-R3-STRATEGIST"
+  ],
+  "assignments": {
+    "SIM-R1-SKEPTIC": [
+      {
+        "presentationId": "SIM-TF-001-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-001",
+        "sourceCaseId": "TF-001",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-002-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-002",
+        "sourceCaseId": "TF-002",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-003-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-003",
+        "sourceCaseId": "TF-003",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-004-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-004",
+        "sourceCaseId": "TF-004",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-005-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-005",
+        "sourceCaseId": "TF-005",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-006-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-006",
+        "sourceCaseId": "TF-006",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-006-SIM-R1-SKEPTIC-P2-edd7c547",
+        "caseId": "SIM-TF-006",
+        "sourceCaseId": "TF-006",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-006-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-007-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-007",
+        "sourceCaseId": "TF-007",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-007-SIM-R1-SKEPTIC-P2-f6762a61",
+        "caseId": "SIM-TF-007",
+        "sourceCaseId": "TF-007",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-007-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-008-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-008",
+        "sourceCaseId": "TF-008",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-009-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-009",
+        "sourceCaseId": "TF-009",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-010-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-010",
+        "sourceCaseId": "TF-010",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-010-SIM-R1-SKEPTIC-P2-2c01df09",
+        "caseId": "SIM-TF-010",
+        "sourceCaseId": "TF-010",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-010-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-011-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-011",
+        "sourceCaseId": "TF-011",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-012-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-012",
+        "sourceCaseId": "TF-012",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-013-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-013",
+        "sourceCaseId": "TF-013",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-014-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-014",
+        "sourceCaseId": "TF-014",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-014-SIM-R1-SKEPTIC-P2-185fd208",
+        "caseId": "SIM-TF-014",
+        "sourceCaseId": "TF-014",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-014-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-015-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-015",
+        "sourceCaseId": "TF-015",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-016-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-016",
+        "sourceCaseId": "TF-016",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-017-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-017",
+        "sourceCaseId": "TF-017",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-018-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-018",
+        "sourceCaseId": "TF-018",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-019-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-019",
+        "sourceCaseId": "TF-019",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-020-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-020",
+        "sourceCaseId": "TF-020",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-021-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-021",
+        "sourceCaseId": "TF-021",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-022-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-022",
+        "sourceCaseId": "TF-022",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-023-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-023",
+        "sourceCaseId": "TF-023",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-024-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-024",
+        "sourceCaseId": "TF-024",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-025-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-025",
+        "sourceCaseId": "TF-025",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-026-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-026",
+        "sourceCaseId": "TF-026",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-027-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-027",
+        "sourceCaseId": "TF-027",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-028-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-028",
+        "sourceCaseId": "TF-028",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-029-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-029",
+        "sourceCaseId": "TF-029",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-030-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-030",
+        "sourceCaseId": "TF-030",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-031-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-031",
+        "sourceCaseId": "TF-031",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-032-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-032",
+        "sourceCaseId": "TF-032",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-033-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-033",
+        "sourceCaseId": "TF-033",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-034-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-034",
+        "sourceCaseId": "TF-034",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-035-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-035",
+        "sourceCaseId": "TF-035",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-036-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-036",
+        "sourceCaseId": "TF-036",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-037-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-037",
+        "sourceCaseId": "TF-037",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-038-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-038",
+        "sourceCaseId": "TF-038",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-039-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-039",
+        "sourceCaseId": "TF-039",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-040-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-040",
+        "sourceCaseId": "TF-040",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-041-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-041",
+        "sourceCaseId": "TF-041",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-042-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-042",
+        "sourceCaseId": "TF-042",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-043-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-043",
+        "sourceCaseId": "TF-043",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-044-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-044",
+        "sourceCaseId": "TF-044",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-045-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-045",
+        "sourceCaseId": "TF-045",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-046-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-046",
+        "sourceCaseId": "TF-046",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-046-SIM-R1-SKEPTIC-P2-9b3e68a0",
+        "caseId": "SIM-TF-046",
+        "sourceCaseId": "TF-046",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-046-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-047-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-047",
+        "sourceCaseId": "TF-047",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-048-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-048",
+        "sourceCaseId": "TF-048",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-049-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-049",
+        "sourceCaseId": "TF-049",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-050-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-050",
+        "sourceCaseId": "TF-050",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-051-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-051",
+        "sourceCaseId": "TF-051",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-052-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-052",
+        "sourceCaseId": "TF-052",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-053-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-053",
+        "sourceCaseId": "TF-053",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-054-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-054",
+        "sourceCaseId": "TF-054",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-055-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-055",
+        "sourceCaseId": "TF-055",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-056-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-056",
+        "sourceCaseId": "TF-056",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-057-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-057",
+        "sourceCaseId": "TF-057",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-058-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-058",
+        "sourceCaseId": "TF-058",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-059-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-059",
+        "sourceCaseId": "TF-059",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-060-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-060",
+        "sourceCaseId": "TF-060",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-061-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-061",
+        "sourceCaseId": "TF-061",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-062-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-062",
+        "sourceCaseId": "TF-062",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-063-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-063",
+        "sourceCaseId": "TF-063",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-064-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-064",
+        "sourceCaseId": "TF-064",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-065-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-065",
+        "sourceCaseId": "TF-065",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-066-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-066",
+        "sourceCaseId": "TF-066",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-067-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-067",
+        "sourceCaseId": "TF-067",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-067-SIM-R1-SKEPTIC-P2-aaac97f2",
+        "caseId": "SIM-TF-067",
+        "sourceCaseId": "TF-067",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-067-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-068-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-068",
+        "sourceCaseId": "TF-068",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-069-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-069",
+        "sourceCaseId": "TF-069",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-070-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-070",
+        "sourceCaseId": "TF-070",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-071-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-071",
+        "sourceCaseId": "TF-071",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-072-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-072",
+        "sourceCaseId": "TF-072",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-073-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-073",
+        "sourceCaseId": "TF-073",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-074-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-074",
+        "sourceCaseId": "TF-074",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-075-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-075",
+        "sourceCaseId": "TF-075",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-076-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-076",
+        "sourceCaseId": "TF-076",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-077-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-077",
+        "sourceCaseId": "TF-077",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-078-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-078",
+        "sourceCaseId": "TF-078",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-079-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-079",
+        "sourceCaseId": "TF-079",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-079-SIM-R1-SKEPTIC-P2-eb1f8846",
+        "caseId": "SIM-TF-079",
+        "sourceCaseId": "TF-079",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-079-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-080-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-080",
+        "sourceCaseId": "TF-080",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-081-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-081",
+        "sourceCaseId": "TF-081",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-082-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-082",
+        "sourceCaseId": "TF-082",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-083-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-083",
+        "sourceCaseId": "TF-083",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-084-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-084",
+        "sourceCaseId": "TF-084",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-085-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-085",
+        "sourceCaseId": "TF-085",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-086-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-086",
+        "sourceCaseId": "TF-086",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-087-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-087",
+        "sourceCaseId": "TF-087",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-088-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-088",
+        "sourceCaseId": "TF-088",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-089-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-089",
+        "sourceCaseId": "TF-089",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-089-SIM-R1-SKEPTIC-P2-1b3d707a",
+        "caseId": "SIM-TF-089",
+        "sourceCaseId": "TF-089",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-089-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-090-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-090",
+        "sourceCaseId": "TF-090",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-090-SIM-R1-SKEPTIC-P2-54c2696d",
+        "caseId": "SIM-TF-090",
+        "sourceCaseId": "TF-090",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-090-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-091-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-091",
+        "sourceCaseId": "TF-091",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-091-SIM-R1-SKEPTIC-P2-4811d2c5",
+        "caseId": "SIM-TF-091",
+        "sourceCaseId": "TF-091",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-091-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-092-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-092",
+        "sourceCaseId": "TF-092",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-093-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-093",
+        "sourceCaseId": "TF-093",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-094-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-094",
+        "sourceCaseId": "TF-094",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-095-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-095",
+        "sourceCaseId": "TF-095",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-096-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-096",
+        "sourceCaseId": "TF-096",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-096-SIM-R1-SKEPTIC-P2-15ea4822",
+        "caseId": "SIM-TF-096",
+        "sourceCaseId": "TF-096",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-096-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-097-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-097",
+        "sourceCaseId": "TF-097",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-098-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-098",
+        "sourceCaseId": "TF-098",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-099-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-099",
+        "sourceCaseId": "TF-099",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-100-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-100",
+        "sourceCaseId": "TF-100",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-101-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-101",
+        "sourceCaseId": "TF-101",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-102-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-102",
+        "sourceCaseId": "TF-102",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-103-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-103",
+        "sourceCaseId": "TF-103",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-104-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-104",
+        "sourceCaseId": "TF-104",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-105-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-105",
+        "sourceCaseId": "TF-105",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-106-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-106",
+        "sourceCaseId": "TF-106",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-107-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-107",
+        "sourceCaseId": "TF-107",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-108-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-108",
+        "sourceCaseId": "TF-108",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-109-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-109",
+        "sourceCaseId": "TF-109",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-110-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-110",
+        "sourceCaseId": "TF-110",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-110-SIM-R1-SKEPTIC-P2-3329f00c",
+        "caseId": "SIM-TF-110",
+        "sourceCaseId": "TF-110",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-110-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-111-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-111",
+        "sourceCaseId": "TF-111",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-112-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-112",
+        "sourceCaseId": "TF-112",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-113-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-113",
+        "sourceCaseId": "TF-113",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-114-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-114",
+        "sourceCaseId": "TF-114",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-115-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-115",
+        "sourceCaseId": "TF-115",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-116-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-116",
+        "sourceCaseId": "TF-116",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-117-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-117",
+        "sourceCaseId": "TF-117",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-118-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-118",
+        "sourceCaseId": "TF-118",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-119-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-119",
+        "sourceCaseId": "TF-119",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-120-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-120",
+        "sourceCaseId": "TF-120",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-121-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-121",
+        "sourceCaseId": "TF-121",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-122-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-122",
+        "sourceCaseId": "TF-122",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-123-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-123",
+        "sourceCaseId": "TF-123",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-124-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-124",
+        "sourceCaseId": "TF-124",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-124-SIM-R1-SKEPTIC-P2-db952b71",
+        "caseId": "SIM-TF-124",
+        "sourceCaseId": "TF-124",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-124-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-125-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-125",
+        "sourceCaseId": "TF-125",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-126-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-126",
+        "sourceCaseId": "TF-126",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-127-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-127",
+        "sourceCaseId": "TF-127",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-128-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-128",
+        "sourceCaseId": "TF-128",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-129-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-129",
+        "sourceCaseId": "TF-129",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-130-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-130",
+        "sourceCaseId": "TF-130",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-131-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-131",
+        "sourceCaseId": "TF-131",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-132-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-132",
+        "sourceCaseId": "TF-132",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-133-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-133",
+        "sourceCaseId": "TF-133",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-134-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-134",
+        "sourceCaseId": "TF-134",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-135-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-135",
+        "sourceCaseId": "TF-135",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-136-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-136",
+        "sourceCaseId": "TF-136",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-137-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-137",
+        "sourceCaseId": "TF-137",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-138-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-138",
+        "sourceCaseId": "TF-138",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-139-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-139",
+        "sourceCaseId": "TF-139",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-140-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-140",
+        "sourceCaseId": "TF-140",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-140-SIM-R1-SKEPTIC-P2-dba3b166",
+        "caseId": "SIM-TF-140",
+        "sourceCaseId": "TF-140",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-140-SIM-R1-SKEPTIC-P1"
+      },
+      {
+        "presentationId": "SIM-TF-141-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-141",
+        "sourceCaseId": "TF-141",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-142-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-142",
+        "sourceCaseId": "TF-142",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-143-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-143",
+        "sourceCaseId": "TF-143",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-144-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-144",
+        "sourceCaseId": "TF-144",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-145-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-145",
+        "sourceCaseId": "TF-145",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-146-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-146",
+        "sourceCaseId": "TF-146",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-147-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-147",
+        "sourceCaseId": "TF-147",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-148-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-148",
+        "sourceCaseId": "TF-148",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-149-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-149",
+        "sourceCaseId": "TF-149",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-150-SIM-R1-SKEPTIC-P1",
+        "caseId": "SIM-TF-150",
+        "sourceCaseId": "TF-150",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      }
+    ],
+    "SIM-R2-QUALITATIVE": [
+      {
+        "presentationId": "SIM-TF-001-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-001",
+        "sourceCaseId": "TF-001",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-002-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-002",
+        "sourceCaseId": "TF-002",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-003-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-003",
+        "sourceCaseId": "TF-003",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-004-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-004",
+        "sourceCaseId": "TF-004",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-005-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-005",
+        "sourceCaseId": "TF-005",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-006-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-006",
+        "sourceCaseId": "TF-006",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-006-SIM-R2-QUALITATIVE-P2-ff549000",
+        "caseId": "SIM-TF-006",
+        "sourceCaseId": "TF-006",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-006-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-007-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-007",
+        "sourceCaseId": "TF-007",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-007-SIM-R2-QUALITATIVE-P2-b76fb5d2",
+        "caseId": "SIM-TF-007",
+        "sourceCaseId": "TF-007",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-007-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-008-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-008",
+        "sourceCaseId": "TF-008",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-009-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-009",
+        "sourceCaseId": "TF-009",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-010-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-010",
+        "sourceCaseId": "TF-010",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-010-SIM-R2-QUALITATIVE-P2-67d3c9dd",
+        "caseId": "SIM-TF-010",
+        "sourceCaseId": "TF-010",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-010-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-011-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-011",
+        "sourceCaseId": "TF-011",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-012-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-012",
+        "sourceCaseId": "TF-012",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-013-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-013",
+        "sourceCaseId": "TF-013",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-014-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-014",
+        "sourceCaseId": "TF-014",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-014-SIM-R2-QUALITATIVE-P2-6fb2f494",
+        "caseId": "SIM-TF-014",
+        "sourceCaseId": "TF-014",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-014-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-015-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-015",
+        "sourceCaseId": "TF-015",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-016-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-016",
+        "sourceCaseId": "TF-016",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-017-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-017",
+        "sourceCaseId": "TF-017",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-018-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-018",
+        "sourceCaseId": "TF-018",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-019-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-019",
+        "sourceCaseId": "TF-019",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-020-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-020",
+        "sourceCaseId": "TF-020",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-021-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-021",
+        "sourceCaseId": "TF-021",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-022-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-022",
+        "sourceCaseId": "TF-022",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-023-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-023",
+        "sourceCaseId": "TF-023",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-024-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-024",
+        "sourceCaseId": "TF-024",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-025-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-025",
+        "sourceCaseId": "TF-025",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-026-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-026",
+        "sourceCaseId": "TF-026",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-027-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-027",
+        "sourceCaseId": "TF-027",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-028-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-028",
+        "sourceCaseId": "TF-028",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-029-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-029",
+        "sourceCaseId": "TF-029",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-030-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-030",
+        "sourceCaseId": "TF-030",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-031-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-031",
+        "sourceCaseId": "TF-031",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-032-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-032",
+        "sourceCaseId": "TF-032",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-033-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-033",
+        "sourceCaseId": "TF-033",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-034-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-034",
+        "sourceCaseId": "TF-034",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-035-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-035",
+        "sourceCaseId": "TF-035",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-036-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-036",
+        "sourceCaseId": "TF-036",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-037-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-037",
+        "sourceCaseId": "TF-037",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-038-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-038",
+        "sourceCaseId": "TF-038",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-039-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-039",
+        "sourceCaseId": "TF-039",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-040-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-040",
+        "sourceCaseId": "TF-040",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-041-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-041",
+        "sourceCaseId": "TF-041",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-042-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-042",
+        "sourceCaseId": "TF-042",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-043-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-043",
+        "sourceCaseId": "TF-043",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-044-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-044",
+        "sourceCaseId": "TF-044",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-045-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-045",
+        "sourceCaseId": "TF-045",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-046-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-046",
+        "sourceCaseId": "TF-046",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-046-SIM-R2-QUALITATIVE-P2-0b5bb6bf",
+        "caseId": "SIM-TF-046",
+        "sourceCaseId": "TF-046",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-046-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-047-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-047",
+        "sourceCaseId": "TF-047",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-048-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-048",
+        "sourceCaseId": "TF-048",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-049-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-049",
+        "sourceCaseId": "TF-049",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-050-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-050",
+        "sourceCaseId": "TF-050",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-051-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-051",
+        "sourceCaseId": "TF-051",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-052-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-052",
+        "sourceCaseId": "TF-052",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-053-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-053",
+        "sourceCaseId": "TF-053",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-054-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-054",
+        "sourceCaseId": "TF-054",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-055-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-055",
+        "sourceCaseId": "TF-055",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-056-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-056",
+        "sourceCaseId": "TF-056",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-057-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-057",
+        "sourceCaseId": "TF-057",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-058-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-058",
+        "sourceCaseId": "TF-058",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-059-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-059",
+        "sourceCaseId": "TF-059",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-060-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-060",
+        "sourceCaseId": "TF-060",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-061-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-061",
+        "sourceCaseId": "TF-061",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-062-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-062",
+        "sourceCaseId": "TF-062",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-063-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-063",
+        "sourceCaseId": "TF-063",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-064-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-064",
+        "sourceCaseId": "TF-064",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-065-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-065",
+        "sourceCaseId": "TF-065",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-066-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-066",
+        "sourceCaseId": "TF-066",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-067-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-067",
+        "sourceCaseId": "TF-067",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-067-SIM-R2-QUALITATIVE-P2-269f27f2",
+        "caseId": "SIM-TF-067",
+        "sourceCaseId": "TF-067",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-067-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-068-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-068",
+        "sourceCaseId": "TF-068",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-069-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-069",
+        "sourceCaseId": "TF-069",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-070-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-070",
+        "sourceCaseId": "TF-070",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-071-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-071",
+        "sourceCaseId": "TF-071",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-072-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-072",
+        "sourceCaseId": "TF-072",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-073-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-073",
+        "sourceCaseId": "TF-073",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-074-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-074",
+        "sourceCaseId": "TF-074",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-075-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-075",
+        "sourceCaseId": "TF-075",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-076-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-076",
+        "sourceCaseId": "TF-076",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-077-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-077",
+        "sourceCaseId": "TF-077",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-078-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-078",
+        "sourceCaseId": "TF-078",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-079-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-079",
+        "sourceCaseId": "TF-079",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-079-SIM-R2-QUALITATIVE-P2-214735a5",
+        "caseId": "SIM-TF-079",
+        "sourceCaseId": "TF-079",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-079-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-080-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-080",
+        "sourceCaseId": "TF-080",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-081-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-081",
+        "sourceCaseId": "TF-081",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-082-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-082",
+        "sourceCaseId": "TF-082",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-083-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-083",
+        "sourceCaseId": "TF-083",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-084-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-084",
+        "sourceCaseId": "TF-084",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-085-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-085",
+        "sourceCaseId": "TF-085",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-086-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-086",
+        "sourceCaseId": "TF-086",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-087-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-087",
+        "sourceCaseId": "TF-087",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-088-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-088",
+        "sourceCaseId": "TF-088",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-089-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-089",
+        "sourceCaseId": "TF-089",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-089-SIM-R2-QUALITATIVE-P2-26377a17",
+        "caseId": "SIM-TF-089",
+        "sourceCaseId": "TF-089",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-089-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-090-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-090",
+        "sourceCaseId": "TF-090",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-090-SIM-R2-QUALITATIVE-P2-ddef8634",
+        "caseId": "SIM-TF-090",
+        "sourceCaseId": "TF-090",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-090-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-091-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-091",
+        "sourceCaseId": "TF-091",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-091-SIM-R2-QUALITATIVE-P2-b91c5f34",
+        "caseId": "SIM-TF-091",
+        "sourceCaseId": "TF-091",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-091-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-092-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-092",
+        "sourceCaseId": "TF-092",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-093-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-093",
+        "sourceCaseId": "TF-093",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-094-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-094",
+        "sourceCaseId": "TF-094",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-095-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-095",
+        "sourceCaseId": "TF-095",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-096-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-096",
+        "sourceCaseId": "TF-096",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-096-SIM-R2-QUALITATIVE-P2-f374e245",
+        "caseId": "SIM-TF-096",
+        "sourceCaseId": "TF-096",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-096-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-097-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-097",
+        "sourceCaseId": "TF-097",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-098-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-098",
+        "sourceCaseId": "TF-098",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-099-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-099",
+        "sourceCaseId": "TF-099",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-100-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-100",
+        "sourceCaseId": "TF-100",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-101-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-101",
+        "sourceCaseId": "TF-101",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-102-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-102",
+        "sourceCaseId": "TF-102",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-103-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-103",
+        "sourceCaseId": "TF-103",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-104-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-104",
+        "sourceCaseId": "TF-104",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-105-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-105",
+        "sourceCaseId": "TF-105",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-106-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-106",
+        "sourceCaseId": "TF-106",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-107-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-107",
+        "sourceCaseId": "TF-107",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-108-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-108",
+        "sourceCaseId": "TF-108",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-109-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-109",
+        "sourceCaseId": "TF-109",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-110-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-110",
+        "sourceCaseId": "TF-110",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-110-SIM-R2-QUALITATIVE-P2-ba843ca5",
+        "caseId": "SIM-TF-110",
+        "sourceCaseId": "TF-110",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-110-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-111-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-111",
+        "sourceCaseId": "TF-111",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-112-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-112",
+        "sourceCaseId": "TF-112",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-113-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-113",
+        "sourceCaseId": "TF-113",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-114-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-114",
+        "sourceCaseId": "TF-114",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-115-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-115",
+        "sourceCaseId": "TF-115",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-116-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-116",
+        "sourceCaseId": "TF-116",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-117-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-117",
+        "sourceCaseId": "TF-117",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-118-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-118",
+        "sourceCaseId": "TF-118",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-119-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-119",
+        "sourceCaseId": "TF-119",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-120-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-120",
+        "sourceCaseId": "TF-120",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-121-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-121",
+        "sourceCaseId": "TF-121",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-122-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-122",
+        "sourceCaseId": "TF-122",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-123-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-123",
+        "sourceCaseId": "TF-123",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-124-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-124",
+        "sourceCaseId": "TF-124",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-124-SIM-R2-QUALITATIVE-P2-8bc71dea",
+        "caseId": "SIM-TF-124",
+        "sourceCaseId": "TF-124",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-124-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-125-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-125",
+        "sourceCaseId": "TF-125",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-126-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-126",
+        "sourceCaseId": "TF-126",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-127-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-127",
+        "sourceCaseId": "TF-127",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-128-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-128",
+        "sourceCaseId": "TF-128",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-129-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-129",
+        "sourceCaseId": "TF-129",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-130-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-130",
+        "sourceCaseId": "TF-130",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-131-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-131",
+        "sourceCaseId": "TF-131",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-132-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-132",
+        "sourceCaseId": "TF-132",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-133-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-133",
+        "sourceCaseId": "TF-133",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-134-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-134",
+        "sourceCaseId": "TF-134",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-135-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-135",
+        "sourceCaseId": "TF-135",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-136-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-136",
+        "sourceCaseId": "TF-136",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-137-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-137",
+        "sourceCaseId": "TF-137",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-138-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-138",
+        "sourceCaseId": "TF-138",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-139-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-139",
+        "sourceCaseId": "TF-139",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-140-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-140",
+        "sourceCaseId": "TF-140",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-140-SIM-R2-QUALITATIVE-P2-0f6406d7",
+        "caseId": "SIM-TF-140",
+        "sourceCaseId": "TF-140",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-140-SIM-R2-QUALITATIVE-P1"
+      },
+      {
+        "presentationId": "SIM-TF-141-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-141",
+        "sourceCaseId": "TF-141",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-142-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-142",
+        "sourceCaseId": "TF-142",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-143-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-143",
+        "sourceCaseId": "TF-143",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-144-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-144",
+        "sourceCaseId": "TF-144",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-145-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-145",
+        "sourceCaseId": "TF-145",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-146-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-146",
+        "sourceCaseId": "TF-146",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-147-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-147",
+        "sourceCaseId": "TF-147",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-148-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-148",
+        "sourceCaseId": "TF-148",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-149-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-149",
+        "sourceCaseId": "TF-149",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-150-SIM-R2-QUALITATIVE-P1",
+        "caseId": "SIM-TF-150",
+        "sourceCaseId": "TF-150",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      }
+    ],
+    "SIM-R3-STRATEGIST": [
+      {
+        "presentationId": "SIM-TF-001-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-001",
+        "sourceCaseId": "TF-001",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-002-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-002",
+        "sourceCaseId": "TF-002",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-003-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-003",
+        "sourceCaseId": "TF-003",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-004-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-004",
+        "sourceCaseId": "TF-004",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-005-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-005",
+        "sourceCaseId": "TF-005",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-006-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-006",
+        "sourceCaseId": "TF-006",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-006-SIM-R3-STRATEGIST-P2-e00f0b1a",
+        "caseId": "SIM-TF-006",
+        "sourceCaseId": "TF-006",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-006-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-007-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-007",
+        "sourceCaseId": "TF-007",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-007-SIM-R3-STRATEGIST-P2-c3e90908",
+        "caseId": "SIM-TF-007",
+        "sourceCaseId": "TF-007",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-007-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-008-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-008",
+        "sourceCaseId": "TF-008",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-009-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-009",
+        "sourceCaseId": "TF-009",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-010-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-010",
+        "sourceCaseId": "TF-010",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-010-SIM-R3-STRATEGIST-P2-294d474e",
+        "caseId": "SIM-TF-010",
+        "sourceCaseId": "TF-010",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-010-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-011-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-011",
+        "sourceCaseId": "TF-011",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-012-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-012",
+        "sourceCaseId": "TF-012",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-013-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-013",
+        "sourceCaseId": "TF-013",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-014-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-014",
+        "sourceCaseId": "TF-014",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-014-SIM-R3-STRATEGIST-P2-77fa46ac",
+        "caseId": "SIM-TF-014",
+        "sourceCaseId": "TF-014",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-014-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-015-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-015",
+        "sourceCaseId": "TF-015",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-016-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-016",
+        "sourceCaseId": "TF-016",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-017-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-017",
+        "sourceCaseId": "TF-017",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-018-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-018",
+        "sourceCaseId": "TF-018",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-019-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-019",
+        "sourceCaseId": "TF-019",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-020-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-020",
+        "sourceCaseId": "TF-020",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-021-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-021",
+        "sourceCaseId": "TF-021",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-022-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-022",
+        "sourceCaseId": "TF-022",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-023-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-023",
+        "sourceCaseId": "TF-023",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-024-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-024",
+        "sourceCaseId": "TF-024",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-025-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-025",
+        "sourceCaseId": "TF-025",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-026-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-026",
+        "sourceCaseId": "TF-026",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-027-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-027",
+        "sourceCaseId": "TF-027",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-028-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-028",
+        "sourceCaseId": "TF-028",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-029-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-029",
+        "sourceCaseId": "TF-029",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-030-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-030",
+        "sourceCaseId": "TF-030",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-031-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-031",
+        "sourceCaseId": "TF-031",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-032-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-032",
+        "sourceCaseId": "TF-032",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-033-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-033",
+        "sourceCaseId": "TF-033",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-034-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-034",
+        "sourceCaseId": "TF-034",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-035-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-035",
+        "sourceCaseId": "TF-035",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-036-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-036",
+        "sourceCaseId": "TF-036",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-037-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-037",
+        "sourceCaseId": "TF-037",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-038-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-038",
+        "sourceCaseId": "TF-038",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-039-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-039",
+        "sourceCaseId": "TF-039",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-040-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-040",
+        "sourceCaseId": "TF-040",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-041-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-041",
+        "sourceCaseId": "TF-041",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-042-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-042",
+        "sourceCaseId": "TF-042",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-043-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-043",
+        "sourceCaseId": "TF-043",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-044-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-044",
+        "sourceCaseId": "TF-044",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-045-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-045",
+        "sourceCaseId": "TF-045",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-046-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-046",
+        "sourceCaseId": "TF-046",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-046-SIM-R3-STRATEGIST-P2-d74d7820",
+        "caseId": "SIM-TF-046",
+        "sourceCaseId": "TF-046",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-046-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-047-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-047",
+        "sourceCaseId": "TF-047",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-048-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-048",
+        "sourceCaseId": "TF-048",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-049-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-049",
+        "sourceCaseId": "TF-049",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-050-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-050",
+        "sourceCaseId": "TF-050",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-051-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-051",
+        "sourceCaseId": "TF-051",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-052-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-052",
+        "sourceCaseId": "TF-052",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-053-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-053",
+        "sourceCaseId": "TF-053",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-054-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-054",
+        "sourceCaseId": "TF-054",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-055-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-055",
+        "sourceCaseId": "TF-055",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-056-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-056",
+        "sourceCaseId": "TF-056",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-057-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-057",
+        "sourceCaseId": "TF-057",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-058-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-058",
+        "sourceCaseId": "TF-058",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-059-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-059",
+        "sourceCaseId": "TF-059",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-060-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-060",
+        "sourceCaseId": "TF-060",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-061-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-061",
+        "sourceCaseId": "TF-061",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-062-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-062",
+        "sourceCaseId": "TF-062",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-063-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-063",
+        "sourceCaseId": "TF-063",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-064-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-064",
+        "sourceCaseId": "TF-064",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-065-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-065",
+        "sourceCaseId": "TF-065",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-066-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-066",
+        "sourceCaseId": "TF-066",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-067-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-067",
+        "sourceCaseId": "TF-067",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-067-SIM-R3-STRATEGIST-P2-2a950e23",
+        "caseId": "SIM-TF-067",
+        "sourceCaseId": "TF-067",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-067-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-068-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-068",
+        "sourceCaseId": "TF-068",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-069-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-069",
+        "sourceCaseId": "TF-069",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-070-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-070",
+        "sourceCaseId": "TF-070",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-071-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-071",
+        "sourceCaseId": "TF-071",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-072-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-072",
+        "sourceCaseId": "TF-072",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-073-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-073",
+        "sourceCaseId": "TF-073",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-074-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-074",
+        "sourceCaseId": "TF-074",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-075-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-075",
+        "sourceCaseId": "TF-075",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-076-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-076",
+        "sourceCaseId": "TF-076",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-077-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-077",
+        "sourceCaseId": "TF-077",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-078-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-078",
+        "sourceCaseId": "TF-078",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-079-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-079",
+        "sourceCaseId": "TF-079",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-079-SIM-R3-STRATEGIST-P2-bef62aea",
+        "caseId": "SIM-TF-079",
+        "sourceCaseId": "TF-079",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-079-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-080-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-080",
+        "sourceCaseId": "TF-080",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-081-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-081",
+        "sourceCaseId": "TF-081",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-082-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-082",
+        "sourceCaseId": "TF-082",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-083-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-083",
+        "sourceCaseId": "TF-083",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-084-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-084",
+        "sourceCaseId": "TF-084",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-085-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-085",
+        "sourceCaseId": "TF-085",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-086-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-086",
+        "sourceCaseId": "TF-086",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-087-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-087",
+        "sourceCaseId": "TF-087",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-088-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-088",
+        "sourceCaseId": "TF-088",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-089-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-089",
+        "sourceCaseId": "TF-089",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-089-SIM-R3-STRATEGIST-P2-ece8feb2",
+        "caseId": "SIM-TF-089",
+        "sourceCaseId": "TF-089",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-089-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-090-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-090",
+        "sourceCaseId": "TF-090",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-090-SIM-R3-STRATEGIST-P2-7ea91164",
+        "caseId": "SIM-TF-090",
+        "sourceCaseId": "TF-090",
+        "split": "validation",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-090-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-091-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-091",
+        "sourceCaseId": "TF-091",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-091-SIM-R3-STRATEGIST-P2-c4fa4c92",
+        "caseId": "SIM-TF-091",
+        "sourceCaseId": "TF-091",
+        "split": "development",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-091-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-092-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-092",
+        "sourceCaseId": "TF-092",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-093-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-093",
+        "sourceCaseId": "TF-093",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-094-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-094",
+        "sourceCaseId": "TF-094",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-095-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-095",
+        "sourceCaseId": "TF-095",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-096-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-096",
+        "sourceCaseId": "TF-096",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-096-SIM-R3-STRATEGIST-P2-ad12f32b",
+        "caseId": "SIM-TF-096",
+        "sourceCaseId": "TF-096",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-096-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-097-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-097",
+        "sourceCaseId": "TF-097",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-098-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-098",
+        "sourceCaseId": "TF-098",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-099-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-099",
+        "sourceCaseId": "TF-099",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-100-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-100",
+        "sourceCaseId": "TF-100",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-101-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-101",
+        "sourceCaseId": "TF-101",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-102-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-102",
+        "sourceCaseId": "TF-102",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-103-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-103",
+        "sourceCaseId": "TF-103",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-104-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-104",
+        "sourceCaseId": "TF-104",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-105-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-105",
+        "sourceCaseId": "TF-105",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-106-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-106",
+        "sourceCaseId": "TF-106",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-107-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-107",
+        "sourceCaseId": "TF-107",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-108-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-108",
+        "sourceCaseId": "TF-108",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-109-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-109",
+        "sourceCaseId": "TF-109",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-110-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-110",
+        "sourceCaseId": "TF-110",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-110-SIM-R3-STRATEGIST-P2-b3e02ddd",
+        "caseId": "SIM-TF-110",
+        "sourceCaseId": "TF-110",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-110-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-111-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-111",
+        "sourceCaseId": "TF-111",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-112-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-112",
+        "sourceCaseId": "TF-112",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-113-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-113",
+        "sourceCaseId": "TF-113",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-114-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-114",
+        "sourceCaseId": "TF-114",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-115-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-115",
+        "sourceCaseId": "TF-115",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-116-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-116",
+        "sourceCaseId": "TF-116",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-117-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-117",
+        "sourceCaseId": "TF-117",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-118-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-118",
+        "sourceCaseId": "TF-118",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-119-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-119",
+        "sourceCaseId": "TF-119",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-120-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-120",
+        "sourceCaseId": "TF-120",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-121-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-121",
+        "sourceCaseId": "TF-121",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-122-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-122",
+        "sourceCaseId": "TF-122",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-123-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-123",
+        "sourceCaseId": "TF-123",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-124-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-124",
+        "sourceCaseId": "TF-124",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-124-SIM-R3-STRATEGIST-P2-7ad7eda4",
+        "caseId": "SIM-TF-124",
+        "sourceCaseId": "TF-124",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-124-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-125-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-125",
+        "sourceCaseId": "TF-125",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-126-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-126",
+        "sourceCaseId": "TF-126",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-127-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-127",
+        "sourceCaseId": "TF-127",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-128-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-128",
+        "sourceCaseId": "TF-128",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-129-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-129",
+        "sourceCaseId": "TF-129",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-130-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-130",
+        "sourceCaseId": "TF-130",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-131-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-131",
+        "sourceCaseId": "TF-131",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-132-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-132",
+        "sourceCaseId": "TF-132",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-133-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-133",
+        "sourceCaseId": "TF-133",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-134-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-134",
+        "sourceCaseId": "TF-134",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-135-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-135",
+        "sourceCaseId": "TF-135",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-136-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-136",
+        "sourceCaseId": "TF-136",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-137-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-137",
+        "sourceCaseId": "TF-137",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-138-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-138",
+        "sourceCaseId": "TF-138",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-139-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-139",
+        "sourceCaseId": "TF-139",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-140-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-140",
+        "sourceCaseId": "TF-140",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-140-SIM-R3-STRATEGIST-P2-6649e841",
+        "caseId": "SIM-TF-140",
+        "sourceCaseId": "TF-140",
+        "split": "locked_test",
+        "studyPhase": "QUALITY_CONTROL_DUPLICATE",
+        "candidateOutputVisible": false,
+        "goldVisible": false,
+        "hiddenDuplicateOf": "SIM-TF-140-SIM-R3-STRATEGIST-P1"
+      },
+      {
+        "presentationId": "SIM-TF-141-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-141",
+        "sourceCaseId": "TF-141",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-142-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-142",
+        "sourceCaseId": "TF-142",
+        "split": "development",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-143-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-143",
+        "sourceCaseId": "TF-143",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-144-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-144",
+        "sourceCaseId": "TF-144",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-145-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-145",
+        "sourceCaseId": "TF-145",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-146-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-146",
+        "sourceCaseId": "TF-146",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-147-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-147",
+        "sourceCaseId": "TF-147",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-148-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-148",
+        "sourceCaseId": "TF-148",
+        "split": "locked_test",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-149-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-149",
+        "sourceCaseId": "TF-149",
+        "split": "development",
+        "studyPhase": "PILOT",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      },
+      {
+        "presentationId": "SIM-TF-150-SIM-R3-STRATEGIST-P1",
+        "caseId": "SIM-TF-150",
+        "sourceCaseId": "TF-150",
+        "split": "validation",
+        "studyPhase": "MAIN_STUDY",
+        "candidateOutputVisible": false,
+        "goldVisible": false
+      }
+    ]
+  }
+}

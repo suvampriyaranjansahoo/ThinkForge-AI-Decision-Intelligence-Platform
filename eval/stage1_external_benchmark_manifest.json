@@ -1,0 +1,84 @@
+{
+  "version": "stage1-external-benchmark-v1",
+  "policy": {
+    "empiricalClaimsRequireGold": true,
+    "syntheticDataCannotCountAsEmpirical": true,
+    "minimumStudies": 3,
+    "minimumHumanRecords": 100,
+    "minimumGoldCases": 100,
+    "minimumIndependentEvaluators": 3,
+    "adjudicationRequired": true
+  },
+  "sources": [
+    {
+      "id": "xai-fungi-2025",
+      "title": "XAI-FUNGI: Dataset from the user study on comprehensibility of XAI algorithms",
+      "url": "https://zenodo.org/records/15222484",
+      "license": "Open dataset; verify current license terms before redistribution",
+      "participants": 39,
+      "realHumanData": true,
+      "hasTranscripts": true,
+      "hasResearcherThematicAnalysis": true,
+      "hasCodebook": true,
+      "usableDimensions": [
+        "evidence_extraction",
+        "theme_recall",
+        "segment_analysis",
+        "contradiction_review"
+      ]
+    },
+    {
+      "id": "qualitative-interview-corpus-2026",
+      "title": "Qualitative Interview Corpus",
+      "url": "https://github.com/jonathanivey/interview-quality",
+      "license": "See original repository and source deposits before redistribution",
+      "participants": 16940,
+      "realHumanData": true,
+      "hasTranscripts": true,
+      "hasResearcherThematicAnalysis": true,
+      "hasCodebook": true,
+      "usableDimensions": [
+        "response_quality",
+        "research_question_relevance",
+        "evidence_extraction"
+      ]
+    },
+    {
+      "id": "triple-interviews-2024",
+      "title": "TRIPLE Research Interviews with Academics and Researchers",
+      "url": "https://zenodo.org/records/10513763",
+      "license": "CC/public dataset terms; verify before redistribution",
+      "participants": 25,
+      "realHumanData": true,
+      "hasTranscripts": true,
+      "hasResearcherThematicAnalysis": true,
+      "hasCodebook": false,
+      "usableDimensions": [
+        "question_quality",
+        "theme_recall",
+        "opportunity_relevance"
+      ]
+    }
+  ],
+  "scoring": {
+    "evidenceGroundingF1": 0.25,
+    "themeF1": 0.2,
+    "opportunityF1": 0.25,
+    "contradictionF1": 0.15,
+    "abstentionCalibration": 0.15
+  },
+  "note": "This manifest identifies external real-human studies suitable for reproducible validation. It does not contain fabricated gold labels and must not be treated as empirical results until source data and human/adjudicated gold are imported.",
+  "requiredDimensions": [
+    "evidenceIds",
+    "themes",
+    "opportunities",
+    "contradictions"
+  ],
+  "empiricalThresholds": {
+    "evidenceGroundingF1": 0.8,
+    "themeF1": 0.75,
+    "opportunityF1": 0.75,
+    "contradictionF1": 0.7,
+    "abstentionCalibration": 0.8
+  }
+}

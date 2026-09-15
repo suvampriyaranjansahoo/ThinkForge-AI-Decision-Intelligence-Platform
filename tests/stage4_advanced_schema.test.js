@@ -1,0 +1,5 @@
+'use strict';
+const test=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const path=require('node:path');
+const root=path.join(__dirname,'..');
+test('Stage 4 advanced migration exists in both migration trees',()=>{const a=fs.readFileSync(path.join(root,'db/migrations/023_stage4_advanced_governance.sql'),'utf8');const b=fs.readFileSync(path.join(root,'supabase/migration_023_stage4_advanced_governance.sql'),'utf8');for(const token of ['rigor_level','thinkforge_decision_readiness_v2','thinkforge_approve_decision_v1','thinkforge_reopen_decision_v1','approval_conditions','what_would_change_my_mind','thinkforge.governance_override','append-only'])assert.ok((a+'\n'+b).toLowerCase().includes(token.toLowerCase()),`missing ${token}`);});
+test('Stage 4 governance API exists and exposes advanced actions',()=>{const s=fs.readFileSync(path.join(root,'api/decision-governance.js'),'utf8');for(const token of ['readiness','contract','history','materiality','transition','approve','reopen'])assert.ok(s.includes(`b.action==='${token}'`),`missing action ${token}`);});

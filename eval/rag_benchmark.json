@@ -1,0 +1,1085 @@
+{
+  "version": "tf-rag-benchmark-v2",
+  "cases": [
+    {
+      "id": "RAG-001",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 1.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-002",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 2.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-003",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 3.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-004",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 4.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-005",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 5.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-006",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 6.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-007",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 7.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-008",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 8.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-009",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 9.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-010",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 10.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-011",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 11.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-012",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 12.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-013",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 13.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-014",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 14.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-015",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 15.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-016",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 16.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-017",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 17.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-018",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 18.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-019",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 19.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-020",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 20.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-021",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 21.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-022",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 22.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-023",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 23.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-024",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 24.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-025",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 25.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-026",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 26.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-027",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 27.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-028",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 28.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-029",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 29.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-030",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 30.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-031",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 31.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-032",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 32.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-033",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 33.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-034",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 34.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-035",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 35.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-036",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 36.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-037",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 37.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-038",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 38.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-039",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 39.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-040",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 40.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-041",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 41.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-042",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 42.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-043",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 43.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-044",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 44.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-045",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 45.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-046",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 46.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-047",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 47.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-048",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 48.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-049",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 49.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-050",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 50.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-051",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 51.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-052",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 52.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-053",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 53.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-054",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 54.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-055",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 55.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-056",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 56.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-057",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 57.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-058",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 58.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-059",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 59.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-060",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 60.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-061",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 61.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-062",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 62.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-063",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 63.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-064",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 64.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-065",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 65.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-066",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 66.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-067",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 67.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-068",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 68.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-069",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 69.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-070",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 70.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-071",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 71.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-072",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 72.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-073",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 73.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-074",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 74.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-075",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 75.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-076",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 76.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-077",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 77.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-078",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 78.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-079",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 79.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-080",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 80.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-081",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 81.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-082",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 82.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-083",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 83.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-084",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 84.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-085",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 85.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-086",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 86.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-087",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 87.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-088",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 88.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-089",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 89.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-090",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 90.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-091",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 91.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-092",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 92.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-093",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 93.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-094",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 94.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-095",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 95.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-096",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 96.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-097",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 97.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-098",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 98.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-099",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 99.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-100",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 100.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-101",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 101.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-102",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 102.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-103",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 103.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-104",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 104.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-105",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 105.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-106",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 106.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-107",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 107.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-108",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 108.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-109",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 109.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-110",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 110.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-111",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 111.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-112",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 112.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-113",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 113.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-114",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 114.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-115",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 115.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-116",
+      "query": "What evidence supports safer payment recovery? Context domain: fintech. Variant 116.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-117",
+      "query": "Which evidence contradicts the assumption that onboarding friction is low? Context domain: saas. Variant 117.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-118",
+      "query": "What evidence supports the proposed retention experiment? Context domain: marketing. Variant 118.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-119",
+      "query": "Which document discusses enterprise permission failures? Context domain: developer_tools. Variant 119.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    },
+    {
+      "id": "RAG-120",
+      "query": "What prior decision had a similar outcome? Context domain: operations. Variant 120.",
+      "gold_relevant_chunk_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "pending_corpus_annotation",
+      "retrieval_results": [],
+      "notes": "Gold retrieval labels must be supplied from an annotated real corpus."
+    }
+  ]
+}

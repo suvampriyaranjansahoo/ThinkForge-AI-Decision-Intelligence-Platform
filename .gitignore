@@ -1,0 +1,9 @@
+.env
+.env.local
+.vercel
+node_modules
+coverage/
+.DS_Store
+
+# Confidential capstone human-study artifacts (keep local/private; do not publish)
+eval/external_gold/capstone_gold_layer_v1/

@@ -1,0 +1,75 @@
+{
+  "study_id": "HG-001",
+  "study_version": "1.1",
+  "dataset_version": "tf-benchmark-300-seed-v2",
+  "rubric_version": "tf-rubric-v3.1",
+  "protocol_version": "HGT-1.1",
+  "pilot_cases": 30,
+  "main_cases": 300,
+  "development_cases": 60,
+  "validation_cases": 60,
+  "locked_test_cases": 180,
+  "minimum_independent_raters": 2,
+  "hidden_duplicate_rate": 0.05,
+  "primary_reliability": "weighted_cohen_kappa",
+  "secondary_reliability": [
+    "cohen_kappa",
+    "observed_agreement",
+    "krippendorff_alpha",
+    "intra_rater_consistency"
+  ],
+  "adjudication": {
+    "required_on_disagreement": true,
+    "preserve_raw_ratings": true,
+    "canonical_gold_source": "adjudication"
+  },
+  "blinding": {
+    "comparative_mode": true,
+    "randomize_left_right": true,
+    "hide_model_identity": true
+  },
+  "candidate_policy": {
+    "frozen_before_main_annotation": true,
+    "immutable_checksum": true,
+    "no_lazy_generation": true
+  },
+  "rater_policy": {
+    "pilot_required": true,
+    "qualification_required": true,
+    "attention_checks": true
+  },
+  "claim_level_policy": {
+    "enabled": true,
+    "labels": [
+      "SUPPORTED",
+      "PARTIALLY_SUPPORTED",
+      "UNSUPPORTED",
+      "CONTRADICTED",
+      "NOT_VERIFIABLE"
+    ]
+  },
+  "research_claim_gate": {
+    "minimum_expert_gold_cases": 100,
+    "minimum_real_rag_gold_queries": 50,
+    "minimum_decision_impact_participants": 20
+  },
+  "status": "infrastructure_ready_pending_human_collection",
+  "collection_outputs": {
+    "raw_annotations": "preserve",
+    "canonical_gold": "required",
+    "reliability_report": "required",
+    "pairwise_results": "optional",
+    "decision_impact_results": "required_for_claim",
+    "outcome_results": "required_for_calibration_claim"
+  },
+  "abstention_policy": {
+    "enabled": true,
+    "labels": [
+      "APPROPRIATE_CONCLUSION",
+      "APPROPRIATE_UNCERTAINTY",
+      "APPROPRIATE_ABSTENTION",
+      "OVERCONFIDENT_CONCLUSION",
+      "UNNECESSARY_ABSTENTION"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"ThinkForge Blind Pairwise Evaluation v1",
+  "type":"object",
+  "required":["studyId","comparisonId","caseId","leftSystem","rightSystem","preference"],
+  "properties":{
+    "studyId":{"type":"string"},
+    "comparisonId":{"type":"string"},
+    "caseId":{"type":"string"},
+    "leftSystem":{"type":"string"},
+    "rightSystem":{"type":"string"},
+    "preference":{"enum":["A","B","TIE"]},
+    "raterId":{"type":"string"},
+    "presentationSeed":{"type":"string"}
+  },
+  "additionalProperties":false
+}

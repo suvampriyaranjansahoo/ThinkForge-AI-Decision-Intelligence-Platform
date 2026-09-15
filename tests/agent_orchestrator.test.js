@@ -1,0 +1,10 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict');
+const {createPlan,runResearchAgent,validateAgentRun}=require('../lib/agentOrchestrator');
+const {evaluateToolPolicy}=require('../lib/agentPolicy');const {canTransition}=require('../lib/agentState');
+const source=(i)=>({id:`S${i}`,url:`https://example${i}.test/report`,title:`Independent source ${i}`,content:`Evidence about onboarding friction ${i}`,sourceClass:['academic','primary_research','customer_voice'][i%3],authority:.9,relevance:.9,methodTransparency:.9});
+test('agent plan exposes bounded tools and approval boundary',()=>{const plan=createPlan({goal:'Improve activation',segments:['SMB']});assert.equal(plan.steps[1].tool,'deep_web_research');assert.ok(plan.approvalRequiredBefore.includes('deep_web_research'));});
+test('agent refuses external research until approved and leaves an auditable trace',async()=>{const run=await runResearchAgent({goal:'Improve activation'});assert.equal(run.status,'AWAITING_APPROVAL');assert.ok(run.trace.some(x=>x.type==='AWAITING_APPROVAL'));assert.equal(validateAgentRun(run),true);});
+test('approved agent synthesizes supplied evidence and requires human review',async()=>{const run=await runResearchAgent({goal:'Improve activation',desiredOutcome:'Increase activation',researchQuestion:'Why do users abandon onboarding?',segments:['SMB'],approved:true,webSources:Array.from({length:8},(_,i)=>source(i))});assert.equal(run.status,'COMPLETED');assert.ok(run.trace.some(x=>x.type==='HUMAN_REVIEW_REQUIRED'));assert.equal(run.metrics.externalToolCalls,0);assert.equal(validateAgentRun(run),true);});
+test('policy blocks unapproved paid research and all external writes',()=>{assert.equal(evaluateToolPolicy({tool:'deep_web_research',role:'editor',approved:false}).code,'AGENT_APPROVAL_REQUIRED');assert.equal(evaluateToolPolicy({tool:'jira_create',role:'owner',approved:true}).code,'AGENT_TOOL_FORBIDDEN');});
+test('agent state machine rejects terminal-state resurrection',()=>{assert.equal(canTransition('COMPLETED','RUNNING'),false);assert.equal(canTransition('AWAITING_APPROVAL','RUNNING'),true);});

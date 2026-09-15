@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ThinkForge — Decision workspace</title>
+<meta name="description" content="Turn product uncertainty into evidence-backed decisions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/frontend/src/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#root">Skip to main content</a>
+<div class="app">
+<aside class="sidebar" aria-label="Primary navigation">
+  <div class="brand"><div class="mark" aria-hidden="true">T</div><span>ThinkForge</span></div>
+  <div class="label">Workspace</div>
+  <nav class="nav" id="nav">
+    <button data-view="dashboard" aria-label="Home"><span class="nav-icon">⌂</span><span>Home</span></button>
+    <button data-view="decisions" aria-label="Decisions"><span class="nav-icon">◈</span><span>Decisions</span></button>
+    <button data-view="discovery" aria-label="Research"><span class="nav-icon">◌</span><span>Research</span></button>
+    <button data-view="experiments" aria-label="Experiments"><span class="nav-icon">◇</span><span>Experiments</span></button>
+    <button data-view="insights" aria-label="Learn"><span class="nav-icon">◍</span><span>Learn</span></button>
+    <button id="briefBtn" aria-label="Share decision brief"><span class="nav-icon">↗</span><span>Decision brief</span></button>
+  </nav>
+  <div class="nav-separator"></div><button class="advanced-toggle" id="advancedToggle" aria-expanded="false">Advanced tools <span>⌄</span></button>
+  <nav class="nav advanced-nav" id="advancedNav" hidden>
+    <button data-view="evaluation" aria-label="AI Evaluation"><span class="nav-icon">✓</span><span>AI Evaluation</span></button>
+    <button data-view="analytics" aria-label="Analytics"><span class="nav-icon">▥</span><span>Analytics</span></button>
+    <button data-view="agent" aria-label="Research agent"><span class="nav-icon">✦</span><span>Research agent</span></button>
+    <button data-view="rag" aria-label="Evidence RAG"><span class="nav-icon">▤</span><span>Evidence RAG</span></button>
+    <button data-view="execution" aria-label="PRD and Jira"><span class="nav-icon">↗</span><span>PRD / Jira</span></button>
+  </nav>
+  <div class="sidebar-bottom">
+    <div class="label">System</div>
+    <nav class="nav">
+      <button id="commandBtn" aria-label="Command palette (Ctrl or Cmd K)"><span class="nav-icon">⌘</span><span>Quick actions</span><span class="key-hint" aria-hidden="true">⌘K</span></button>
+      <button id="settingsBtn" aria-label="Settings"><span class="nav-icon">⚙</span><span>Settings</span></button>
+      <button id="authBtn" aria-label="Account"><span class="nav-icon">◉</span><span>Account</span></button>
+    </nav>
+  </div>
+</aside>
+<main class="main" id="main"><div id="root"></div></main>
+</div>
+<div class="modal-wrap" id="modalWrap" role="presentation"><div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"></div></div>
+<div class="command-wrap" id="commandWrap" role="presentation"><div class="command" role="dialog" aria-modal="true" aria-labelledby="commandTitle"><div class="command-head"><div><div class="section-kicker">Quick actions</div><h2 id="commandTitle">Jump to what you need</h2></div><button class="btn ghost" id="commandClose" aria-label="Close command palette">Esc</button></div><input id="commandInput" class="command-input" placeholder="Search actions…" autocomplete="off"><div class="command-list" id="commandList"></div></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div><div id="ariaLive" aria-live="polite" aria-atomic="true"></div>
+<div class="offline-banner" id="offlineBanner" role="status" hidden><span class="status-dot"></span><span>Offline — changes save locally and sync when you're back.</span></div>
+<script type="module" src="/frontend/src/app.js"></script>
+</body></html>

@@ -1,0 +1,49 @@
+{
+  "studyId": "stage1-external-gold-v1",
+  "codebookVersion": "stage1-codebook-v1",
+  "synthetic": false,
+  "generatedByModel": false,
+  "studyManifest": {
+    "sources": [
+      {
+        "id": "REAL_STUDY_1",
+        "title": "Replace with real source study title",
+        "url": "https://example.org/replace",
+        "realHumanData": true,
+        "provenance": "Describe the public/legal provenance and what human data are represented.",
+        "synthetic": false,
+        "generatedByModel": false
+      },
+      {
+        "id": "REAL_STUDY_2",
+        "title": "Replace with real source study title",
+        "url": "https://example.org/replace",
+        "realHumanData": true,
+        "provenance": "Describe the public/legal provenance and what human data are represented.",
+        "synthetic": false,
+        "generatedByModel": false
+      },
+      {
+        "id": "REAL_STUDY_3",
+        "title": "Replace with real source study title",
+        "url": "https://example.org/replace",
+        "realHumanData": true,
+        "provenance": "Describe the public/legal provenance and what human data are represented.",
+        "synthetic": false,
+        "generatedByModel": false
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "CASE_001",
+      "sourceStudyId": "REAL_STUDY_1",
+      "sourceProvenance": "Exact source location, participant/research provenance, and reuse basis.",
+      "synthetic": false,
+      "generatedByModel": false,
+      "input": {
+        "prompt": "Paste the real research prompt/question plus the minimally necessary source material. Do not paraphrase with a model."
+      }
+    }
+  ]
+}

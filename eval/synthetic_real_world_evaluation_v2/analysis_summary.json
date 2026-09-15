@@ -1,0 +1,65 @@
+{
+  "study_id": "SYN-RW-V2",
+  "status": "SIMULATION_COMPLETE_NOT_EMPIRICAL",
+  "design": "paired, repeated-measures synthetic-agent benchmark grounded in supplied real-world cases",
+  "real_world_scenarios": 150,
+  "synthetic_participants": 60,
+  "replicates_per_pair": 4,
+  "conditions": [
+    "CONTROL",
+    "THINKFORGE"
+  ],
+  "observations": 72000,
+  "paired_comparisons": 36000,
+  "decision_quality": {
+    "control_mean": 3.3240144168146886,
+    "thinkforge_mean": 3.6394409036165123,
+    "paired_mean_delta": 0.31542648680182334,
+    "bootstrap_95ci": [
+      0.31517007960416754,
+      0.31569010885285864
+    ],
+    "paired_sign_flip_p_approx": 0.0003332222592469177
+  },
+  "secondary_deltas": {
+    "evidence_used": 0.7042,
+    "assumptions_found": 0.5955,
+    "contradictions_detected": 0.548,
+    "unsupported_claims": -1.0546
+  },
+  "stratified_sensitivity": [
+    {
+      "stratum": "difficulty_band:LOW",
+      "paired_n": 36000,
+      "decision_quality_delta": 0.3154,
+      "unsupported_claims_delta": -1.0546
+    },
+    {
+      "stratum": "experience_band:early",
+      "paired_n": 9000,
+      "decision_quality_delta": 0.3185,
+      "unsupported_claims_delta": -1.0538
+    },
+    {
+      "stratum": "experience_band:mid",
+      "paired_n": 9000,
+      "decision_quality_delta": 0.319,
+      "unsupported_claims_delta": -1.0634
+    },
+    {
+      "stratum": "experience_band:senior",
+      "paired_n": 9000,
+      "decision_quality_delta": 0.3122,
+      "unsupported_claims_delta": -1.0582
+    },
+    {
+      "stratum": "experience_band:expert",
+      "paired_n": 9000,
+      "decision_quality_delta": 0.312,
+      "unsupported_claims_delta": -1.0428
+    }
+  ],
+  "empirical_claim_eligible": false,
+  "human_subject_claim_eligible": false,
+  "note": "Synthetic/model-generated participants and observations only; real-world grounding comes from the supplied source cases."
+}

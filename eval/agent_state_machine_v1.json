@@ -1,0 +1,111 @@
+{
+  "version": "agent-state-machine-v1",
+  "purpose": "Cross-stack transition audit. Canonical lifecycle (decided 2026-09) is Django's simpler model: no RETRYING state in either stack. RETRYING cases are kept here as explicit regression guards that both stacks continue to reject them.",
+  "cases": [
+    {
+      "id": "SM-001",
+      "from": "PLANNED",
+      "to": "AWAITING_APPROVAL",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-002",
+      "from": "PLANNED",
+      "to": "RUNNING",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-003",
+      "from": "AWAITING_APPROVAL",
+      "to": "RUNNING",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-004",
+      "from": "RUNNING",
+      "to": "TOOL_CALLING",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-005",
+      "from": "RUNNING",
+      "to": "VALIDATING",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-006",
+      "from": "RUNNING",
+      "to": "RETRYING",
+      "expectedNode": false,
+      "expectedDjango": false
+    },
+    {
+      "id": "SM-007",
+      "from": "TOOL_CALLING",
+      "to": "RETRYING",
+      "expectedNode": false,
+      "expectedDjango": false
+    },
+    {
+      "id": "SM-008",
+      "from": "RETRYING",
+      "to": "TOOL_CALLING",
+      "expectedNode": false,
+      "expectedDjango": false
+    },
+    {
+      "id": "SM-009",
+      "from": "RETRYING",
+      "to": "FAILED",
+      "expectedNode": false,
+      "expectedDjango": false
+    },
+    {
+      "id": "SM-010",
+      "from": "VALIDATING",
+      "to": "NEEDS_HUMAN_REVIEW",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-011",
+      "from": "NEEDS_HUMAN_REVIEW",
+      "to": "COMPLETED",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-012",
+      "from": "NEEDS_HUMAN_REVIEW",
+      "to": "CANCELLED",
+      "expectedNode": true,
+      "expectedDjango": true
+    },
+    {
+      "id": "SM-013",
+      "from": "COMPLETED",
+      "to": "RUNNING",
+      "expectedNode": false,
+      "expectedDjango": false
+    },
+    {
+      "id": "SM-014",
+      "from": "CANCELLED",
+      "to": "TOOL_CALLING",
+      "expectedNode": false,
+      "expectedDjango": false
+    },
+    {
+      "id": "SM-015",
+      "from": "FAILED",
+      "to": "VALIDATING",
+      "expectedNode": false,
+      "expectedDjango": false
+    }
+  ]
+}

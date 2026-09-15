@@ -1,0 +1,6 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict');
+const configured=Boolean(process.env.SUPABASE_URL&&process.env.SUPABASE_SERVICE_ROLE_KEY&&process.env.THINKFORGE_TEST_USER_JWT_A&&process.env.THINKFORGE_TEST_DECISION_ID_B);
+const run=configured?test:(name,fn)=>test(name,{skip:'live tenant fixture not configured'},fn);
+run('live DB exposes Stage 1/2 canonical verifier',async()=>{const r=await fetch(`${process.env.SUPABASE_URL}/rest/v1/rpc/thinkforge_verify_stage1_stage2_live`,{method:'POST',headers:{apikey:process.env.SUPABASE_SERVICE_ROLE_KEY,Authorization:`Bearer ${process.env.SUPABASE_SERVICE_ROLE_KEY}`,'Content-Type':'application/json'},body:'{}'});assert.equal(r.ok,true,await r.text());const j=await r.json();assert.equal(j.status,'PASS',JSON.stringify(j));});
+run('live DB denies cross-tenant reads',async()=>{const r=await fetch(`${process.env.SUPABASE_URL}/rest/v1/thinkforge_decisions?id=eq.${encodeURIComponent(process.env.THINKFORGE_TEST_DECISION_ID_B)}`,{headers:{apikey:process.env.SUPABASE_ANON_KEY||process.env.SUPABASE_SERVICE_ROLE_KEY,Authorization:`Bearer ${process.env.THINKFORGE_TEST_USER_JWT_A}`}});assert.equal(r.ok,true);const rows=await r.json();assert.equal(rows.length,0,`cross-tenant decision was visible: ${JSON.stringify(rows)}`);});

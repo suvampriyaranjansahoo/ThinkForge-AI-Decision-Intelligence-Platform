@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ThinkForge Stage 1 Researcher Annotation Export",
+  "type": "object",
+  "required": ["goldVersion", "codebookVersion", "goldFrozen", "annotationsComplete", "synthetic", "generatedByModel", "adjudicated", "independentEvaluators", "studyManifest", "scope", "cases"],
+  "properties": {
+    "goldVersion": {"type": "string", "minLength": 1},
+    "codebookVersion": {"type": "string", "minLength": 1},
+    "synthetic": {"const": false},
+    "generatedByModel": {"const": false},
+    "goldFrozen": {"const": false},
+    "annotationsComplete": {"const": true},
+    "adjudicated": {"const": true},
+    "independentEvaluators": {"type": "integer", "minimum": 3},
+    "studyManifest": {"type": "object", "required": ["perCaseProvenance"], "properties": {"perCaseProvenance": {"const": true}, "sources": {"type": "array"}}},
+    "scope": {"type": "object", "required": ["sourceCaseCount", "confirmedCaseCount", "pendingCaseCount", "includedCaseCount", "excludedPendingCaseIds"], "properties": {"sourceCaseCount": {"type": "integer", "minimum": 1}, "confirmedCaseCount": {"type": "integer", "minimum": 0}, "pendingCaseCount": {"type": "integer", "minimum": 0}, "includedCaseCount": {"type": "integer", "minimum": 1}, "excludedPendingCaseIds": {"type": "array", "items": {"type": "string"}}, "priorAdjudicationWithoutIdentityCaseIds": {"type": "array", "items": {"type": "string"}}, "confirmedCaseIdsHash": {"type": "string"}}},
+    "cases": {
+      "type": "array",
+      "minItems": 100,
+      "items": {
+        "type": "object",
+        "required": ["id", "sourceStudyId", "split", "ratings", "gold", "adjudicationStatus"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "sourceStudyId": {"type": "string", "minLength": 1},
+          "split": {"enum": ["development", "validation", "locked_test"]},
+          "ratings": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "object",
+              "required": ["raterId"],
+              "properties": {
+                "raterId": {"type": "string", "minLength": 1},
+                "labels": {"type": "object"},
+                "submittedAt": {"type": "string"}
+              }
+            }
+          },
+          "adjudication": {
+            "type": "object",
+            "properties": {
+              "required": {"type": "boolean"},
+              "completed": {"type": "boolean"},
+              "adjudicatorId": {"type": "string"},
+              "reason": {"type": "string"},
+              "source": {"enum": ["documented_prior_adjudication"]},
+              "sourceRecord": {"type": "string"}
+            }
+          },
+          "gold": {"type": "object"},
+          "adjudicationStatus": {"enum": ["agreement", "adjudicated"]}
+        }
+      }
+    }
+  }
+}

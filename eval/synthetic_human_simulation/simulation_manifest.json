@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "stage1-synthetic-human-simulation-v1",
+  "synthetic": true,
+  "generatedByModel": true,
+  "study": {
+    "studyId": "stage1-synthetic-human-simulation-v1",
+    "cases": 150,
+    "raters": 3,
+    "pilotCases": 25,
+    "lockedTestFraction": 0.6,
+    "duplicateRate": 0.09333333333333334
+  },
+  "raterProfiles": [
+    {
+      "id": "SIM-R1-SKEPTIC",
+      "mentality": "skeptical-auditor",
+      "emotion": "cautious",
+      "priority": "evidence-strength"
+    },
+    {
+      "id": "SIM-R2-QUALITATIVE",
+      "mentality": "empathetic-qualitative",
+      "emotion": "curious",
+      "priority": "human-context"
+    },
+    {
+      "id": "SIM-R3-STRATEGIST",
+      "mentality": "product-strategist",
+      "emotion": "decisive",
+      "priority": "actionability"
+    }
+  ],
+  "caseCount": 150,
+  "annotationRows": 492,
+  "disagreementCases": 150,
+  "duplicateCaseCount": 14,
+  "note": "Synthetic only; excluded from empirical gold."
+}

@@ -1,0 +1,606 @@
+{
+  "synthetic": true,
+  "generated_by_model": true,
+  "participants": [
+    {
+      "participant_id": "SIM-P001",
+      "role": "product_manager",
+      "reasoning_style": "balanced",
+      "risk_tolerance": "medium",
+      "evidence_priority": "balanced",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P002",
+      "role": "risk_manager",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "evidence",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P003",
+      "role": "growth_lead",
+      "reasoning_style": "optimistic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "action",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P004",
+      "role": "ux_researcher",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "human",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P005",
+      "role": "data_scientist",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "analytics",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P006",
+      "role": "engineering_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "feasibility",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P007",
+      "role": "security_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "very_high",
+      "evidence_priority": "safety",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P008",
+      "role": "executive",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "high",
+      "evidence_priority": "outcomes",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P009",
+      "role": "operations_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "high",
+      "evidence_priority": "execution",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P010",
+      "role": "customer_success",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "customer",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P011",
+      "role": "finance_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "economics",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P012",
+      "role": "strategy_lead",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "medium",
+      "evidence_priority": "competitive",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P013",
+      "role": "product_manager",
+      "reasoning_style": "balanced",
+      "risk_tolerance": "medium",
+      "evidence_priority": "balanced",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P014",
+      "role": "risk_manager",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "evidence",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P015",
+      "role": "growth_lead",
+      "reasoning_style": "optimistic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "action",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P016",
+      "role": "ux_researcher",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "human",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P017",
+      "role": "data_scientist",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "analytics",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P018",
+      "role": "engineering_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "feasibility",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P019",
+      "role": "security_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "very_high",
+      "evidence_priority": "safety",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P020",
+      "role": "executive",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "high",
+      "evidence_priority": "outcomes",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P021",
+      "role": "operations_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "high",
+      "evidence_priority": "execution",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P022",
+      "role": "customer_success",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "customer",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P023",
+      "role": "finance_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "economics",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P024",
+      "role": "strategy_lead",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "medium",
+      "evidence_priority": "competitive",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P025",
+      "role": "product_manager",
+      "reasoning_style": "balanced",
+      "risk_tolerance": "medium",
+      "evidence_priority": "balanced",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P026",
+      "role": "risk_manager",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "evidence",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P027",
+      "role": "growth_lead",
+      "reasoning_style": "optimistic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "action",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P028",
+      "role": "ux_researcher",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "human",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P029",
+      "role": "data_scientist",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "analytics",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P030",
+      "role": "engineering_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "feasibility",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P031",
+      "role": "security_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "very_high",
+      "evidence_priority": "safety",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P032",
+      "role": "executive",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "high",
+      "evidence_priority": "outcomes",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P033",
+      "role": "operations_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "high",
+      "evidence_priority": "execution",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P034",
+      "role": "customer_success",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "customer",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P035",
+      "role": "finance_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "economics",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P036",
+      "role": "strategy_lead",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "medium",
+      "evidence_priority": "competitive",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P037",
+      "role": "product_manager",
+      "reasoning_style": "balanced",
+      "risk_tolerance": "medium",
+      "evidence_priority": "balanced",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P038",
+      "role": "risk_manager",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "evidence",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P039",
+      "role": "growth_lead",
+      "reasoning_style": "optimistic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "action",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P040",
+      "role": "ux_researcher",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "human",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P041",
+      "role": "data_scientist",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "analytics",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P042",
+      "role": "engineering_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "feasibility",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P043",
+      "role": "security_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "very_high",
+      "evidence_priority": "safety",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P044",
+      "role": "executive",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "high",
+      "evidence_priority": "outcomes",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P045",
+      "role": "operations_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "high",
+      "evidence_priority": "execution",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P046",
+      "role": "customer_success",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "customer",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P047",
+      "role": "finance_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "economics",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P048",
+      "role": "strategy_lead",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "medium",
+      "evidence_priority": "competitive",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P049",
+      "role": "product_manager",
+      "reasoning_style": "balanced",
+      "risk_tolerance": "medium",
+      "evidence_priority": "balanced",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P050",
+      "role": "risk_manager",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "evidence",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P051",
+      "role": "growth_lead",
+      "reasoning_style": "optimistic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "action",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P052",
+      "role": "ux_researcher",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "human",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P053",
+      "role": "data_scientist",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "analytics",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P054",
+      "role": "engineering_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "medium",
+      "evidence_priority": "feasibility",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P055",
+      "role": "security_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "very_high",
+      "evidence_priority": "safety",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P056",
+      "role": "executive",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "high",
+      "evidence_priority": "outcomes",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P057",
+      "role": "operations_lead",
+      "reasoning_style": "pragmatic",
+      "risk_tolerance": "high",
+      "evidence_priority": "execution",
+      "experience_band": "early",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P058",
+      "role": "customer_success",
+      "reasoning_style": "contextual",
+      "risk_tolerance": "medium",
+      "evidence_priority": "customer",
+      "experience_band": "mid",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P059",
+      "role": "finance_lead",
+      "reasoning_style": "skeptical",
+      "risk_tolerance": "high",
+      "evidence_priority": "economics",
+      "experience_band": "senior",
+      "synthetic": true,
+      "generated_by_model": true
+    },
+    {
+      "participant_id": "SIM-P060",
+      "role": "strategy_lead",
+      "reasoning_style": "decisive",
+      "risk_tolerance": "medium",
+      "evidence_priority": "competitive",
+      "experience_band": "expert",
+      "synthetic": true,
+      "generated_by_model": true
+    }
+  ]
+}

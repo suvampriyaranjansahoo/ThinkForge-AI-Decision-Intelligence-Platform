@@ -1,0 +1,30 @@
+{
+  "gold_version": "1.0",
+  "artifact": "ThinkForge RAG Gold v1",
+  "status": "FROZEN",
+  "gold_frozen": true,
+  "data_provenance": "REAL_HUMAN_ANNOTATIONS",
+  "rater_count": 3,
+  "query_count": 150,
+  "judgment_count": 1114,
+  "relevance": {
+    "unanimous": 415,
+    "majority_2_of_3": 602,
+    "ordinal_median_tiebreak": 97
+  },
+  "answerability": {
+    "unanimous": 600,
+    "majority_2_of_3": 469,
+    "ordinal_median_tiebreak": 45
+  },
+  "unresolved_cases": 0,
+  "thinkforge_predictions_included": false,
+  "adjudication_note": "All labels are resolved. 97 relevance ties and 45 answerability ties were resolved using the documented ordinal-median rule present in the source file. Therefore this is frozen human-annotated gold with deterministic tie-break adjudication, not independent human-adjudicator-reviewed gold.",
+  "frozen_dataset_sha256": "9b4ba9362d7bf7e91435414171e4340ee3f243a78bfcda85119da5e9beab6a7e",
+  "freeze_timestamp_utc": "2026-09-09T12:55:21.630923+00:00",
+  "project_integration": {
+    "benchmark_file": "eval/rag_benchmark_real_human_v1.json",
+    "gold_csv": "eval/rag_gold_v1.csv",
+    "strict_relevance_rule": "final_relevance == 2"
+  }
+}

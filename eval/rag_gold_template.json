@@ -1,0 +1,5 @@
+{
+  "version":"tf-rag-gold-v1",
+  "instructions":"Each query must be independently labeled against the frozen real corpus. Include all relevant chunks and any materially contradictory chunks. Do not infer labels from retrieval output.",
+  "queries":[]
+}

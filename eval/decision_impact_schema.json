@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"ThinkForge Human Decision Impact Record v1",
+  "type":"object",
+  "required":["studyId","participantId","scenarioId","condition","decisionQuality"],
+  "properties":{
+    "studyId":{"type":"string"},
+    "participantId":{"type":"string"},
+    "scenarioId":{"type":"string"},
+    "condition":{"enum":["HUMAN_ONLY","HUMAN_PLUS_THINKFORGE"]},
+    "decisionQuality":{"type":"number","minimum":1,"maximum":5},
+    "decisionTimeSeconds":{"type":"number","minimum":0},
+    "assumptionsFound":{"type":"integer","minimum":0},
+    "evidenceUsed":{"type":"integer","minimum":0},
+    "confidence":{"type":"number","minimum":1,"maximum":5},
+    "notes":{"type":"string","maxLength":5000}
+  },
+  "additionalProperties":false
+}

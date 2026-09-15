@@ -1,0 +1,5 @@
+{
+  "version":"tf-expert-curation-template-v1",
+  "instructions":"Replace or curate controlled synthetic cases with expert-authored cases. Do not present these placeholders as expert-labeled data until completed and independently reviewed.",
+  "cases":[]
+}

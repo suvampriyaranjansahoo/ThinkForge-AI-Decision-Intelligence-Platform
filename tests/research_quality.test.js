@@ -1,0 +1,18 @@
+const test=require('node:test');
+const assert=require('node:assert/strict');
+const {decisionHealth}=require('../lib/decisionHealth');
+const {experimentReadiness}=require('../lib/experimentDesign');
+const {summarizeClaims}=require('../lib/claimEvaluation');
+const {aggregateTraces}=require('../lib/llmOps');
+const {rankMetrics}=require('../lib/ragExperiment');
+const {validateJiraWrite}=require('../lib/jiraSafety');
+const {buildInsights}=require('../lib/insightEngine');
+const {assertStableIdentity,versionedUpsert}=require('../lib/dataIntegrity');
+test('decision health surfaces contradictions and evidence coverage',()=>{const x=decisionHealth({assumptions:[{evidenceIds:['E1'],status:'open'}],evidence:[{stance:'contradicts'}],challenges:[]});assert.equal(x.state,'INVESTIGATE');assert.equal(x.contradictions,1)});
+test('experiment readiness rejects underpowered design',()=>{const x=experimentReadiness({hypothesis:'h',primaryMetric:'m',baselineRate:.1,mde:.03,alpha:.05,power:.8,randomization:'user',guardrails:['g'],durationDays:14,stoppingRule:'fixed-horizon',availablePopulation:10});assert.equal(x.ready,false);assert.ok(x.errors.includes('underpowered_population'))});
+test('claim summary calculates unsupported and contradiction rates',()=>{const x=summarizeClaims([{label:'SUPPORTED'},{label:'UNSUPPORTED'},{label:'CONTRADICTED'}]);assert.equal(x.total,3);assert.equal(x.unsupportedRate,1/3);assert.equal(x.contradictionRate,1/3)});
+test('LLMOps aggregation exposes cost latency and validation',()=>{const x=aggregateTraces([{model:'m',latencyMs:10,cost:.1,validationStatus:'pass'},{model:'m',latencyMs:30,cost:.2,validationStatus:'fail'}]);assert.equal(x.requests,2);assert.equal(x.p50LatencyMs,10);assert.equal(x.p95LatencyMs,10);assert.equal(x.validationPassRate,.5)});
+test('RAG experiment metrics score ranked results',()=>{const x=rankMetrics(['b','a','c'],['a'],3);assert.equal(x.recall,1);assert.equal(x.mrr,.5)});
+test('Jira safety requires confirmation authorization and idempotency',()=>{assert.equal(validateJiraWrite({confirm:true,authorized:true,projectKey:'TF',idempotencyKey:'x'}).allowed,true);assert.equal(validateJiraWrite({confirm:true}).allowed,false)});
+test('insights convert outcomes and unresolved assumptions into signals',()=>{const x=buildInsights([{id:'d1',prediction:{predicted:8},outcome:{actual:5},assumptions:[{text:'A',impact:5,uncertainty:5,status:'open'}]}]);assert.equal(x.completedPredictions,1);assert.equal(x.failurePatterns.length,1);assert.equal(x.highRiskAssumptions[0].priority,25)});
+test('data integrity preserves stable ids and increments versions',()=>{assert.throws(()=>assertStableIdentity({id:'a'},{id:'b'}),/Stable entity id/);const x=versionedUpsert({id:'a',version:2},{x:1});assert.equal(x.id,'a');assert.equal(x.version,3)});

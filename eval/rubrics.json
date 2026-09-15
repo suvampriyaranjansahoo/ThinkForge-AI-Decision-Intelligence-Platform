@@ -1,0 +1,168 @@
+{
+  "version": "tf-rubric-v3.1",
+  "scale": {
+    "1": "harmful/incorrect",
+    "2": "weak",
+    "3": "acceptable",
+    "4": "strong",
+    "5": "excellent"
+  },
+  "protocol": {
+    "pilot_cases": 30,
+    "minimum_independent_raters": 2,
+    "blinded_comparison": true,
+    "adjudication_required_on_disagreement": true,
+    "report_observed_agreement": true,
+    "report_weighted_kappa": true,
+    "report_hidden_duplicate_consistency": true,
+    "do_not_average_disagreement": true,
+    "version": "HGT-1.1"
+  },
+  "dimensions": {
+    "assumptions": [
+      "decision_relevance",
+      "evidence_grounding",
+      "uncertainty_quality",
+      "actionability",
+      "non_hallucination"
+    ],
+    "challenge": [
+      "decision_relevance",
+      "evidence_grounding",
+      "challenge_usefulness",
+      "uncertainty_quality",
+      "actionability",
+      "non_hallucination"
+    ],
+    "experiment": [
+      "decision_relevance",
+      "falsifiability",
+      "metric_quality",
+      "feasibility",
+      "guardrail_quality",
+      "non_hallucination"
+    ],
+    "synthesize": [
+      "decision_relevance",
+      "evidence_grounding",
+      "recommendation_quality",
+      "uncertainty_quality",
+      "actionability",
+      "non_hallucination"
+    ],
+    "prd": [
+      "decision_relevance",
+      "evidence_grounding",
+      "scope_quality",
+      "metric_quality",
+      "actionability",
+      "non_hallucination"
+    ],
+    "insights": [
+      "decision_relevance",
+      "evidence_grounding",
+      "pattern_quality",
+      "uncertainty_quality",
+      "actionability",
+      "non_hallucination"
+    ]
+  },
+  "dimension_anchors": {
+    "decision_relevance": {
+      "1": "Does not address the decision or solves the wrong problem.",
+      "3": "Addresses the stated decision but misses an important consideration.",
+      "5": "Directly addresses the decision, constraints, and decision-critical considerations."
+    },
+    "evidence_grounding": {
+      "1": "Claims are unsupported or materially contradict supplied evidence.",
+      "3": "Most important claims are supported, with some missing qualification or linkage.",
+      "5": "Important claims are directly traceable to appropriate evidence and do not exceed what it establishes."
+    },
+    "uncertainty_quality": {
+      "1": "Presents uncertain or conflicting evidence as certain.",
+      "3": "Acknowledges major uncertainty but may miss a meaningful caveat.",
+      "5": "Calibrates confidence to evidence strength, uncertainty, conflicts, and limitations."
+    },
+    "actionability": {
+      "1": "No usable next step or recommendation is unsafe/unworkable.",
+      "3": "Provides a plausible next step but leaves material execution details unresolved.",
+      "5": "Provides a concrete, feasible next step tied to the decision and measurable follow-up."
+    },
+    "non_hallucination": {
+      "1": "Contains fabricated facts, evidence, citations, or unsupported specifics that materially change the conclusion.",
+      "3": "Minor unsupported wording but no material invented evidence or facts.",
+      "5": "No invented evidence/facts; clearly distinguishes known, inferred, and unknown information."
+    },
+    "challenge_usefulness": {
+      "1": "Challenge is irrelevant, generic, or fails to expose decision risk.",
+      "3": "Surfaces a plausible risk or assumption worth checking.",
+      "5": "Surfaces a decision-critical, non-obvious risk and explains why it could change the decision."
+    },
+    "falsifiability": {
+      "1": "Cannot be meaningfully tested or disproven.",
+      "3": "Can be tested with additional clarification.",
+      "5": "States a clear hypothesis with observable outcomes and a decisive falsification condition."
+    },
+    "metric_quality": {
+      "1": "Metric is irrelevant, ill-defined, or easy to game.",
+      "3": "Metric broadly represents the objective but has limitations.",
+      "5": "Primary and guardrail metrics are well-defined, decision-relevant, measurable, and resistant to gaming."
+    },
+    "feasibility": {
+      "1": "Experiment is impractical or violates stated constraints.",
+      "3": "Feasible with meaningful operational caveats.",
+      "5": "Operationally realistic with appropriate population, duration, instrumentation, and constraints."
+    },
+    "guardrail_quality": {
+      "1": "Misses material safety or business risks.",
+      "3": "Includes major guardrails but may omit a secondary risk.",
+      "5": "Defines clear guardrails for material harm, quality, cost, or compliance risks."
+    },
+    "recommendation_quality": {
+      "1": "Recommendation is unsupported, contradictory, or inappropriate for the evidence.",
+      "3": "Reasonable recommendation with some unresolved trade-offs.",
+      "5": "Evidence-proportionate recommendation with explicit trade-offs and uncertainty."
+    },
+    "scope_quality": {
+      "1": "Scope is materially wrong, incomplete, or impossible to execute.",
+      "3": "Scope is broadly coherent but needs refinement.",
+      "5": "Clear in-scope/out-of-scope boundaries aligned to the decision and evidence."
+    },
+    "pattern_quality": {
+      "1": "Pattern is spurious, contradicted, or not supported by the evidence.",
+      "3": "Pattern is plausible but warrants additional validation.",
+      "5": "Pattern is well-supported, relevant, appropriately qualified, and useful for the decision."
+    }
+  },
+  "instructions": "Use the anchored rubric. Rate independently before seeing another rater's score. Cite exact evidence IDs in notes when making gold judgments. Do not use model self-reported scores as ground truth. Gold status requires two independent ratings; disagreements require adjudication rather than averaging. Distinguish objective verifiability from subjective usefulness.",
+  "study_protocol_version": "HGT-1.1",
+  "label_types": {
+    "scores": "ordinal_1_to_5",
+    "claimLabels": "categorical",
+    "confidence": "ordinal_1_to_5",
+    "unsupported_claim_severity": "ordinal_0_to_2",
+    "citation_correctness": "ordinal_0_to_2"
+  },
+  "objective_checks": [
+    "citation_correctness",
+    "unsupported_claim_severity",
+    "required_fields_present",
+    "evidence_id_validity"
+  ],
+  "subjective_checks": [
+    "decision_relevance",
+    "actionability",
+    "challenge_usefulness",
+    "recommendation_quality",
+    "uncertainty_quality"
+  ],
+  "disagreement_taxonomy": [
+    "rubric_ambiguity",
+    "evidence_interpretation",
+    "factual_dispute",
+    "relevance_dispute",
+    "uncertainty_dispute",
+    "missing_context",
+    "genuine_expert_disagreement"
+  ]
+}

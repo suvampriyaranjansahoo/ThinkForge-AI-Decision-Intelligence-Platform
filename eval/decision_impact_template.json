@@ -1,0 +1,8 @@
+{
+  "version":"tf-decision-impact-v1",
+  "conditions":["HUMAN_ONLY","HUMAN_PLUS_THINKFORGE"],
+  "participants":[],
+  "instructions":"Collect blinded study records from real participants. Do not fabricate participant decisions or outcomes. Predefine primary and secondary endpoints before the study.",
+  "primaryEndpoint":"decisionQuality",
+  "secondaryEndpoints":["decisionTimeSeconds","assumptionsFound","evidenceUsed","confidence"]
+}

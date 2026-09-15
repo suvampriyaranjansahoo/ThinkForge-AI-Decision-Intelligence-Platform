@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ThinkForge Stage 1 Real External Case Bank",
+  "type": "object",
+  "required": ["studyId", "codebookVersion", "synthetic", "generatedByModel", "studyManifest", "cases"],
+  "properties": {
+    "studyId": {"type": "string", "minLength": 1},
+    "codebookVersion": {"type": "string", "minLength": 1},
+    "synthetic": {"const": false},
+    "generatedByModel": {"const": false},
+    "studyManifest": {
+      "type": "object",
+      "required": ["sources"],
+      "properties": {
+        "sources": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["id", "title", "url", "realHumanData", "provenance"],
+            "properties": {
+              "id": {"type": "string", "minLength": 1},
+              "title": {"type": "string", "minLength": 1},
+              "url": {"type": "string", "format": "uri"},
+              "realHumanData": {"const": true},
+              "provenance": {"type": "string", "minLength": 1},
+              "synthetic": {"const": false},
+              "generatedByModel": {"const": false}
+            }
+          }
+        }
+      }
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 100,
+      "items": {
+        "type": "object",
+        "required": ["id", "sourceStudyId", "sourceProvenance", "synthetic", "generatedByModel", "input"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "sourceStudyId": {"type": "string", "minLength": 1},
+          "sourceProvenance": {"type": "string", "minLength": 1},
+          "synthetic": {"const": false},
+          "generatedByModel": {"const": false},
+          "input": {
+            "type": "object",
+            "required": ["prompt"],
+            "properties": {"prompt": {"type": "string", "minLength": 1}}
+          }
+        }
+      }
+    }
+  }
+}

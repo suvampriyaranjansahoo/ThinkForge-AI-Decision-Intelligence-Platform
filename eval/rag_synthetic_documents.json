@@ -1,0 +1,305 @@
+{
+  "version": "synthetic-rag-v1",
+  "documents": [
+    {
+      "id": "SYN-DOC-001",
+      "source": "synthetic://payment-recovery/1",
+      "text": "Synthetic evaluation document 1. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-002",
+      "source": "synthetic://onboarding-friction/2",
+      "text": "Synthetic evaluation document 2. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-003",
+      "source": "synthetic://retention-experiment/3",
+      "text": "Synthetic evaluation document 3. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-004",
+      "source": "synthetic://permission-failures/4",
+      "text": "Synthetic evaluation document 4. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-005",
+      "source": "synthetic://prior-decision/5",
+      "text": "Synthetic evaluation document 5. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-006",
+      "source": "synthetic://payment-recovery/6",
+      "text": "Synthetic evaluation document 6. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-007",
+      "source": "synthetic://onboarding-friction/7",
+      "text": "Synthetic evaluation document 7. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-008",
+      "source": "synthetic://retention-experiment/8",
+      "text": "Synthetic evaluation document 8. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-009",
+      "source": "synthetic://permission-failures/9",
+      "text": "Synthetic evaluation document 9. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-010",
+      "source": "synthetic://prior-decision/10",
+      "text": "Synthetic evaluation document 10. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-011",
+      "source": "synthetic://payment-recovery/11",
+      "text": "Synthetic evaluation document 11. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-012",
+      "source": "synthetic://onboarding-friction/12",
+      "text": "Synthetic evaluation document 12. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-013",
+      "source": "synthetic://retention-experiment/13",
+      "text": "Synthetic evaluation document 13. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-014",
+      "source": "synthetic://permission-failures/14",
+      "text": "Synthetic evaluation document 14. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-015",
+      "source": "synthetic://prior-decision/15",
+      "text": "Synthetic evaluation document 15. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-016",
+      "source": "synthetic://payment-recovery/16",
+      "text": "Synthetic evaluation document 16. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-017",
+      "source": "synthetic://onboarding-friction/17",
+      "text": "Synthetic evaluation document 17. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-018",
+      "source": "synthetic://retention-experiment/18",
+      "text": "Synthetic evaluation document 18. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-019",
+      "source": "synthetic://permission-failures/19",
+      "text": "Synthetic evaluation document 19. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-020",
+      "source": "synthetic://prior-decision/20",
+      "text": "Synthetic evaluation document 20. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-021",
+      "source": "synthetic://payment-recovery/21",
+      "text": "Synthetic evaluation document 21. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-022",
+      "source": "synthetic://onboarding-friction/22",
+      "text": "Synthetic evaluation document 22. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-023",
+      "source": "synthetic://retention-experiment/23",
+      "text": "Synthetic evaluation document 23. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-024",
+      "source": "synthetic://permission-failures/24",
+      "text": "Synthetic evaluation document 24. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-025",
+      "source": "synthetic://prior-decision/25",
+      "text": "Synthetic evaluation document 25. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-026",
+      "source": "synthetic://payment-recovery/26",
+      "text": "Synthetic evaluation document 26. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-027",
+      "source": "synthetic://onboarding-friction/27",
+      "text": "Synthetic evaluation document 27. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-028",
+      "source": "synthetic://retention-experiment/28",
+      "text": "Synthetic evaluation document 28. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-029",
+      "source": "synthetic://permission-failures/29",
+      "text": "Synthetic evaluation document 29. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-030",
+      "source": "synthetic://prior-decision/30",
+      "text": "Synthetic evaluation document 30. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-031",
+      "source": "synthetic://payment-recovery/31",
+      "text": "Synthetic evaluation document 31. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-032",
+      "source": "synthetic://onboarding-friction/32",
+      "text": "Synthetic evaluation document 32. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-033",
+      "source": "synthetic://retention-experiment/33",
+      "text": "Synthetic evaluation document 33. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-034",
+      "source": "synthetic://permission-failures/34",
+      "text": "Synthetic evaluation document 34. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-035",
+      "source": "synthetic://prior-decision/35",
+      "text": "Synthetic evaluation document 35. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-036",
+      "source": "synthetic://payment-recovery/36",
+      "text": "Synthetic evaluation document 36. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-037",
+      "source": "synthetic://onboarding-friction/37",
+      "text": "Synthetic evaluation document 37. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-038",
+      "source": "synthetic://retention-experiment/38",
+      "text": "Synthetic evaluation document 38. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-039",
+      "source": "synthetic://permission-failures/39",
+      "text": "Synthetic evaluation document 39. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-040",
+      "source": "synthetic://prior-decision/40",
+      "text": "Synthetic evaluation document 40. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-041",
+      "source": "synthetic://payment-recovery/41",
+      "text": "Synthetic evaluation document 41. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-042",
+      "source": "synthetic://onboarding-friction/42",
+      "text": "Synthetic evaluation document 42. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-043",
+      "source": "synthetic://retention-experiment/43",
+      "text": "Synthetic evaluation document 43. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-044",
+      "source": "synthetic://permission-failures/44",
+      "text": "Synthetic evaluation document 44. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-045",
+      "source": "synthetic://prior-decision/45",
+      "text": "Synthetic evaluation document 45. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-046",
+      "source": "synthetic://payment-recovery/46",
+      "text": "Synthetic evaluation document 46. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-047",
+      "source": "synthetic://onboarding-friction/47",
+      "text": "Synthetic evaluation document 47. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-048",
+      "source": "synthetic://retention-experiment/48",
+      "text": "Synthetic evaluation document 48. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-049",
+      "source": "synthetic://permission-failures/49",
+      "text": "Synthetic evaluation document 49. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-050",
+      "source": "synthetic://prior-decision/50",
+      "text": "Synthetic evaluation document 50. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-051",
+      "source": "synthetic://payment-recovery/51",
+      "text": "Synthetic evaluation document 51. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-052",
+      "source": "synthetic://onboarding-friction/52",
+      "text": "Synthetic evaluation document 52. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-053",
+      "source": "synthetic://retention-experiment/53",
+      "text": "Synthetic evaluation document 53. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-054",
+      "source": "synthetic://permission-failures/54",
+      "text": "Synthetic evaluation document 54. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-055",
+      "source": "synthetic://prior-decision/55",
+      "text": "Synthetic evaluation document 55. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    },
+    {
+      "id": "SYN-DOC-056",
+      "source": "synthetic://payment-recovery/56",
+      "text": "Synthetic evaluation document 56. Topic: payment recovery. Payments failed but recovery messaging reduced duplicate-charge anxiety."
+    },
+    {
+      "id": "SYN-DOC-057",
+      "source": "synthetic://onboarding-friction/57",
+      "text": "Synthetic evaluation document 57. Topic: onboarding friction. Onboarding friction was concentrated in identity verification and permission setup."
+    },
+    {
+      "id": "SYN-DOC-058",
+      "source": "synthetic://retention-experiment/58",
+      "text": "Synthetic evaluation document 58. Topic: retention experiment. The proposed retention experiment targets repeat engagement with a measurable D7 rate."
+    },
+    {
+      "id": "SYN-DOC-059",
+      "source": "synthetic://permission-failures/59",
+      "text": "Synthetic evaluation document 59. Topic: permission failures. Enterprise users reported role and permission mismatch errors during workspace setup."
+    },
+    {
+      "id": "SYN-DOC-060",
+      "source": "synthetic://prior-decision/60",
+      "text": "Synthetic evaluation document 60. Topic: prior decision. A prior decision improved activation modestly but did not improve retention."
+    }
+  ]
+}

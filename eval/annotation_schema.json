@@ -1,0 +1,20 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"ThinkForge Human Annotation v4",
+  "type":"object",
+  "required":["studyId","caseId","presentationId","scores","rubricVersion","raterConfidence"],
+  "properties":{
+    "studyId":{"type":"string","minLength":1},
+    "caseId":{"type":"string","minLength":1},
+    "presentationId":{"type":"string","minLength":8,"maxLength":64},
+    "rubricVersion":{"type":"string"},
+    "scores":{"type":"object","additionalProperties":{"type":"number","minimum":1,"maximum":5}},
+    "claimLabels":{"type":"array","items":{"type":"object","required":["claimId","label"],"properties":{"claimId":{"type":"string"},"label":{"enum":["SUPPORTED","PARTIALLY_SUPPORTED","UNSUPPORTED","CONTRADICTED","NOT_VERIFIABLE"]},"evidenceIds":{"type":"array","items":{"type":"string"}},"note":{"type":"string","maxLength":1000}}}},
+    "raterConfidence":{"type":"number","minimum":1,"maximum":5},
+    "notes":{"type":"string","maxLength":5000},
+    "unsupportedClaimSeverity":{"type":"number","minimum":0,"maximum":2},
+    "citationCorrectness":{"type":"number","minimum":0,"maximum":2},
+    "attentionCheck":{"type":"boolean"}
+  },
+  "additionalProperties":false
+}

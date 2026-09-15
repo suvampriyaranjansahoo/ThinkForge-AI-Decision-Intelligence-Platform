@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"ThinkForge Rater Qualification Record v1",
+  "type":"object",
+  "required":["studyId","raterId","qualificationStatus"],
+  "properties":{
+    "studyId":{"type":"string"},
+    "raterId":{"type":"string"},
+    "expertise":{"type":"array","items":{"type":"string"}},
+    "trainingVersion":{"type":"string"},
+    "pilotCompleted":{"type":"integer","minimum":0},
+    "pilotQuality":{"type":"number","minimum":0,"maximum":1},
+    "hiddenDuplicateConsistency":{"type":"number","minimum":0,"maximum":1},
+    "attentionCheckRate":{"type":"number","minimum":0,"maximum":1},
+    "qualificationStatus":{"enum":["UNTRAINED","TRAINING","PILOT","QUALIFICATION_REVIEW","CERTIFIED","SUSPENDED"]}
+  },
+  "additionalProperties":false
+}

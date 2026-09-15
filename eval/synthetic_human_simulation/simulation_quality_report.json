@@ -1,0 +1,30 @@
+{
+  "status": "SIMULATION_COMPLETE",
+  "synthetic": true,
+  "generatedByModel": true,
+  "cases": 150,
+  "raters": 3,
+  "pilotCases": 25,
+  "lockedTestCases": 90,
+  "annotationRows": 492,
+  "duplicateCaseCount": 14,
+  "disagreementCases": 150,
+  "allDisagreementsAdjudicated": true,
+  "noCandidateLeakage": true,
+  "noGoldLeakage": true,
+  "syntheticBoundaryIntact": true,
+  "exactNormalizedDuplicates": 0,
+  "perRaterUniqueNotes": {
+    "SIM-R1-SKEPTIC": 164,
+    "SIM-R2-QUALITATIVE": 164,
+    "SIM-R3-STRATEGIST": 164
+  },
+  "threeDistinctProfilesPerCase": true,
+  "empiricalEligibility": false,
+  "artifacts": [
+    "simulation_manifest.json",
+    "simulated_case_bank.json",
+    "simulated_researcher_annotations.json",
+    "simulated_assignments.json"
+  ]
+}

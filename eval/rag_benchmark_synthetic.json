@@ -1,0 +1,3486 @@
+{
+  "version": "synthetic-rag-benchmark-v1",
+  "synthetic": true,
+  "cases": [
+    {
+      "id": "SYN-RAG-001",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-001-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-001"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-001-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-002-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-003-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-002",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-002-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-002"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-002-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-003-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-004-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-003",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-003-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-003"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-003-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-004-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-005-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-004",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-004-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-004"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-004-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-005-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-006-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-005",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-005-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-005"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-005-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-006-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-007-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-006",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-006-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-006"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-006-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-007-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-008-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-007",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-007-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-007"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-007-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-008-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-009-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-008",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-008-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-008"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-008-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-009-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-010-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-009",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-009-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-009"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-009-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-010-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-011-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-010",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-010-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-010"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-010-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-011-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-012-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-011",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-011-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-011"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-011-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-012-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-013-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-012",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-012-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-012"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-012-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-013-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-014-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-013",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-013-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-013"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-013-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-014-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-015-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-014",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-014-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-014"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-014-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-015-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-016-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-015",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-015-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-015"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-015-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-016-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-017-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-016",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-016-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-016"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-016-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-017-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-018-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-017",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-017-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-017"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-017-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-018-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-019-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-018",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-018-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-018"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-018-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-019-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-020-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-019",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-019-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-019"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-019-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-020-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-021-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-020",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-020-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-020"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-020-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-021-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-022-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-021",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-021-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-021"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-021-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-022-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-023-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-022",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-022-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-022"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-022-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-023-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-024-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-023",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-023-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-023"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-023-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-024-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-025-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-024",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-024-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-024"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-024-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-025-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-026-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-025",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-025-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-025"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-025-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-026-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-027-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-026",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-026-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-026"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-026-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-027-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-028-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-027",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-027-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-027"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-027-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-028-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-029-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-028",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-028-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-028"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-028-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-029-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-030-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-029",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-029-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-029"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-029-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-030-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-031-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-030",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-030-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-030"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-030-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-031-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-032-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-031",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-031-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-031"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-031-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-032-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-033-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-032",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-032-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-032"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-032-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-033-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-034-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-033",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-033-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-033"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-033-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-034-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-035-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-034",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-034-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-034"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-034-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-035-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-036-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-035",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-035-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-035"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-035-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-036-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-037-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-036",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-036-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-036"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-036-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-037-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-038-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-037",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-037-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-037"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-037-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-038-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-039-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-038",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-038-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-038"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-038-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-039-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-040-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-039",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-039-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-039"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-039-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-040-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-041-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-040",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-040-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-040"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-040-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-041-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-042-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-041",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-041-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-041"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-041-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-042-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-043-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-042",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-042-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-042"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-042-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-043-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-044-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-043",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-043-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-043"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-043-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-044-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-045-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-044",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-044-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-044"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-044-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-045-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-046-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-045",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-045-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-045"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-045-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-046-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-047-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-046",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-046-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-046"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-046-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-047-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-048-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-047",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-047-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-047"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-047-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-048-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-049-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-048",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-048-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-048"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-048-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-049-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-050-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-049",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-049-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-049"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-049-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-050-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-051-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-050",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-050-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-050"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-050-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-051-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-052-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-051",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-051-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-051"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-051-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-052-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-053-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-052",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-052-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-052"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-052-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-053-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-054-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-053",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-053-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-053"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-053-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-054-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-055-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-054",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-054-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-054"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-054-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-055-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-056-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-055",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-055-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-055"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-055-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-056-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-057-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-056",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-056-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-056"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-056-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-057-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-058-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-057",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-057-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-057"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-057-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-058-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-059-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-058",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-058-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-058"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-058-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-059-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-060-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-059",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-059-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-059"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-059-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-060-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-001-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-060",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-060-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-060"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-060-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-001-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-002-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-061",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-001-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-001"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-001-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-002-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-003-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-062",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-002-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-002"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-002-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-003-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-004-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-063",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-003-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-003"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-003-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-004-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-005-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-064",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-004-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-004"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-004-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-005-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-006-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-065",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-005-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-005"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-005-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-006-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-007-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-066",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-006-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-006"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-006-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-007-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-008-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-067",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-007-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-007"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-007-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-008-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-009-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-068",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-008-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-008"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-008-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-009-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-010-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-069",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-009-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-009"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-009-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-010-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-011-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-070",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-010-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-010"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-010-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-011-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-012-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-071",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-011-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-011"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-011-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-012-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-013-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-072",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-012-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-012"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-012-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-013-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-014-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-073",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-013-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-013"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-013-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-014-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-015-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-074",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-014-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-014"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-014-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-015-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-016-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-075",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-015-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-015"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-015-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-016-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-017-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-076",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-016-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-016"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-016-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-017-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-018-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-077",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-017-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-017"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-017-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-018-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-019-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-078",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-018-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-018"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-018-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-019-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-020-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-079",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-019-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-019"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-019-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-020-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-021-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-080",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-020-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-020"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-020-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-021-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-022-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-081",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-021-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-021"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-021-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-022-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-023-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-082",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-022-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-022"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-022-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-023-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-024-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-083",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-023-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-023"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-023-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-024-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-025-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-084",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-024-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-024"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-024-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-025-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-026-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-085",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-025-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-025"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-025-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-026-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-027-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-086",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-026-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-026"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-026-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-027-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-028-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-087",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-027-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-027"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-027-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-028-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-029-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-088",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-028-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-028"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-028-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-029-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-030-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-089",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-029-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-029"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-029-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-030-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-031-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-090",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-030-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-030"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-030-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-031-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-032-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-091",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-031-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-031"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-031-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-032-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-033-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-092",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-032-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-032"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-032-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-033-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-034-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-093",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-033-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-033"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-033-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-034-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-035-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-094",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-034-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-034"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-034-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-035-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-036-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-095",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-035-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-035"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-035-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-036-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-037-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-096",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-036-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-036"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-036-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-037-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-038-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-097",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-037-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-037"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-037-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-038-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-039-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-098",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-038-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-038"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-038-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-039-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-040-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-099",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-039-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-039"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-039-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-040-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-041-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-100",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-040-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-040"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-040-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-041-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-042-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-101",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-041-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-041"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-041-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-042-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-043-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-102",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-042-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-042"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-042-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-043-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-044-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-103",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-043-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-043"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-043-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-044-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-045-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-104",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-044-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-044"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-044-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-045-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-046-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-105",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-045-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-045"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-045-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-046-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-047-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-106",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-046-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-046"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-046-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-047-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-048-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-107",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-047-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-047"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-047-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-048-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-049-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-108",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-048-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-048"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-048-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-049-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-050-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-109",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-049-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-049"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-049-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-050-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-051-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-110",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-050-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-050"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-050-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-051-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-052-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-111",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-051-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-051"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-051-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-052-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-053-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-112",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-052-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-052"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-052-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-053-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-054-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-113",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-053-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-053"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-053-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-054-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-055-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-114",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-054-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-054"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-054-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-055-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-056-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-115",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-055-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-055"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-055-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-056-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-057-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-116",
+      "query": "Find evidence about payment recovery.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-056-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-056"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-056-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-057-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-058-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-117",
+      "query": "Find evidence about onboarding friction.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-057-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-057"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-057-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-058-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-059-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-118",
+      "query": "Find evidence about retention experiment.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-058-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-058"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-058-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-059-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-060-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-119",
+      "query": "Find evidence about permission failures.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-059-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-059"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-059-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-060-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-001-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    },
+    {
+      "id": "SYN-RAG-120",
+      "query": "Find evidence about prior decision.",
+      "gold_relevant_chunk_ids": [
+        "SYN-DOC-060-c0"
+      ],
+      "acceptable_source_ids": [
+        "SYN-DOC-060"
+      ],
+      "annotation_status": "synthetic_gold",
+      "synthetic": true,
+      "results": [
+        {
+          "id": "SYN-DOC-060-c0",
+          "score": 1,
+          "rrf_score": 1
+        },
+        {
+          "id": "SYN-DOC-001-c0",
+          "score": 0.1,
+          "rrf_score": 0.1
+        },
+        {
+          "id": "SYN-DOC-002-c0",
+          "score": 0.05,
+          "rrf_score": 0.05
+        }
+      ]
+    }
+  ]
+}

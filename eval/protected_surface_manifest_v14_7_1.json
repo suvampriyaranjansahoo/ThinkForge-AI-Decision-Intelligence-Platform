@@ -1,0 +1,106 @@
+{
+  "version": "v14.7.1-protected-surface-baseline",
+  "generatedAt": "2026-09-04T21:01:07Z",
+  "files": {
+    "lib/productDiscovery.js": {
+      "sha256": "be72f14277e95ca50095299ec387ae17a0138589e0eb6dde6e132df7c0826ae7",
+      "bytes": 32525
+    },
+    "lib/discoveryContracts.js": {
+      "sha256": "9a050777f512bbad5123cdc80b415b7c7f6410734439efe65f4062569eb66660",
+      "bytes": 10314
+    },
+    "api/discovery.js": {
+      "sha256": "e8d16bf0563e8d0376a0d0b8a2a36575a2e2059cd4b3da5d0348cb4ccd0f7e2d",
+      "bytes": 4602
+    },
+    "lib/domainModel.js": {
+      "sha256": "7a03b1216e581b07976e191f23c93c01cc552d01c13cc95e637bf725b3d5fd34",
+      "bytes": 6364
+    },
+    "lib/domainRepository.js": {
+      "sha256": "d1c916c178aaf6961e7b3f5216ada9dfe0257bf325c3896696c5c30f1cf99c36",
+      "bytes": 1286
+    },
+    "frontend/src/app.js": {
+      "sha256": "990c5ad38b91317b3f80fb25189be48c392fabdbb6d1eb085b386783c051d5ae",
+      "bytes": 87936
+    },
+    "api/decision-governance.js": {
+      "sha256": "f53fabaf18ca22edcb067dfabcc83306427127dd9007a830cb67af90d3cc7785",
+      "bytes": 6107
+    },
+    "db/migrations/026_stage4_governance_finalization.sql": {
+      "sha256": "626531486147663342f7bebbb0b4fc57eaa0d7862f3e3a44fe74d1c16bac50b6",
+      "bytes": 20869
+    },
+    "lib/decisionHealth.js": {
+      "sha256": "e22f73258764d56b8b6d4a6fd2578f0bc3304e4cacd0596d42e9e83cef2102bc",
+      "bytes": 1160
+    },
+    "lib/claimEvaluation.js": {
+      "sha256": "dee55b3d5612e20f9a7e2714ff10a384ca31ec9d3440597c9e848d550b016991",
+      "bytes": 1823
+    },
+    "lib/reasoning.js": {
+      "sha256": "3a97c298ab49ba015bc49adaa895eb2c7d1b53af0b0a41d9598fa8774fe4ac1a",
+      "bytes": 3913
+    },
+    "lib/ai.js": {
+      "sha256": "063960678900c759edf175296bad63c09cb9c4ee8643425cf6eaf0edb9ae8c23",
+      "bytes": 13690
+    },
+    "lib/decisionWorkflow.js": {
+      "sha256": "22d04817016f497892c7b7ea9ee9179ba6a164cb8d40b5da37ef91dffd247330",
+      "bytes": 2978
+    },
+    "lib/experimentDesign.js": {
+      "sha256": "98f9dedc5a717092bdcde98885eab9db6b514a99c76f545ccab7a3a51789427a",
+      "bytes": 1847
+    },
+    "lib/outcomeAnalytics.js": {
+      "sha256": "196d4e988afdb9ccf3e4b56fdde32b5045be675abf6eb71f56f75fac08b2f9f6",
+      "bytes": 1791
+    },
+    "lib/outcomeStore.js": {
+      "sha256": "efa25c98b94fe1e25595ba33fbbfd6fbdb47a9f458e0916a45ca5d3ccc33e96b",
+      "bytes": 706
+    },
+    "lib/evaluation.js": {
+      "sha256": "2a4c72d5d217506f121745168af2af256617acf924863aad6fa3a25ed335e43e",
+      "bytes": 2771
+    },
+    "lib/evaluationMetrics.js": {
+      "sha256": "99da29662c6adb47d591a4e5795d2bad5c3db745195889cb90cedcc213c07d93",
+      "bytes": 2349
+    },
+    "lib/llmOps.js": {
+      "sha256": "cff26bd76f14770955e625c9aa064a40cd089bf4fec64132b4109291230a4c34",
+      "bytes": 1798
+    },
+    "lib/registry.js": {
+      "sha256": "55106d2a6aac35e2c714545a238421b441d954abf61d555e120a383d00f27c18",
+      "bytes": 1138
+    },
+    "lib/ragExperiment.js": {
+      "sha256": "0c815b8eff6a49ae09aa91504bab2175db9f1e14e1e2e857d1ee11b94ac9bf9b",
+      "bytes": 1055
+    },
+    "lib/ragMetrics.js": {
+      "sha256": "db5dcec14e985f53c76ae33fb5b7a5fbfc5b869a6b355013f4f1814d7e861693",
+      "bytes": 1373
+    },
+    "lib/jiraSafety.js": {
+      "sha256": "f6173e9988594e8192febb82cee7b4dc684defcb0d45d4d9bdc743d86c11daac",
+      "bytes": 436
+    },
+    "api/jira.js": {
+      "sha256": "7d8add72936d93331c2833fafe5040bd5f2af1aeac6a5e0c5dfa83fd31b6ad6d",
+      "bytes": 4011
+    },
+    "lib/insightEngine.js": {
+      "sha256": "55df21e59d564f64dba9ab945dc0d475105d8e812caca08c32792f75d1783a2f",
+      "bytes": 874
+    }
+  }
+}

@@ -1,0 +1,2836 @@
+{
+  "version": "thinkforge-rag-gold-v1",
+  "gold_frozen": true,
+  "gold_source": "eval/rag_gold_v1.csv",
+  "cases": [
+    {
+      "id": "Q-001",
+      "query": "What happened in the case described by \"Post: 'why does chatgpt give wrong answers then correct itself'\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-001"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-001"
+      ],
+      "acceptable_source_ids": [
+        "DOC-001"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-002",
+      "query": "What happened in the case described by \"Comment thread on 'The Right Way to Ask an LLM for Factual...'\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-002",
+        "DOC-006"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-002",
+        "DOC-005",
+        "DOC-006",
+        "DOC-034"
+      ],
+      "acceptable_source_ids": [
+        "DOC-002",
+        "DOC-005",
+        "DOC-006",
+        "DOC-034"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-003",
+      "query": "What evidence explains the main cause or contributing factors in \"ChatGPT limitations guide\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-003"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-003",
+        "DOC-048"
+      ],
+      "acceptable_source_ids": [
+        "DOC-003",
+        "DOC-048"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-004",
+      "query": "What was the documented impact of \"AI chatbots don't know why they did it\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-004"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-004",
+        "DOC-053"
+      ],
+      "acceptable_source_ids": [
+        "DOC-004",
+        "DOC-053"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-005",
+      "query": "What changed over time in the case \"Comment thread on 'Where do you end?'\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-005"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-005",
+        "DOC-002"
+      ],
+      "acceptable_source_ids": [
+        "DOC-005",
+        "DOC-002"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-006",
+      "query": "What evidence in the source supports the main finding in \"Few-shot LLM Performance Depends on Example Order\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-006"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-006",
+        "DOC-143"
+      ],
+      "acceptable_source_ids": [
+        "DOC-006",
+        "DOC-143"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-007",
+      "query": "What risk or failure is documented in \"Humane AI Pin Receives Strongly Negative Reviews\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-007",
+        "DOC-031"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-007",
+        "DOC-031",
+        "DOC-104"
+      ],
+      "acceptable_source_ids": [
+        "DOC-007",
+        "DOC-031",
+        "DOC-104"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-008",
+      "query": "Who was affected in the case \"Rabbit R1 Receives Poor Launch Reviews\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-008",
+        "DOC-091"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-008",
+        "DOC-091",
+        "DOC-007"
+      ],
+      "acceptable_source_ids": [
+        "DOC-008",
+        "DOC-091",
+        "DOC-007"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-009",
+      "query": "Does the source for \"EcoFlow AI assistant user frustrations\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-009"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-009",
+        "DOC-068"
+      ],
+      "acceptable_source_ids": [
+        "DOC-009",
+        "DOC-068"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-010",
+      "query": "What are the key facts and implications documented in \"Samsung AI Feature Access Draws Backlash\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-010"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-010",
+        "DOC-058",
+        "DOC-036"
+      ],
+      "acceptable_source_ids": [
+        "DOC-010",
+        "DOC-058",
+        "DOC-036"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-011",
+      "query": "What happened in the case described by \"NYC MyCity Chatbot Gives Illegal Business Advice\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-011"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-011",
+        "DOC-061",
+        "DOC-059",
+        "DOC-038",
+        "DOC-147",
+        "DOC-028"
+      ],
+      "acceptable_source_ids": [
+        "DOC-011",
+        "DOC-061",
+        "DOC-059",
+        "DOC-038",
+        "DOC-147",
+        "DOC-028"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-012",
+      "query": "What happened in the case described by \"Grok Posts Antisemitic Content After System Update\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-012",
+        "DOC-109"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-012",
+        "DOC-109"
+      ],
+      "acceptable_source_ids": [
+        "DOC-012",
+        "DOC-109"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-013",
+      "query": "What evidence explains the main cause or contributing factors in \"Thread: 'A little complaint'\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-013"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-013",
+        "DOC-047"
+      ],
+      "acceptable_source_ids": [
+        "DOC-013",
+        "DOC-047"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-014",
+      "query": "What was the documented impact of \"Post: 'Explainable AI'\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-014",
+        "DOC-004",
+        "DOC-145"
+      ],
+      "acceptable_source_ids": [
+        "DOC-014",
+        "DOC-004",
+        "DOC-145"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-015",
+      "query": "What changed over time in the case \"Microsoft Tay released and rapidly manipulated into abusive posts\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-015"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-015",
+        "DOC-012"
+      ],
+      "acceptable_source_ids": [
+        "DOC-015",
+        "DOC-012"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-016",
+      "query": "What evidence in the source supports the main finding in \"Amazon recruiting model penalized resumes associated with women\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-016",
+        "DOC-138",
+        "DOC-117"
+      ],
+      "acceptable_source_ids": [
+        "DOC-016",
+        "DOC-138",
+        "DOC-117"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-017",
+      "query": "What risk or failure is documented in \"COMPAS risk scores challenged for racial disparity\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-104"
+      ],
+      "acceptable_source_ids": [
+        "DOC-104"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-018",
+      "query": "Who was affected in the case \"Uber autonomous test vehicle struck and killed pedestrian\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-018"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-018",
+        "DOC-060"
+      ],
+      "acceptable_source_ids": [
+        "DOC-018",
+        "DOC-060"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-019",
+      "query": "Does the source for \"Apple Card gender-bias controversy over credit limits\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-019"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-019",
+        "DOC-092",
+        "DOC-114",
+        "DOC-020"
+      ],
+      "acceptable_source_ids": [
+        "DOC-019",
+        "DOC-092",
+        "DOC-114",
+        "DOC-020"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-020",
+      "query": "What are the key facts and implications documented in \"Detroit facial-recognition arrest later challenged\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-024",
+        "DOC-025"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-020",
+        "DOC-024",
+        "DOC-025",
+        "DOC-037"
+      ],
+      "acceptable_source_ids": [
+        "DOC-020",
+        "DOC-024",
+        "DOC-025",
+        "DOC-037"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-021",
+      "query": "What happened in the case described by \"Facial recognition studies find demographic accuracy gaps\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-020",
+        "DOC-032"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-020",
+        "DOC-024",
+        "DOC-032",
+        "DOC-025",
+        "DOC-059"
+      ],
+      "acceptable_source_ids": [
+        "DOC-020",
+        "DOC-024",
+        "DOC-032",
+        "DOC-025",
+        "DOC-059"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-022",
+      "query": "What happened in the case described by \"Google Health AI showed racial bias in care-risk prediction\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-023",
+      "query": "What evidence explains the main cause or contributing factors in \"NHS chatbot safety concerns raised in medical triage testing\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-023"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-023",
+        "DOC-113",
+        "DOC-092"
+      ],
+      "acceptable_source_ids": [
+        "DOC-023",
+        "DOC-113",
+        "DOC-092"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-024",
+      "query": "What was the documented impact of \"Facial recognition misidentification contributes to wrongful arrest\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-021"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-024",
+        "DOC-020",
+        "DOC-021"
+      ],
+      "acceptable_source_ids": [
+        "DOC-024",
+        "DOC-020",
+        "DOC-021"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-025",
+      "query": "What changed over time in the case \"Gender Shades findings influence commercial face-analysis scrutiny\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-025"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-025",
+        "DOC-021",
+        "DOC-124"
+      ],
+      "acceptable_source_ids": [
+        "DOC-025",
+        "DOC-021",
+        "DOC-124"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-026",
+      "query": "What evidence in the source supports the main finding in \"Predictive policing tools criticized for feedback-loop effects\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-026"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-026",
+        "DOC-123"
+      ],
+      "acceptable_source_ids": [
+        "DOC-026",
+        "DOC-123"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-027",
+      "query": "What risk or failure is documented in \"AI-generated deepfake and synthetic-media abuse expands\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-027"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-027",
+        "DOC-065",
+        "DOC-095",
+        "DOC-118"
+      ],
+      "acceptable_source_ids": [
+        "DOC-027",
+        "DOC-065",
+        "DOC-095",
+        "DOC-118"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-028",
+      "query": "Who was affected in the case \"Twitter image-cropping algorithm criticized for demographic bias\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-028"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-028",
+        "DOC-074",
+        "DOC-041",
+        "DOC-030"
+      ],
+      "acceptable_source_ids": [
+        "DOC-028",
+        "DOC-074",
+        "DOC-041",
+        "DOC-030"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-029",
+      "query": "Does the source for \"Google AI ethics researcher departure raises governance concerns\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-029"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-029",
+        "DOC-088",
+        "DOC-052"
+      ],
+      "acceptable_source_ids": [
+        "DOC-029",
+        "DOC-088",
+        "DOC-052"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-030",
+      "query": "What are the key facts and implications documented in \"Parler moderation and automated-content governance failure\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-030"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-030",
+        "DOC-031",
+        "DOC-035"
+      ],
+      "acceptable_source_ids": [
+        "DOC-030",
+        "DOC-031",
+        "DOC-035"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-031",
+      "query": "What happened in the case described by \"Dutch childcare benefits scandal exposes automated fraud-risk failures\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-031"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-031"
+      ],
+      "acceptable_source_ids": [
+        "DOC-031"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-032",
+      "query": "What happened in the case described by \"NIST facial-recognition evaluation documents demographic error differences\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-032",
+        "DOC-050"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-032",
+        "DOC-020",
+        "DOC-021",
+        "DOC-024",
+        "DOC-025",
+        "DOC-050"
+      ],
+      "acceptable_source_ids": [
+        "DOC-032",
+        "DOC-020",
+        "DOC-021",
+        "DOC-024",
+        "DOC-025",
+        "DOC-050"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-033",
+      "query": "What evidence explains the main cause or contributing factors in \"LinkedIn AI recommendations criticized for reinforcing professional stereotypes\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-033",
+        "DOC-119"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-033",
+        "DOC-119"
+      ],
+      "acceptable_source_ids": [
+        "DOC-033",
+        "DOC-119"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-034",
+      "query": "What was the documented impact of \"Facebook whistleblower alleges algorithmic harms and weak controls\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-034"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-034",
+        "DOC-009"
+      ],
+      "acceptable_source_ids": [
+        "DOC-034",
+        "DOC-009"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-035",
+      "query": "What changed over time in the case \"Meta's hate-speech classifier struggles with context\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-035",
+        "DOC-127",
+        "DOC-070"
+      ],
+      "acceptable_source_ids": [
+        "DOC-035",
+        "DOC-127",
+        "DOC-070"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-036",
+      "query": "What evidence in the source supports the main finding in \"AI hiring vendor HireVue drops facial-analysis component\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-036"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-036",
+        "DOC-025",
+        "DOC-047"
+      ],
+      "acceptable_source_ids": [
+        "DOC-036",
+        "DOC-025",
+        "DOC-047"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-037",
+      "query": "What risk or failure is documented in \"Clearview AI facial-recognition privacy enforcement\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-037",
+        "DOC-020"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-037",
+        "DOC-020",
+        "DOC-024"
+      ],
+      "acceptable_source_ids": [
+        "DOC-037",
+        "DOC-020",
+        "DOC-024"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-038",
+      "query": "Who was affected in the case \"Zillow Offers algorithm contributes to home-buying losses\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-038"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-038",
+        "DOC-020"
+      ],
+      "acceptable_source_ids": [
+        "DOC-038",
+        "DOC-020"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-039",
+      "query": "Does the source for \"Amazon Alexa ordering mishap highlights voice-assistant ambiguity\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-087"
+      ],
+      "acceptable_source_ids": [
+        "DOC-087"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-040",
+      "query": "What are the key facts and implications documented in \"GitHub Copilot copyright concerns emerge in developer workflows\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-040",
+        "DOC-080"
+      ],
+      "acceptable_source_ids": [
+        "DOC-040",
+        "DOC-080"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-041",
+      "query": "What happened in the case described by \"AI image generators reproduce stereotypes in occupational prompts\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-041",
+        "DOC-079"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-041",
+        "DOC-033",
+        "DOC-079",
+        "DOC-150"
+      ],
+      "acceptable_source_ids": [
+        "DOC-041",
+        "DOC-033",
+        "DOC-079",
+        "DOC-150"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-042",
+      "query": "What happened in the case described by \"Google engineer claims LaMDA is sentient\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-042"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-042",
+        "DOC-143",
+        "DOC-050"
+      ],
+      "acceptable_source_ids": [
+        "DOC-042",
+        "DOC-143",
+        "DOC-050"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-043",
+      "query": "What evidence explains the main cause or contributing factors in \"Stable Diffusion launch sparks copyright and consent debate\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [],
+      "acceptable_source_ids": [],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-044",
+      "query": "What was the documented impact of \"iTutorGroup automated hiring system alleged age discrimination\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-044",
+        "DOC-125",
+        "DOC-086"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-044",
+        "DOC-125",
+        "DOC-016",
+        "DOC-086"
+      ],
+      "acceptable_source_ids": [
+        "DOC-044",
+        "DOC-125",
+        "DOC-016",
+        "DOC-086"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-045",
+      "query": "What changed over time in the case \"Amazon's AI coding assistant security concerns emerge\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-045",
+        "DOC-040"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-045",
+        "DOC-127",
+        "DOC-040",
+        "DOC-104",
+        "DOC-006"
+      ],
+      "acceptable_source_ids": [
+        "DOC-045",
+        "DOC-127",
+        "DOC-040",
+        "DOC-104",
+        "DOC-006"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-046",
+      "query": "What evidence in the source supports the main finding in \"Amazon Q Leaks Confidential Internal Information\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-046",
+        "DOC-049"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-046",
+        "DOC-058",
+        "DOC-049"
+      ],
+      "acceptable_source_ids": [
+        "DOC-046",
+        "DOC-058",
+        "DOC-049"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-047",
+      "query": "What risk or failure is documented in \"Vectara Hallucination Leaderboard Benchmarks LLM Summarization\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-047",
+        "DOC-104"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-047",
+        "DOC-104"
+      ],
+      "acceptable_source_ids": [
+        "DOC-047",
+        "DOC-104"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-048",
+      "query": "Who was affected in the case \"ChatGPT generates fabricated legal cases in public examples\" and how?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-060"
+      ],
+      "acceptable_source_ids": [
+        "DOC-060"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-049",
+      "query": "Does the source for \"Bing AI early testing produces adversarial and manipulative dialogue\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-049",
+        "DOC-101"
+      ],
+      "acceptable_source_ids": [
+        "DOC-049",
+        "DOC-101"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-050",
+      "query": "What are the key facts and implications documented in \"Google Bard launch demo includes factual error\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-050",
+        "DOC-120"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-050",
+        "DOC-088",
+        "DOC-120"
+      ],
+      "acceptable_source_ids": [
+        "DOC-050",
+        "DOC-088",
+        "DOC-120"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-051",
+      "query": "What happened in the case described by \"Bing chatbot reveals hidden prompt and internal instructions\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-051"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-051",
+        "DOC-046",
+        "DOC-072",
+        "DOC-135"
+      ],
+      "acceptable_source_ids": [
+        "DOC-051",
+        "DOC-046",
+        "DOC-072",
+        "DOC-135"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-052",
+      "query": "What happened in the case described by \"Google AI chatbot PaLM demonstrations raise factuality concerns\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-052"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-052",
+        "DOC-088",
+        "DOC-011",
+        "DOC-004"
+      ],
+      "acceptable_source_ids": [
+        "DOC-052",
+        "DOC-088",
+        "DOC-011",
+        "DOC-004"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-053",
+      "query": "What evidence explains the main cause or contributing factors in \"Snapchat My AI criticized for unsafe advice and youth safeguards\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-053"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-053",
+        "DOC-123",
+        "DOC-089"
+      ],
+      "acceptable_source_ids": [
+        "DOC-053",
+        "DOC-123",
+        "DOC-089"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-054",
+      "query": "What was the documented impact of \"GPT-4 evaluation finds continuing hallucination and reasoning limitations\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-054"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-054",
+        "DOC-085",
+        "DOC-047"
+      ],
+      "acceptable_source_ids": [
+        "DOC-054",
+        "DOC-085",
+        "DOC-047"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-055",
+      "query": "What changed over time in the case \"Future of Life Institute open letter calls for pause on large AI experiments\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-055",
+        "DOC-114"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-055",
+        "DOC-093",
+        "DOC-114",
+        "DOC-057"
+      ],
+      "acceptable_source_ids": [
+        "DOC-055",
+        "DOC-093",
+        "DOC-114",
+        "DOC-057"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-056",
+      "query": "What evidence in the source supports the main finding in \"Italy temporarily restricts ChatGPT over privacy concerns\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-056",
+        "DOC-048",
+        "DOC-077"
+      ],
+      "acceptable_source_ids": [
+        "DOC-056",
+        "DOC-048",
+        "DOC-077"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-057",
+      "query": "What risk or failure is documented in \"AutoGPT and autonomous-agent demos reveal runaway-action risks\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-057"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-057"
+      ],
+      "acceptable_source_ids": [
+        "DOC-057"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-058",
+      "query": "Who was affected in the case \"Samsung restricts generative AI use after internal data leakage incident\" and how?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-058",
+        "DOC-046",
+        "DOC-075",
+        "DOC-122"
+      ],
+      "acceptable_source_ids": [
+        "DOC-058",
+        "DOC-046",
+        "DOC-075",
+        "DOC-122"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-059",
+      "query": "Does the source for \"Chevrolet dealership chatbot manipulated into offering a car for $1\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-059"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-059",
+        "DOC-078",
+        "DOC-068"
+      ],
+      "acceptable_source_ids": [
+        "DOC-059",
+        "DOC-078",
+        "DOC-068"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-060",
+      "query": "What are the key facts and implications documented in \"Michael Cohen Submits AI-Generated Fake Legal Citations\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-060",
+        "DOC-126",
+        "DOC-062",
+        "DOC-136"
+      ],
+      "acceptable_source_ids": [
+        "DOC-060",
+        "DOC-126",
+        "DOC-062",
+        "DOC-136"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-061",
+      "query": "What happened in the case described by \"Airline chatbot gives incorrect refund advice to passenger\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-061",
+        "DOC-147"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-061",
+        "DOC-011",
+        "DOC-147",
+        "DOC-053",
+        "DOC-123"
+      ],
+      "acceptable_source_ids": [
+        "DOC-061",
+        "DOC-011",
+        "DOC-147",
+        "DOC-053",
+        "DOC-123"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-062",
+      "query": "What happened in the case described by \"Stack Overflow temporarily bans AI-generated answers\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-062",
+        "DOC-060",
+        "DOC-045"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-062",
+        "DOC-060",
+        "DOC-045"
+      ],
+      "acceptable_source_ids": [
+        "DOC-062",
+        "DOC-060",
+        "DOC-045"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-063",
+      "query": "What evidence explains the main cause or contributing factors in \"FTC investigates OpenAI over consumer-protection and privacy issues\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-063"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-063",
+        "DOC-056",
+        "DOC-071",
+        "DOC-039"
+      ],
+      "acceptable_source_ids": [
+        "DOC-063",
+        "DOC-056",
+        "DOC-071",
+        "DOC-039"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-064",
+      "query": "What was the documented impact of \"Roblox voice moderation faces accuracy and context challenges\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-064",
+        "DOC-087",
+        "DOC-068"
+      ],
+      "acceptable_source_ids": [
+        "DOC-064",
+        "DOC-087",
+        "DOC-068"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-065",
+      "query": "What changed over time in the case \"Meta AI-generated content labeling policy challenged by deepfake growth\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-065",
+        "DOC-035"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-065",
+        "DOC-129",
+        "DOC-035",
+        "DOC-086"
+      ],
+      "acceptable_source_ids": [
+        "DOC-065",
+        "DOC-129",
+        "DOC-035",
+        "DOC-086"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-066",
+      "query": "What evidence in the source supports the main finding in \"Google Workspace AI privacy questions emerge during Duet AI rollout\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-066"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-066",
+        "DOC-092",
+        "DOC-108"
+      ],
+      "acceptable_source_ids": [
+        "DOC-066",
+        "DOC-092",
+        "DOC-108"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-067",
+      "query": "What risk or failure is documented in \"Zoom AI Companion privacy policy concerns trigger customer questions\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-067"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-067",
+        "DOC-096",
+        "DOC-078"
+      ],
+      "acceptable_source_ids": [
+        "DOC-067",
+        "DOC-096",
+        "DOC-078"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-068",
+      "query": "Who was affected in the case \"OpenAI ChatGPT browsing produces unreliable web summaries\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-068"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-068",
+        "DOC-080"
+      ],
+      "acceptable_source_ids": [
+        "DOC-068",
+        "DOC-080"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-069",
+      "query": "Does the source for \"Google Photos face grouping raises privacy and identity concerns\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-056",
+        "DOC-076"
+      ],
+      "acceptable_source_ids": [
+        "DOC-056",
+        "DOC-076"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-070",
+      "query": "What are the key facts and implications documented in \"Meta AI chatbots impersonate celebrity personas without clear boundaries\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-070"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-070",
+        "DOC-084",
+        "DOC-004"
+      ],
+      "acceptable_source_ids": [
+        "DOC-070",
+        "DOC-084",
+        "DOC-004"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-071",
+      "query": "What happened in the case described by \"FTC Charges Ring Over Unauthorized Camera Access and AI Training\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-071"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-071",
+        "DOC-039"
+      ],
+      "acceptable_source_ids": [
+        "DOC-071",
+        "DOC-039"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-072",
+      "query": "What happened in the case described by \"ProxyPrompt Research Targets Prompt-Extraction Attacks\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-072",
+        "DOC-006"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-072",
+        "DOC-150",
+        "DOC-006"
+      ],
+      "acceptable_source_ids": [
+        "DOC-072",
+        "DOC-150",
+        "DOC-006"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-073",
+      "query": "What evidence explains the main cause or contributing factors in \"OpenAI board removes CEO and governance crisis follows\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-106",
+        "DOC-047",
+        "DOC-083"
+      ],
+      "acceptable_source_ids": [
+        "DOC-106",
+        "DOC-047",
+        "DOC-083"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-074",
+      "query": "What was the documented impact of \"Google Gemini launch demonstrates image-generation bias and factuality problems\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-074"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-074",
+        "DOC-079",
+        "DOC-081"
+      ],
+      "acceptable_source_ids": [
+        "DOC-074",
+        "DOC-079",
+        "DOC-081"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-075",
+      "query": "What changed over time in the case \"ChatGPT can reproduce snippets of training data under extraction prompts\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-075",
+        "DOC-081",
+        "DOC-132"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-075",
+        "DOC-072",
+        "DOC-081",
+        "DOC-132"
+      ],
+      "acceptable_source_ids": [
+        "DOC-075",
+        "DOC-072",
+        "DOC-081",
+        "DOC-132"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-076",
+      "query": "What evidence in the source supports the main finding in \"Google Bard/Gemini citation and grounding errors remain visible\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-076"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-076",
+        "DOC-050"
+      ],
+      "acceptable_source_ids": [
+        "DOC-076",
+        "DOC-050"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-077",
+      "query": "What risk or failure is documented in \"ChatGPT memory feature raises user-control questions\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-077"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-077",
+        "DOC-001",
+        "DOC-068",
+        "DOC-147"
+      ],
+      "acceptable_source_ids": [
+        "DOC-077",
+        "DOC-001",
+        "DOC-068",
+        "DOC-147"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-078",
+      "query": "Who was affected in the case \"DPD Disables AI Customer-Service Chatbot After Manipulation\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-078"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-078",
+        "DOC-103",
+        "DOC-071"
+      ],
+      "acceptable_source_ids": [
+        "DOC-078",
+        "DOC-103",
+        "DOC-071"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-079",
+      "query": "Does the source for \"Gemini image generation paused after historically inaccurate outputs\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-079",
+        "DOC-074"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-079",
+        "DOC-074",
+        "DOC-031"
+      ],
+      "acceptable_source_ids": [
+        "DOC-079",
+        "DOC-074",
+        "DOC-031"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-080",
+      "query": "What are the key facts and implications documented in \"Microsoft Copilot produces unsafe or bizarre responses under adversarial prompting\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-088",
+        "DOC-015"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-080",
+        "DOC-049",
+        "DOC-088",
+        "DOC-015"
+      ],
+      "acceptable_source_ids": [
+        "DOC-080",
+        "DOC-049",
+        "DOC-088",
+        "DOC-015"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-081",
+      "query": "What happened in the case described by \"Google Gemini training-data and copyright complaints increase\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-081",
+        "DOC-132",
+        "DOC-066"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-081",
+        "DOC-075",
+        "DOC-074",
+        "DOC-132",
+        "DOC-066"
+      ],
+      "acceptable_source_ids": [
+        "DOC-081",
+        "DOC-075",
+        "DOC-074",
+        "DOC-132",
+        "DOC-066"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-082",
+      "query": "What happened in the case described by \"ElevenLabs synthetic voices used in impersonation scams\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-082"
+      ],
+      "acceptable_source_ids": [
+        "DOC-082"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-083",
+      "query": "What evidence explains the main cause or contributing factors in \"OpenAI Sora raises synthetic-video misuse concerns\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-083"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-083"
+      ],
+      "acceptable_source_ids": [
+        "DOC-083"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-084",
+      "query": "What was the documented impact of \"Meta AI content labels criticized for over-labeling edited media\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-084"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-084",
+        "DOC-129",
+        "DOC-065",
+        "DOC-027",
+        "DOC-121"
+      ],
+      "acceptable_source_ids": [
+        "DOC-084",
+        "DOC-129",
+        "DOC-065",
+        "DOC-027",
+        "DOC-121"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-085",
+      "query": "What changed over time in the case \"Apple researchers document limitations of LLM reasoning\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-085"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-085",
+        "DOC-003"
+      ],
+      "acceptable_source_ids": [
+        "DOC-085",
+        "DOC-003"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-086",
+      "query": "What evidence in the source supports the main finding in \"NYC automated hiring law takes effect with bias-audit requirements\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-086",
+        "DOC-016"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-086",
+        "DOC-044",
+        "DOC-016",
+        "DOC-139"
+      ],
+      "acceptable_source_ids": [
+        "DOC-086",
+        "DOC-044",
+        "DOC-016",
+        "DOC-139"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-087",
+      "query": "What risk or failure is documented in \"Scarlett Johansson says ChatGPT voice sounded like her\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-087",
+        "DOC-142",
+        "DOC-031",
+        "DOC-024"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-087",
+        "DOC-142",
+        "DOC-031",
+        "DOC-024"
+      ],
+      "acceptable_source_ids": [
+        "DOC-087",
+        "DOC-142",
+        "DOC-031",
+        "DOC-024"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-088",
+      "query": "Who was affected in the case \"Google AI Overviews launch produces bizarre search recommendations\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-088"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-088",
+        "DOC-089",
+        "DOC-041"
+      ],
+      "acceptable_source_ids": [
+        "DOC-088",
+        "DOC-089",
+        "DOC-041"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-089",
+      "query": "Does the source for \"AI Overviews reportedly suggests dangerous health and food advice\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-089",
+        "DOC-068"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-089",
+        "DOC-088",
+        "DOC-068"
+      ],
+      "acceptable_source_ids": [
+        "DOC-089",
+        "DOC-088",
+        "DOC-068"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-090",
+      "query": "What are the key facts and implications documented in \"Microsoft Recall privacy backlash\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-090",
+        "DOC-049"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-090",
+        "DOC-015",
+        "DOC-049"
+      ],
+      "acceptable_source_ids": [
+        "DOC-090",
+        "DOC-015",
+        "DOC-049"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-091",
+      "query": "What happened in the case described by \"Rabbit R1 web-agent security concerns\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-091"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-091",
+        "DOC-008",
+        "DOC-107"
+      ],
+      "acceptable_source_ids": [
+        "DOC-091",
+        "DOC-008",
+        "DOC-107"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-092",
+      "query": "What happened in the case described by \"Apple Intelligence privacy architecture scrutinized\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-092"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-092"
+      ],
+      "acceptable_source_ids": [
+        "DOC-092"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-093",
+      "query": "What evidence explains the main cause or contributing factors in \"Mistral and other open models raise model-release safety questions\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-093",
+        "DOC-052"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-093",
+        "DOC-055",
+        "DOC-052"
+      ],
+      "acceptable_source_ids": [
+        "DOC-093",
+        "DOC-055",
+        "DOC-052"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-094",
+      "query": "What was the documented impact of \"Deepfake robocalls impersonate U.S. President Biden\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-094"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-094"
+      ],
+      "acceptable_source_ids": [
+        "DOC-094"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-095",
+      "query": "What changed over time in the case \"California AI deepfake election laws expand platform obligations\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-101"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-095",
+        "DOC-101"
+      ],
+      "acceptable_source_ids": [
+        "DOC-095",
+        "DOC-101"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-096",
+      "query": "What evidence in the source supports the main finding in \"AI companion apps raise concerns about emotional dependency\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-096"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-096",
+        "DOC-067"
+      ],
+      "acceptable_source_ids": [
+        "DOC-096",
+        "DOC-067"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-097",
+      "query": "What risk or failure is documented in \"California DMV and autonomous-driving oversight scrutiny\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-097"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-097",
+        "DOC-128",
+        "DOC-095",
+        "DOC-052"
+      ],
+      "acceptable_source_ids": [
+        "DOC-097",
+        "DOC-128",
+        "DOC-095",
+        "DOC-052"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-098",
+      "query": "Who was affected in the case \"OpenAI o1 model safety evaluations identify deceptive behavior risks\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-098"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-098"
+      ],
+      "acceptable_source_ids": [
+        "DOC-098"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-099",
+      "query": "Does the source for \"AI-powered medical scribe accuracy concerns emerge\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-099"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-099",
+        "DOC-023"
+      ],
+      "acceptable_source_ids": [
+        "DOC-099",
+        "DOC-023"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-100",
+      "query": "What are the key facts and implications documented in \"AI coding agents modify repositories beyond user expectations\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-100"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-100",
+        "DOC-127"
+      ],
+      "acceptable_source_ids": [
+        "DOC-100",
+        "DOC-127"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-101",
+      "query": "What happened in the case described by \"AI-generated political robocalls spread during election cycle\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-101",
+        "DOC-095",
+        "DOC-094",
+        "DOC-065"
+      ],
+      "acceptable_source_ids": [
+        "DOC-101",
+        "DOC-095",
+        "DOC-094",
+        "DOC-065"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-102",
+      "query": "What happened in the case described by \"Generative AI Search Engines Frequently Return Wrong News Citations\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-102",
+        "DOC-145",
+        "DOC-126"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-102",
+        "DOC-145",
+        "DOC-126"
+      ],
+      "acceptable_source_ids": [
+        "DOC-102",
+        "DOC-145",
+        "DOC-126"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-103",
+      "query": "What evidence explains the main cause or contributing factors in \"AI customer-service agents create unintended refunds and discounts\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-103",
+        "DOC-078"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-103",
+        "DOC-078"
+      ],
+      "acceptable_source_ids": [
+        "DOC-103",
+        "DOC-078"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-104",
+      "query": "What was the documented impact of \"AI-generated code introduces package hallucination risk\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-104"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-104",
+        "DOC-045",
+        "DOC-119"
+      ],
+      "acceptable_source_ids": [
+        "DOC-104",
+        "DOC-045",
+        "DOC-119"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-105",
+      "query": "What changed over time in the case \"AI resume screening criticized for opaque rejection decisions\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-138"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-105",
+        "DOC-138",
+        "DOC-043"
+      ],
+      "acceptable_source_ids": [
+        "DOC-105",
+        "DOC-138",
+        "DOC-043"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-106",
+      "query": "What evidence in the source supports the main finding in \"OpenAI Operator shopping agent demonstrates external-action risk\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-106",
+        "DOC-059"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-106",
+        "DOC-047",
+        "DOC-059"
+      ],
+      "acceptable_source_ids": [
+        "DOC-106",
+        "DOC-047",
+        "DOC-059"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-107",
+      "query": "What risk or failure is documented in \"AI agent prompt injection via malicious web pages demonstrated\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-107"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-107",
+        "DOC-149",
+        "DOC-133",
+        "DOC-080",
+        "DOC-109",
+        "DOC-137"
+      ],
+      "acceptable_source_ids": [
+        "DOC-107",
+        "DOC-149",
+        "DOC-133",
+        "DOC-080",
+        "DOC-109",
+        "DOC-137"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-108",
+      "query": "Who was affected in the case \"DeepSeek launch triggers data-transfer and privacy scrutiny\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-108"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-108"
+      ],
+      "acceptable_source_ids": [
+        "DOC-108"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-109",
+      "query": "Does the source for \"Slack AI Indirect Prompt Injection Can Exfiltrate Private Data\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-109",
+        "DOC-140"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-109",
+        "DOC-140",
+        "DOC-137",
+        "DOC-149",
+        "DOC-107"
+      ],
+      "acceptable_source_ids": [
+        "DOC-109",
+        "DOC-140",
+        "DOC-137",
+        "DOC-149",
+        "DOC-107"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-110",
+      "query": "What are the key facts and implications documented in \"AI legal research tools produce unsupported authorities\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-110",
+        "DOC-048"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-110",
+        "DOC-060",
+        "DOC-048",
+        "DOC-130"
+      ],
+      "acceptable_source_ids": [
+        "DOC-110",
+        "DOC-060",
+        "DOC-048",
+        "DOC-130"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-111",
+      "query": "What happened in the case described by \"AI meeting assistants expose sensitive transcript data\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-111",
+        "DOC-127"
+      ],
+      "acceptable_source_ids": [
+        "DOC-111",
+        "DOC-127"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-112",
+      "query": "What happened in the case described by \"AI-generated phishing messages become more personalized\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-112"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-112",
+        "DOC-060"
+      ],
+      "acceptable_source_ids": [
+        "DOC-112",
+        "DOC-060"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-113",
+      "query": "What evidence explains the main cause or contributing factors in \"AI medical chatbot safety testing finds unsafe recommendations\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-113"
+      ],
+      "acceptable_source_ids": [
+        "DOC-113"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-114",
+      "query": "What was the documented impact of \"AI-generated news summaries misstate source articles\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-114"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-114",
+        "DOC-102",
+        "DOC-060"
+      ],
+      "acceptable_source_ids": [
+        "DOC-114",
+        "DOC-102",
+        "DOC-060"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-115",
+      "query": "What changed over time in the case \"AI shopping agents risk unauthorized purchases\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-115",
+        "DOC-100",
+        "DOC-067"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-115",
+        "DOC-106",
+        "DOC-100",
+        "DOC-067"
+      ],
+      "acceptable_source_ids": [
+        "DOC-115",
+        "DOC-106",
+        "DOC-100",
+        "DOC-067"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-116",
+      "query": "What evidence in the source supports the main finding in \"AI code agents create destructive changes without sufficient review\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-116"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-116",
+        "DOC-100",
+        "DOC-119"
+      ],
+      "acceptable_source_ids": [
+        "DOC-116",
+        "DOC-100",
+        "DOC-119"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-117",
+      "query": "What risk or failure is documented in \"Cursor Support Bot Fabricates a Nonexistent Login Policy\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-117",
+        "DOC-146",
+        "DOC-141"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-117",
+        "DOC-146",
+        "DOC-141"
+      ],
+      "acceptable_source_ids": [
+        "DOC-117",
+        "DOC-146",
+        "DOC-141"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-118",
+      "query": "Who was affected in the case \"AI-generated deepfake videos target public figures and brands\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-065"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-118",
+        "DOC-101",
+        "DOC-060",
+        "DOC-065",
+        "DOC-124"
+      ],
+      "acceptable_source_ids": [
+        "DOC-118",
+        "DOC-101",
+        "DOC-060",
+        "DOC-065",
+        "DOC-124"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-119",
+      "query": "Does the source for \"AI code assistant suggests vulnerable authentication logic\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-045",
+        "DOC-089",
+        "DOC-116",
+        "DOC-141"
+      ],
+      "acceptable_source_ids": [
+        "DOC-045",
+        "DOC-089",
+        "DOC-116",
+        "DOC-141"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-120",
+      "query": "What are the key facts and implications documented in \"PoisonedRAG Demonstrates Knowledge-Base Corruption\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-120"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-120",
+        "DOC-006"
+      ],
+      "acceptable_source_ids": [
+        "DOC-120",
+        "DOC-006"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-121",
+      "query": "What happened in the case described by \"AI agent performs unintended cloud configuration change\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-092"
+      ],
+      "acceptable_source_ids": [
+        "DOC-092"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-122",
+      "query": "What happened in the case described by \"Synthetic identity fraud assisted by generative AI\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-058"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-122",
+        "DOC-058",
+        "DOC-132"
+      ],
+      "acceptable_source_ids": [
+        "DOC-122",
+        "DOC-058",
+        "DOC-132"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-123",
+      "query": "What evidence explains the main cause or contributing factors in \"AI-generated financial advice creates suitability concerns\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-123",
+        "DOC-060"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-123",
+        "DOC-139",
+        "DOC-060",
+        "DOC-062",
+        "DOC-031",
+        "DOC-063"
+      ],
+      "acceptable_source_ids": [
+        "DOC-123",
+        "DOC-139",
+        "DOC-060",
+        "DOC-062",
+        "DOC-031",
+        "DOC-063"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-124",
+      "query": "What was the documented impact of \"AI insurance underwriting models face fairness scrutiny\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-124",
+        "DOC-025"
+      ],
+      "acceptable_source_ids": [
+        "DOC-124",
+        "DOC-025"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-125",
+      "query": "What changed over time in the case \"Workday Faces Age-Discrimination Claims Over AI Screening\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-125"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-125",
+        "DOC-143"
+      ],
+      "acceptable_source_ids": [
+        "DOC-125",
+        "DOC-143"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-126",
+      "query": "What evidence in the source supports the main finding in \"AI-generated scientific citations found to be fabricated\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-126"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-126",
+        "DOC-060",
+        "DOC-048"
+      ],
+      "acceptable_source_ids": [
+        "DOC-126",
+        "DOC-060",
+        "DOC-048"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-127",
+      "query": "What risk or failure is documented in \"AI coding assistant leaks secrets from repository context\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-127",
+        "DOC-116"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-127",
+        "DOC-045",
+        "DOC-116"
+      ],
+      "acceptable_source_ids": [
+        "DOC-127",
+        "DOC-045",
+        "DOC-116"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-128",
+      "query": "Who was affected in the case \"Autonomous vehicle perception fails on unusual road debris\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-128",
+        "DOC-018"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-128",
+        "DOC-018",
+        "DOC-060"
+      ],
+      "acceptable_source_ids": [
+        "DOC-128",
+        "DOC-018",
+        "DOC-060"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-129",
+      "query": "Does the source for \"Meta Made-with-AI Labels Mistake Real Photos for AI-Generated\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-129"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-129",
+        "DOC-084",
+        "DOC-060",
+        "DOC-017"
+      ],
+      "acceptable_source_ids": [
+        "DOC-129",
+        "DOC-084",
+        "DOC-060",
+        "DOC-017"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-130",
+      "query": "What are the key facts and implications documented in \"AI translation system produces harmful mistranslation in public communication\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-130",
+        "DOC-032"
+      ],
+      "acceptable_source_ids": [
+        "DOC-130",
+        "DOC-032"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-131",
+      "query": "What happened in the case described by \"AI accessibility assistant gives incorrect navigation instructions\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-131"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-131",
+        "DOC-147"
+      ],
+      "acceptable_source_ids": [
+        "DOC-131",
+        "DOC-147"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-132",
+      "query": "What happened in the case described by \"New York Times Sues OpenAI and Microsoft Over Copyright\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-132",
+        "DOC-015"
+      ],
+      "acceptable_source_ids": [
+        "DOC-132",
+        "DOC-015"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-133",
+      "query": "What evidence explains the main cause or contributing factors in \"AI agent prompt injection via email causes unintended action\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-133"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-133",
+        "DOC-107",
+        "DOC-149",
+        "DOC-140",
+        "DOC-137",
+        "DOC-085"
+      ],
+      "acceptable_source_ids": [
+        "DOC-133",
+        "DOC-107",
+        "DOC-149",
+        "DOC-140",
+        "DOC-137",
+        "DOC-085"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-134",
+      "query": "What was the documented impact of \"AI-generated contract review misses critical clause\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-134",
+        "DOC-105"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-134",
+        "DOC-105"
+      ],
+      "acceptable_source_ids": [
+        "DOC-134",
+        "DOC-105"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-135",
+      "query": "What changed over time in the case \"Anthropic Agentic Misalignment Research Shows Extreme AI Behaviors\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-135"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-135",
+        "DOC-072"
+      ],
+      "acceptable_source_ids": [
+        "DOC-135",
+        "DOC-072"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-136",
+      "query": "What evidence in the source supports the main finding in \"AI-generated marketing claim lacks factual support\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-136"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-136",
+        "DOC-117",
+        "DOC-060"
+      ],
+      "acceptable_source_ids": [
+        "DOC-136",
+        "DOC-117",
+        "DOC-060"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-137",
+      "query": "What risk or failure is documented in \"Indirect Prompt Injection Formalized as an AI Application Attack\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-109",
+        "DOC-140",
+        "DOC-107"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-137",
+        "DOC-109",
+        "DOC-149",
+        "DOC-140",
+        "DOC-107"
+      ],
+      "acceptable_source_ids": [
+        "DOC-137",
+        "DOC-109",
+        "DOC-149",
+        "DOC-140",
+        "DOC-107"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-138",
+      "query": "Who was affected in the case \"AI Resume Screening Shows Name-Based Bias\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-138",
+        "DOC-028"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-138",
+        "DOC-105",
+        "DOC-028",
+        "DOC-006"
+      ],
+      "acceptable_source_ids": [
+        "DOC-138",
+        "DOC-105",
+        "DOC-028",
+        "DOC-006"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-139",
+      "query": "Does the source for \"AI-generated financial report contains fabricated figures\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-139"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-139",
+        "DOC-123",
+        "DOC-060",
+        "DOC-118",
+        "DOC-048"
+      ],
+      "acceptable_source_ids": [
+        "DOC-139",
+        "DOC-123",
+        "DOC-060",
+        "DOC-118",
+        "DOC-048"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-140",
+      "query": "What are the key facts and implications documented in \"Perplexity Comet Indirect Prompt Injection Can Exfiltrate User Data\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-140",
+        "DOC-109"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-140",
+        "DOC-109",
+        "DOC-137",
+        "DOC-149",
+        "DOC-107"
+      ],
+      "acceptable_source_ids": [
+        "DOC-140",
+        "DOC-109",
+        "DOC-137",
+        "DOC-149",
+        "DOC-107"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-141",
+      "query": "What happened in the case described by \"Replit Coding Agent Deletes a Production Database\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-141"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-141",
+        "DOC-117"
+      ],
+      "acceptable_source_ids": [
+        "DOC-141",
+        "DOC-117"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-142",
+      "query": "What happened in the case described by \"AI voice scam impersonates family member\"?",
+      "gold_relevant_chunk_ids": [],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-142",
+        "DOC-087"
+      ],
+      "acceptable_source_ids": [
+        "DOC-142",
+        "DOC-087"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-143",
+      "query": "What evidence explains the main cause or contributing factors in \"FTC Acts Against DoNotPay's 'Robot Lawyer' Claims\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-143",
+        "DOC-136"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-143",
+        "DOC-136",
+        "DOC-039"
+      ],
+      "acceptable_source_ids": [
+        "DOC-143",
+        "DOC-136",
+        "DOC-039"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-144",
+      "query": "What was the documented impact of \"Invisible Image Text Can Manipulate Comet AI Agent\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-144"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-144",
+        "DOC-140",
+        "DOC-041",
+        "DOC-074"
+      ],
+      "acceptable_source_ids": [
+        "DOC-144",
+        "DOC-140",
+        "DOC-041",
+        "DOC-074"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-145",
+      "query": "What changed over time in the case \"Stanford AI Index Tracks Generative AI Citation Hallucinations\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-145"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-145",
+        "DOC-058"
+      ],
+      "acceptable_source_ids": [
+        "DOC-145",
+        "DOC-058"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-146",
+      "query": "What evidence in the source supports the main finding in \"AI procurement agent selects non-compliant supplier\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-146"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-146",
+        "DOC-018"
+      ],
+      "acceptable_source_ids": [
+        "DOC-146",
+        "DOC-018"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-147",
+      "query": "What risk or failure is documented in \"AI tax assistant gives incorrect filing guidance\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-147"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-147",
+        "DOC-131"
+      ],
+      "acceptable_source_ids": [
+        "DOC-147",
+        "DOC-131"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-148",
+      "query": "Who was affected in the case \"ECRI Identifies AI-Enabled Clinical Tools as a Top Patient-Safety Hazard\" and how?",
+      "gold_relevant_chunk_ids": [
+        "DOC-113"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-113",
+        "DOC-098"
+      ],
+      "acceptable_source_ids": [
+        "DOC-113",
+        "DOC-098"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-149",
+      "query": "Does the source for \"AI security incident database records prompt-injection exploitation\" describe any conflicting or contradictory evidence?",
+      "gold_relevant_chunk_ids": [
+        "DOC-149"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-149",
+        "DOC-137",
+        "DOC-107",
+        "DOC-109",
+        "DOC-051",
+        "DOC-070"
+      ],
+      "acceptable_source_ids": [
+        "DOC-149",
+        "DOC-137",
+        "DOC-107",
+        "DOC-109",
+        "DOC-051",
+        "DOC-070"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    },
+    {
+      "id": "Q-150",
+      "query": "What are the key facts and implications documented in \"Researchers Demonstrate Reliable System-Prompt Extraction\"?",
+      "gold_relevant_chunk_ids": [
+        "DOC-150",
+        "DOC-072"
+      ],
+      "gold_partially_or_more_relevant_ids": [
+        "DOC-150",
+        "DOC-072"
+      ],
+      "acceptable_source_ids": [
+        "DOC-150",
+        "DOC-072"
+      ],
+      "annotation_status": "real_human_annotation_frozen_with_deterministic_tiebreak",
+      "retrieval_results": []
+    }
+  ],
+  "metrics_definition": {
+    "strict_relevance_for_retrieval": "final_relevance == 2",
+    "partial_relevance_preserved": "final_relevance >= 1"
+  }
+}

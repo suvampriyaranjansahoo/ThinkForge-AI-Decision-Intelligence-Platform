@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id", "module", "difficulty", "decision", "input_prompt", "annotation_status", "provenance"],
+  "properties": {
+    "id": {"type": "string"},
+    "module": {"enum": ["assumptions", "challenge", "experiment", "synthesize", "prd", "insights"]},
+    "difficulty": {"enum": ["easy", "medium", "hard"]},
+    "decision": {"type": "object"},
+    "input_prompt": {"type": "string", "minLength": 1},
+    "annotation_status": {"enum": ["pending_human_annotation", "gold"]},
+    "gold": {"type": ["object", "null"]},
+    "provenance": {"type": "object", "required": ["is_expert_labeled"]}
+  }
+}

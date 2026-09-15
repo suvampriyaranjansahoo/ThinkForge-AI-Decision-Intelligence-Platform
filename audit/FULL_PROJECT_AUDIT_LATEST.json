@@ -1,0 +1,620 @@
+{
+  "status": "PASS_WITH_EXTERNAL_DATA_GATES",
+  "output": "/home/claude/hardening/audit/FULL_PROJECT_AUDIT_LATEST.json",
+  "report": {
+    "auditVersion": "thinkforge-full-project-audit-v1",
+    "packageVersion": "15.0.0",
+    "timestamp": "2026-09-11T19:06:41.262Z",
+    "testSuite": {
+      "exitCode": 0,
+      "summary": "241",
+      "passed": "236",
+      "failed": "0",
+      "skipped": "5"
+    },
+    "gates": {
+      "regression": {
+        "status": "PASS",
+        "rule": "No protected Stage 1-15 implementation surface may disappear during enhancement",
+        "stages": {
+          "1": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/productDiscovery.js",
+              "lib/discoveryContracts.js",
+              "api/discovery.js"
+            ],
+            "missing": []
+          },
+          "2": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/domainModel.js",
+              "lib/domainRepository.js"
+            ],
+            "missing": []
+          },
+          "3": {
+            "status": "PASS",
+            "protectedFiles": [
+              "frontend/src/app.js"
+            ],
+            "missing": []
+          },
+          "4": {
+            "status": "PASS",
+            "protectedFiles": [
+              "api/decision-governance.js",
+              "db/migrations/026_stage4_governance_finalization.sql"
+            ],
+            "missing": []
+          },
+          "5": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/decisionHealth.js"
+            ],
+            "missing": []
+          },
+          "6": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/claimEvaluation.js",
+              "lib/reasoning.js"
+            ],
+            "missing": []
+          },
+          "7": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/ai.js"
+            ],
+            "missing": []
+          },
+          "8": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/decisionWorkflow.js"
+            ],
+            "missing": []
+          },
+          "9": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/experimentDesign.js"
+            ],
+            "missing": []
+          },
+          "10": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/outcomeAnalytics.js",
+              "lib/outcomeStore.js"
+            ],
+            "missing": []
+          },
+          "11": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/evaluation.js",
+              "lib/evaluationMetrics.js"
+            ],
+            "missing": []
+          },
+          "12": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/llmOps.js",
+              "lib/registry.js"
+            ],
+            "missing": []
+          },
+          "13": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/ragExperiment.js",
+              "lib/ragMetrics.js"
+            ],
+            "missing": []
+          },
+          "14": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/jiraSafety.js",
+              "api/jira.js"
+            ],
+            "missing": []
+          },
+          "15": {
+            "status": "PASS",
+            "protectedFiles": [
+              "lib/insightEngine.js"
+            ],
+            "missing": []
+          }
+        }
+      },
+      "stageEvidence": {
+        "gate": "STRUCTURAL_COMPLETENESS",
+        "computed": true,
+        "allRequiredAssetsPresent": true,
+        "missing": [],
+        "stages": [
+          {
+            "stage": "1",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 6
+          },
+          {
+            "stage": "2",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 5,
+            "assetsRequired": 5,
+            "missingAssets": [],
+            "testFileReferences": 3
+          },
+          {
+            "stage": "3",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          {
+            "stage": "4",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          {
+            "stage": "5",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          {
+            "stage": "6",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          {
+            "stage": "7",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 5
+          },
+          {
+            "stage": "8",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 4
+          },
+          {
+            "stage": "9",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          {
+            "stage": "10",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 3,
+            "assetsRequired": 3,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          {
+            "stage": "11",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 3
+          },
+          {
+            "stage": "12",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 5
+          },
+          {
+            "stage": "13",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          {
+            "stage": "14",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 3,
+            "assetsRequired": 3,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          {
+            "stage": "15",
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 1
+          }
+        ],
+        "notes": "This gate proves only repository asset presence and test-file reference counts. It is not a quality, correctness, coverage, or empirical score."
+      },
+      "researchReadiness": {
+        "status": "READY_FOR_BLIND_CANDIDATE_EVALUATION",
+        "infrastructureScore": 1,
+        "checks": {
+          "benchmarkFrozen": true,
+          "benchmarkSplitsFrozen": true,
+          "candidateFreezePolicy": true,
+          "qualificationGate": true,
+          "independentRaters": true,
+          "hiddenDuplicates": true,
+          "adjudication": true,
+          "canonicalGold": true,
+          "claimLevel": true,
+          "ragGoldGate": true,
+          "impactGate": true
+        },
+        "missing": [],
+        "empirical": {
+          "expertGoldCases": 146,
+          "annotationRows": 146,
+          "realCaseBankCases": 0,
+          "realRagGoldQueries": 124,
+          "decisionImpactParticipants": 0,
+          "realOutcomeRecords": 0,
+          "externalGoldFrozen": true,
+          "capstone": {
+            "caseCount": 150,
+            "raterRows": 450,
+            "pendingAdjudication": 0,
+            "excludedUnavailableCases": 4,
+            "lockedFraction": 0.6,
+            "pilotStatus": "NOT_EVIDENCED",
+            "scopeStatus": "FINALIZED_146_CASES"
+          }
+        },
+        "externalGoldPath": "/home/claude/hardening/eval/external_gold/stage1_gold.json",
+        "annotationPath": "/home/claude/hardening/eval/external_gold/researcher_annotations.json",
+        "caseBankPath": "/home/claude/hardening/eval/external_gold/case_bank.json",
+        "claimPolicy": "Empirical claims remain blocked until actual human/RAG/decision/outcome data are collected, adjudicated, and frozen."
+      },
+      "researchProtocol": {
+        "ok": true,
+        "errors": [],
+        "warnings": [],
+        "study": {
+          "id": "HG-001",
+          "version": "1.1",
+          "protocol": "HGT-1.1"
+        },
+        "benchmark": {
+          "version": "tf-benchmark-300-seed-v2",
+          "total": 300
+        },
+        "rubric": {
+          "version": "tf-rubric-v3.1"
+        },
+        "controls": {
+          "candidateFreeze": true,
+          "pilot": true,
+          "qualification": true,
+          "blinding": true,
+          "adjudication": true,
+          "claimLevel": true
+        }
+      },
+      "capstoneGoldLayer": {
+        "status": "AUDIT_COMPLETE",
+        "output": "/home/claude/hardening/eval/external_gold/capstone_gold_layer_v1/04_audit/CAPSTONE_INTEGRITY_REPORT.json",
+        "report": {
+          "reportVersion": "capstone-gold-layer-audit-v1",
+          "source": "user-supplied confidential capstone artifacts",
+          "embedded": true,
+          "structural": {
+            "caseCount": 150,
+            "raterRows": {
+              "r1": 150,
+              "r2": 150,
+              "r3": 150
+            },
+            "pilotManifestCases": 25,
+            "pilotRawRows": 75,
+            "lockedTestCases": 90,
+            "developmentCases": 60,
+            "candidateCases": 150,
+            "candidateConfirmed": 146,
+            "pendingAdjudication": 4
+          },
+          "quality": {
+            "pilotRawContainsPlaceholders": true,
+            "pilotAgreementComputable": false,
+            "r3HasCaseIdColumn": false,
+            "r3HasRaterIdColumn": false,
+            "candidateHasPredictions": false,
+            "finalizationBlocked": false,
+            "empiricalValidationBlocked": true,
+            "finalizationPendingCases": 0,
+            "scopeFinalized": true,
+            "frozenExternalGoldCases": 146,
+            "frozenExternalGoldMatchesConfirmedScope": true,
+            "frozenExternalGoldExcludesOnlyPendingCases": true
+          },
+          "integrity": {
+            "requiredFilesPresent": true,
+            "requiredFilesMissing": [],
+            "sourceCaseIdsUnique": true,
+            "r1CaseIdsUnique": true,
+            "r2CaseIdsUnique": true,
+            "raterCaseSetsMatch": true,
+            "lockedFraction": 0.6
+          },
+          "gateInterpretation": {
+            "annotationCollection": "COMPLETE_STRUCTURALLY",
+            "pilot": "NOT_EVIDENCED",
+            "adjudication": "COMPLETE_FOR_FINALIZED_146_CASE_SCOPE",
+            "lockedTest": "PASS",
+            "frozenGold": "PRESENT_FINAL_146_SCOPE",
+            "empiricalValidation": "REQUIRES_SEPARATE_BLIND_CANDIDATE_RUN"
+          },
+          "hashes": {
+            "rater1": "3e5449d3aa8d7c236bf30eb69b1c8839d931f1203687b84ee555e7b9bce96903",
+            "rater2": "1e3f0fca6e6ab3fa5e6fda9c32b8e8593419fd072812684cb6f49016d5be7d30",
+            "rater3": "a27ce39d854144338e9891debe7428b99e0955bfc6c960277bc65833eceeb6b3",
+            "caseBank": "a263bc80880d769654dccb53a77505dec0b4c8a69c5a6b3847d263ac1ce80567"
+          }
+        }
+      },
+      "structuralIndex": {
+        "methodology": "requiredAssetPresence = (required files that exist)/(required files listed). testFileReferences = count of test files mentioning the stage's core module name(s). NEITHER of these is a code-quality, correctness, or coverage score, and NEITHER is empirical/real-world validation -- see research_readiness.js for that. A stage can show requiredAssetPresence:1 with a trivial stub implementation; this only proves the file exists.",
+        "totalTestFiles": 52,
+        "stages": {
+          "1": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 6
+          },
+          "2": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 5,
+            "assetsRequired": 5,
+            "missingAssets": [],
+            "testFileReferences": 3
+          },
+          "3": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "4": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "5": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "6": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "7": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 5
+          },
+          "8": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 4
+          },
+          "9": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          "10": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 3,
+            "assetsRequired": 3,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          "11": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 3
+          },
+          "12": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 5
+          },
+          "13": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "14": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 3,
+            "assetsRequired": 3,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          "15": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 1
+          }
+        }
+      },
+      "stageQuality": {
+        "gate": "STRUCTURAL_COMPLETENESS",
+        "derived": true,
+        "methodology": "required-asset presence and test-file reference counts only; not a quality, correctness, coverage, or empirical score",
+        "allRequiredAssetsPresent": true,
+        "missingAssets": [],
+        "stages": {
+          "1": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 6
+          },
+          "2": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 5,
+            "assetsRequired": 5,
+            "missingAssets": [],
+            "testFileReferences": 3
+          },
+          "3": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "4": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "5": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "6": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "7": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 5
+          },
+          "8": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 4
+          },
+          "9": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          "10": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 3,
+            "assetsRequired": 3,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          "11": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 3
+          },
+          "12": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 5
+          },
+          "13": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 2
+          },
+          "14": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 3,
+            "assetsRequired": 3,
+            "missingAssets": [],
+            "testFileReferences": 1
+          },
+          "15": {
+            "requiredAssetPresence": 1,
+            "assetsPresent": 2,
+            "assetsRequired": 2,
+            "missingAssets": [],
+            "testFileReferences": 1
+          }
+        }
+      }
+    },
+    "empiricalClaimPolicy": "NEVER inferred from infrastructure, simulations, or incomplete gold; final empirical validation requires a frozen human gold and a separate blind ThinkForge candidate run."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ThinkForge Stage 1 Frozen Empirical Gold",
+  "type": "object",
+  "required": [
+    "goldVersion",
+    "codebookVersion",
+    "goldFrozen",
+    "adjudicated",
+    "independentEvaluators",
+    "studyManifest",
+    "cases"
+  ],
+  "properties": {
+    "goldVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "codebookVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "goldFrozen": {
+      "const": true
+    },
+    "adjudicated": {
+      "const": true
+    },
+    "independentEvaluators": {
+      "type": "integer",
+      "minimum": 3
+    },
+    "synthetic": {
+      "const": false
+    },
+    "generatedByModel": {
+      "const": false
+    },
+    "datasetHash": {
+      "type": "string",
+      "minLength": 32
+    },
+    "studyManifest": {
+      "type": "object",
+      "required": ["perCaseProvenance"],
+      "properties": {
+        "perCaseProvenance": {"const": true},
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "title",
+              "url",
+              "realHumanData",
+              "provenance"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "realHumanData": {
+                "const": true
+              },
+              "provenance": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "required": ["sourceCaseCount", "confirmedCaseCount", "pendingCaseCount", "includedCaseCount", "excludedPendingCaseIds"],
+      "properties": {
+        "sourceCaseCount": {"type": "integer", "minimum": 1},
+        "confirmedCaseCount": {"type": "integer", "minimum": 0},
+        "pendingCaseCount": {"type": "integer", "minimum": 0},
+        "includedCaseCount": {"type": "integer", "minimum": 1},
+        "excludedPendingCaseIds": {"type": "array", "items": {"type": "string"}},
+        "priorAdjudicationWithoutIdentityCaseIds": {"type": "array", "items": {"type": "string"}},
+        "confirmedCaseIdsHash": {"type": "string"}
+      }
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 100,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "gold"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceStudyId": {
+            "type": "string"
+          },
+          "gold": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true,
+  "description": "Frozen human gold only. ThinkForge predictions are forbidden in this artifact and must be supplied as a separate candidate-run artifact."
+}

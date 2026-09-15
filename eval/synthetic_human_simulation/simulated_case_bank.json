@@ -1,0 +1,2257 @@
+{
+  "synthetic": true,
+  "generatedByModel": true,
+  "studyId": "stage1-synthetic-human-simulation-v1",
+  "cases": [
+    {
+      "id": "SIM-TF-001",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-001"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-001"
+    },
+    {
+      "id": "SIM-TF-002",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-002"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-002"
+    },
+    {
+      "id": "SIM-TF-003",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-003"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-003"
+    },
+    {
+      "id": "SIM-TF-004",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-004"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-004"
+    },
+    {
+      "id": "SIM-TF-005",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-005"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-005"
+    },
+    {
+      "id": "SIM-TF-006",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-006"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-006"
+    },
+    {
+      "id": "SIM-TF-007",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-007"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-007"
+    },
+    {
+      "id": "SIM-TF-008",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-008"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-008"
+    },
+    {
+      "id": "SIM-TF-009",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-009"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-009"
+    },
+    {
+      "id": "SIM-TF-010",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-010"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-010"
+    },
+    {
+      "id": "SIM-TF-011",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-011"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-011"
+    },
+    {
+      "id": "SIM-TF-012",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-012"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-012"
+    },
+    {
+      "id": "SIM-TF-013",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-013"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-013"
+    },
+    {
+      "id": "SIM-TF-014",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-014"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-014"
+    },
+    {
+      "id": "SIM-TF-015",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-015"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-015"
+    },
+    {
+      "id": "SIM-TF-016",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-016"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-016"
+    },
+    {
+      "id": "SIM-TF-017",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-017"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-017"
+    },
+    {
+      "id": "SIM-TF-018",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-018"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-018"
+    },
+    {
+      "id": "SIM-TF-019",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-019"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-019"
+    },
+    {
+      "id": "SIM-TF-020",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-020"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-020"
+    },
+    {
+      "id": "SIM-TF-021",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-021"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-021"
+    },
+    {
+      "id": "SIM-TF-022",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-022"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-022"
+    },
+    {
+      "id": "SIM-TF-023",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-023"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-023"
+    },
+    {
+      "id": "SIM-TF-024",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-024"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-024"
+    },
+    {
+      "id": "SIM-TF-025",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-025"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-025"
+    },
+    {
+      "id": "SIM-TF-026",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-026"
+      },
+      "split": "development",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-026"
+    },
+    {
+      "id": "SIM-TF-027",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-027"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-027"
+    },
+    {
+      "id": "SIM-TF-028",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-028"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-028"
+    },
+    {
+      "id": "SIM-TF-029",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-029"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-029"
+    },
+    {
+      "id": "SIM-TF-030",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-030"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-030"
+    },
+    {
+      "id": "SIM-TF-031",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-031"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-031"
+    },
+    {
+      "id": "SIM-TF-032",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-032"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-032"
+    },
+    {
+      "id": "SIM-TF-033",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-033"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-033"
+    },
+    {
+      "id": "SIM-TF-034",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-034"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-034"
+    },
+    {
+      "id": "SIM-TF-035",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-035"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-035"
+    },
+    {
+      "id": "SIM-TF-036",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-036"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-036"
+    },
+    {
+      "id": "SIM-TF-037",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-037"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-037"
+    },
+    {
+      "id": "SIM-TF-038",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-038"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-038"
+    },
+    {
+      "id": "SIM-TF-039",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-039"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-039"
+    },
+    {
+      "id": "SIM-TF-040",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-040"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-040"
+    },
+    {
+      "id": "SIM-TF-041",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-041"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-041"
+    },
+    {
+      "id": "SIM-TF-042",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-042"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-042"
+    },
+    {
+      "id": "SIM-TF-043",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-043"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-043"
+    },
+    {
+      "id": "SIM-TF-044",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-044"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-044"
+    },
+    {
+      "id": "SIM-TF-045",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-045"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-045"
+    },
+    {
+      "id": "SIM-TF-046",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-046"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-046"
+    },
+    {
+      "id": "SIM-TF-047",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-047"
+      },
+      "split": "development",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-047"
+    },
+    {
+      "id": "SIM-TF-048",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-048"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-048"
+    },
+    {
+      "id": "SIM-TF-049",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-049"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-049"
+    },
+    {
+      "id": "SIM-TF-050",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Identify decision-critical assumptions, rank impact and uncertainty, and link only defensible evidence.",
+        "sourceCaseId": "TF-050"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-050"
+    },
+    {
+      "id": "SIM-TF-051",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-051"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-051"
+    },
+    {
+      "id": "SIM-TF-052",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-052"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-052"
+    },
+    {
+      "id": "SIM-TF-053",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-053"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-053"
+    },
+    {
+      "id": "SIM-TF-054",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-054"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-054"
+    },
+    {
+      "id": "SIM-TF-055",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-055"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-055"
+    },
+    {
+      "id": "SIM-TF-056",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-056"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-056"
+    },
+    {
+      "id": "SIM-TF-057",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-057"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-057"
+    },
+    {
+      "id": "SIM-TF-058",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-058"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-058"
+    },
+    {
+      "id": "SIM-TF-059",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-059"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-059"
+    },
+    {
+      "id": "SIM-TF-060",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-060"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-060"
+    },
+    {
+      "id": "SIM-TF-061",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-061"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-061"
+    },
+    {
+      "id": "SIM-TF-062",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-062"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-062"
+    },
+    {
+      "id": "SIM-TF-063",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-063"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-063"
+    },
+    {
+      "id": "SIM-TF-064",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-064"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-064"
+    },
+    {
+      "id": "SIM-TF-065",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-065"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-065"
+    },
+    {
+      "id": "SIM-TF-066",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-066"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-066"
+    },
+    {
+      "id": "SIM-TF-067",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-067"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-067"
+    },
+    {
+      "id": "SIM-TF-068",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-068"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-068"
+    },
+    {
+      "id": "SIM-TF-069",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-069"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-069"
+    },
+    {
+      "id": "SIM-TF-070",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-070"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-070"
+    },
+    {
+      "id": "SIM-TF-071",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-071"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-071"
+    },
+    {
+      "id": "SIM-TF-072",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-072"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-072"
+    },
+    {
+      "id": "SIM-TF-073",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-073"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-073"
+    },
+    {
+      "id": "SIM-TF-074",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-074"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-074"
+    },
+    {
+      "id": "SIM-TF-075",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-075"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-075"
+    },
+    {
+      "id": "SIM-TF-076",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-076"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-076"
+    },
+    {
+      "id": "SIM-TF-077",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-077"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-077"
+    },
+    {
+      "id": "SIM-TF-078",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-078"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-078"
+    },
+    {
+      "id": "SIM-TF-079",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-079"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-079"
+    },
+    {
+      "id": "SIM-TF-080",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-080"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-080"
+    },
+    {
+      "id": "SIM-TF-081",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-081"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-081"
+    },
+    {
+      "id": "SIM-TF-082",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-082"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-082"
+    },
+    {
+      "id": "SIM-TF-083",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-083"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-083"
+    },
+    {
+      "id": "SIM-TF-084",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-084"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-084"
+    },
+    {
+      "id": "SIM-TF-085",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-085"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-085"
+    },
+    {
+      "id": "SIM-TF-086",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-086"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-086"
+    },
+    {
+      "id": "SIM-TF-087",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-087"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-087"
+    },
+    {
+      "id": "SIM-TF-088",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-088"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-088"
+    },
+    {
+      "id": "SIM-TF-089",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-089"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-089"
+    },
+    {
+      "id": "SIM-TF-090",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-090"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-090"
+    },
+    {
+      "id": "SIM-TF-091",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-091"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-091"
+    },
+    {
+      "id": "SIM-TF-092",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-092"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-092"
+    },
+    {
+      "id": "SIM-TF-093",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-093"
+      },
+      "split": "development",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-093"
+    },
+    {
+      "id": "SIM-TF-094",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-094"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-094"
+    },
+    {
+      "id": "SIM-TF-095",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-095"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-095"
+    },
+    {
+      "id": "SIM-TF-096",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-096"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-096"
+    },
+    {
+      "id": "SIM-TF-097",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-097"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-097"
+    },
+    {
+      "id": "SIM-TF-098",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-098"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-098"
+    },
+    {
+      "id": "SIM-TF-099",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-099"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-099"
+    },
+    {
+      "id": "SIM-TF-100",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Challenge the riskiest assumptions and identify what evidence would change the decision.",
+        "sourceCaseId": "TF-100"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-100"
+    },
+    {
+      "id": "SIM-TF-101",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-101"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-101"
+    },
+    {
+      "id": "SIM-TF-102",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-102"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-102"
+    },
+    {
+      "id": "SIM-TF-103",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-103"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-103"
+    },
+    {
+      "id": "SIM-TF-104",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-104"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-104"
+    },
+    {
+      "id": "SIM-TF-105",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-105"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-105"
+    },
+    {
+      "id": "SIM-TF-106",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-106"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-106"
+    },
+    {
+      "id": "SIM-TF-107",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-107"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-107"
+    },
+    {
+      "id": "SIM-TF-108",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-108"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-108"
+    },
+    {
+      "id": "SIM-TF-109",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-109"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-109"
+    },
+    {
+      "id": "SIM-TF-110",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-110"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-110"
+    },
+    {
+      "id": "SIM-TF-111",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-111"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-111"
+    },
+    {
+      "id": "SIM-TF-112",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-112"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-112"
+    },
+    {
+      "id": "SIM-TF-113",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-113"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-113"
+    },
+    {
+      "id": "SIM-TF-114",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-114"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-114"
+    },
+    {
+      "id": "SIM-TF-115",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-115"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-115"
+    },
+    {
+      "id": "SIM-TF-116",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-116"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-116"
+    },
+    {
+      "id": "SIM-TF-117",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-117"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-117"
+    },
+    {
+      "id": "SIM-TF-118",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-118"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-118"
+    },
+    {
+      "id": "SIM-TF-119",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-119"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-119"
+    },
+    {
+      "id": "SIM-TF-120",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-120"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-120"
+    },
+    {
+      "id": "SIM-TF-121",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-121"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-121"
+    },
+    {
+      "id": "SIM-TF-122",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-122"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-122"
+    },
+    {
+      "id": "SIM-TF-123",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-123"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-123"
+    },
+    {
+      "id": "SIM-TF-124",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-124"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-124"
+    },
+    {
+      "id": "SIM-TF-125",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-125"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-125"
+    },
+    {
+      "id": "SIM-TF-126",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-126"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-126"
+    },
+    {
+      "id": "SIM-TF-127",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-127"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-127"
+    },
+    {
+      "id": "SIM-TF-128",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-128"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-128"
+    },
+    {
+      "id": "SIM-TF-129",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-129"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-129"
+    },
+    {
+      "id": "SIM-TF-130",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-130"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-130"
+    },
+    {
+      "id": "SIM-TF-131",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-131"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-131"
+    },
+    {
+      "id": "SIM-TF-132",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-132"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-132"
+    },
+    {
+      "id": "SIM-TF-133",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-133"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-133"
+    },
+    {
+      "id": "SIM-TF-134",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-134"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-134"
+    },
+    {
+      "id": "SIM-TF-135",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-135"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-135"
+    },
+    {
+      "id": "SIM-TF-136",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-136"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-136"
+    },
+    {
+      "id": "SIM-TF-137",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-137"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-137"
+    },
+    {
+      "id": "SIM-TF-138",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-138"
+      },
+      "split": "development",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-138"
+    },
+    {
+      "id": "SIM-TF-139",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-139"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-139"
+    },
+    {
+      "id": "SIM-TF-140",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-140"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-140"
+    },
+    {
+      "id": "SIM-TF-141",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-141"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-141"
+    },
+    {
+      "id": "SIM-TF-142",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-142"
+      },
+      "split": "development",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-142"
+    },
+    {
+      "id": "SIM-TF-143",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-143"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-143"
+    },
+    {
+      "id": "SIM-TF-144",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-144"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-144"
+    },
+    {
+      "id": "SIM-TF-145",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-145"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-145"
+    },
+    {
+      "id": "SIM-TF-146",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-146"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "easy",
+      "sourceCaseId": "TF-146"
+    },
+    {
+      "id": "SIM-TF-147",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-147"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-147"
+    },
+    {
+      "id": "SIM-TF-148",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-148"
+      },
+      "split": "locked_test",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-148"
+    },
+    {
+      "id": "SIM-TF-149",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-149"
+      },
+      "split": "development",
+      "pilot": true,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-149"
+    },
+    {
+      "id": "SIM-TF-150",
+      "sourceStudyId": "synthetic-seed-benchmark",
+      "sourceProvenance": "synthetic benchmark only; not real research material",
+      "synthetic": true,
+      "generatedByModel": true,
+      "input": {
+        "prompt": "Design the smallest falsifiable experiment that reduces the highest-impact uncertainty.",
+        "sourceCaseId": "TF-150"
+      },
+      "split": "validation",
+      "pilot": false,
+      "difficulty": "mixed",
+      "sourceCaseId": "TF-150"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version":"tf-reasoning-locked-seed-v1",
+  "status":"seed_pending_human_gold",
+  "goldPolicy":"No synthetic gold labels are accepted for empirical quality claims.",
+  "cases":[
+    {"id":"R-001","failureMode":"supporting_evidence","claim":"The evidence supports the stated user problem.","evidence":[{"id":"E1","content":"Users repeatedly reported difficulty completing setup.","stance":"supports"}],"gold":null},
+    {"id":"R-002","failureMode":"contradictory_evidence","claim":"Users uniformly prefer more customization.","evidence":[{"id":"E2","content":"Advanced users requested more customization.","stance":"supports"},{"id":"E3","content":"New users found customization confusing.","stance":"contradicts"}],"gold":null},
+    {"id":"R-003","failureMode":"insufficient_evidence","claim":"The change will increase retention by 10%.","evidence":[{"id":"E4","content":"Two interview participants said the concept sounded useful.","stance":"neutral"}],"gold":null},
+    {"id":"R-004","failureMode":"causal_overreach","claim":"Feature X caused retention to increase.","evidence":[{"id":"E5","content":"Retention increased after several product changes were shipped.","stance":"supports"}],"gold":null},
+    {"id":"R-005","failureMode":"stale_evidence","claim":"Current users still face the same onboarding issue.","evidence":[{"id":"E6","content":"Onboarding issue reported 24 months ago.","stance":"supports"}],"gold":null}
+  ]
+}

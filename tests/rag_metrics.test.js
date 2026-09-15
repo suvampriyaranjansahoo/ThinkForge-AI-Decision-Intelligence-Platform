@@ -1,0 +1,2 @@
+const test=require('node:test');const assert=require('node:assert/strict');const {recallAt,precisionAt,reciprocalRank,ndcg}=require('../lib/ragMetrics');
+test('RAG ranking metrics behave correctly',()=>{const rows=[{id:'a',rrfScore:.9},{id:'b',rrfScore:.8},{id:'c',rrfScore:.7}];assert.equal(recallAt(rows,['b'],2),1);assert.equal(precisionAt(rows,['a','b'],2),1);assert.equal(reciprocalRank(rows,['b']),.5);assert.ok(ndcg(rows,['a','b'],2)>0)});

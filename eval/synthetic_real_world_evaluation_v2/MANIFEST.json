@@ -1,0 +1,10 @@
+{
+  "study_id": "SYN-RW-V2",
+  "status": "SIMULATION_COMPLETE_NOT_EMPIRICAL",
+  "files": {
+    "README.md": "a21f9130326de34f73f71a016e32a8bdaa022772176933076ca1e7918cb48050",
+    "analysis_summary.json": "130f61dbf706e7cbbb734ff3527ef7ada90c7324e650f7066fb79cb49a3e947a",
+    "observations.csv": "88244664870a07f1d3eb1a15881b0698d8b9abcf5048b0315c62eb2311fb27aa",
+    "participants.json": "30c0dc7de6a8ff2cd64f1cee643e0a745b8edc9759ca8c65a85a43f94296e5bf"
+  }
+}

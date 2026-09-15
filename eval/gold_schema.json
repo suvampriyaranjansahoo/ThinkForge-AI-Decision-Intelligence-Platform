@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"ThinkForge Gold Evaluation Case",
+  "type":"object",
+  "required":["case_id","module","status","dimensions"],
+  "properties":{
+    "case_id":{"type":"string"},
+    "module":{"enum":["assumptions","challenge","experiment","synthesize","prd","insights"]},
+    "status":{"enum":["agreement","adjudicated","pending"]},
+    "dimensions":{"type":"object","additionalProperties":{"type":"object","properties":{"score":{"type":"number","minimum":1,"maximum":5},"rater_count":{"type":"integer","minimum":1},"agreement":{"type":"boolean"}},"required":["score","rater_count","agreement"]}},
+    "gold_properties":{"type":"object"},
+    "rater_ids":{"type":"array","items":{"type":"string"}},
+    "adjudication":{"type":["object","null"]}
+  }
+}

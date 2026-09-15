@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ThinkForge Stage 1 Separate Candidate Run",
+  "type": "object",
+  "required": ["runId", "goldVersion", "goldDatasetHash", "synthetic", "generatedByModel", "cases"],
+  "properties": {
+    "runId": {"type": "string", "minLength": 1},
+    "goldVersion": {"type": "string", "minLength": 1},
+    "goldDatasetHash": {"type": "string", "minLength": 32},
+    "synthetic": {"const": false},
+    "generatedByModel": {"const": false},
+    "cases": {
+      "type": "array",
+      "minItems": 100,
+      "items": {
+        "type": "object",
+        "required": ["id", "prediction"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "prediction": {"type": "object"}
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

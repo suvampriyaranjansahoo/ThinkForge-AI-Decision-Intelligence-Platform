@@ -1,0 +1,23 @@
+name: ThinkForge Live DB Verification
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "supabase/**"
+      - "scripts/verify_live_db.js"
+      - ".github/workflows/live-db-verify.yml"
+
+jobs:
+  verify-live-db:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify linked Supabase database
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node scripts/verify_live_db.js

@@ -1,0 +1,25 @@
+{
+  "goldVersion": "YOUR-FROZEN-GOLD-VERSION",
+  "codebookVersion": "YOUR-CODEBOOK-VERSION",
+  "goldFrozen": true,
+  "synthetic": false,
+  "generatedByModel": false,
+  "adjudicated": true,
+  "independentEvaluators": 3,
+  "studyManifest": {
+    "sources": [
+      {"id":"STUDY-1","title":"Original study title","url":"https://doi.org/...","realHumanData":true,"provenance":"DOI / repository record"},
+      {"id":"STUDY-2","title":"Original study title","url":"https://doi.org/...","realHumanData":true,"provenance":"DOI / repository record"},
+      {"id":"STUDY-3","title":"Original study title","url":"https://doi.org/...","realHumanData":true,"provenance":"DOI / repository record"}
+    ]
+  },
+  "cases": [
+    {
+      "id":"CASE-001",
+      "sourceStudyId":"STUDY-1",
+      "adjudicationStatus":"adjudicated",
+      "prediction":{"evidenceIds":[],"themes":[],"opportunities":[],"contradictions":[],"shouldAbstain":false},
+      "gold":{"evidenceIds":[],"themes":[],"opportunities":[],"contradictions":[],"shouldAbstain":false}
+    }
+  ]
+}
