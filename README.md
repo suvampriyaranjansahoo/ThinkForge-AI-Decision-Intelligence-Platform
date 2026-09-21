@@ -1,28 +1,45 @@
 # ThinkForge
 
-**An evidence-backed AI decision-support system** — it doesn't just generate a recommendation, it makes you prove the recommendation is trustworthy before it counts as evidence.
+**A five-step decision record for early-career product managers.** State the decision and its assumptions, attach evidence you can locate later, challenge the call, run the smallest reversible test, and record what actually happened.
 
-`v15.0.0` · Django/DRF backend (target) + Node/Vercel backend (current, in staged retirement) · PostgreSQL/pgvector · Celery/Redis
+> **Status, plainly:** ten PM/APM interview records support the problem; the MVP workflow is built with demo data; the paired pilot has **not** been run. This repository does not claim that ThinkForge improves decisions, saves time, or drives adoption.
+
+**Demo:** _two-minute walkthrough link goes here once recorded_ (script: [PM_DEMO_RUNBOOK.md](PM_DEMO_RUNBOOK.md))
 
 ---
 
-## The core idea, in one paragraph
+## The problem
 
-Most "AI decision tools" are a chatbot with a nicer prompt. ThinkForge separates two things that usually get blurred together: **the product** (a workspace that turns a fuzzy decision into assumptions → evidence → a recommendation → an experiment → a recorded outcome) and **the proof** (a research-grade evaluation layer — human-adjudicated gold labels, a tamper-evident audit chain, regression gates — that answers "how do we know the AI's judgment can be trusted?"). Nothing in this repo reports a quality number that wasn't measured against real, frozen, human-labeled data.
+PMs usually cannot later answer three questions about a decision: why did we decide this, what did we rely on, and were we right? In the interview records, **10/10** described a decision with a fragmented, hidden or hard-to-retrieve source, assumption or rationale, and **10/10** had no documented comparison of expected versus observed outcome. These are directional counts from a mixed-recruitment sample, not market estimates.
 
-## Start here: the product story
+## Read in this order (about 15 minutes)
 
-ThinkForge now has two complementary portfolio paths built from the same product:
-
-| For a Product Analyst reviewer | For an AI Engineer reviewer |
+| Read | What it shows |
 |---|---|
-| A five-step MVP: frame a decision, connect evidence, challenge and recommend, test, then learn. | A Django/DRF migration with tenant roles, pgvector-ready retrieval, Celery indexing, approval-gated tools, audit events, circuit breakers, and reviewer workflow. |
-| Ten PM/APM discovery interviews identified fragmented evidence, weak assumption records, and missing outcome checks. Read the [research synthesis](research/INTERVIEW_SYNTHESIS_2026_Q3.md) and its [limits](research/INTERVIEW_EVIDENCE_LOG_2026_Q3.md). | Run the verified checks described in [backend setup](backend/README.md), then inspect [Django architecture](docs/DJANGO_ARCHITECTURE.md) and the agent-hardening log. |
-| The pilot is intentionally still open. The repository does **not** claim that ThinkForge improves decision quality, time to decision, or outcomes yet. | The live-provider and staging claims are intentionally still open. The repository does **not** claim real agent traffic, production latency, or autonomous decision quality yet. |
+| [PM case study](docs/PM_CASE_STUDY.md) | Problem, findings, decisions, what was cut, status. Five minutes. |
+| [PRD](PRD.md) | Scope, non-goals, target rationale, acceptance criteria, risks, pilot decision rules |
+| [Research synthesis](research/INTERVIEW_SYNTHESIS_2026_Q3.md) and [evidence log](research/INTERVIEW_EVIDENCE_LOG_2026_Q3.md) | Counts, disconfirming evidence, consent handling, gaps |
+| [RICE roadmap](PM_RICE_ROADMAP.md) and [positioning](PM_POSITIONING.md) | Prioritization and alternatives, both labeled as hypotheses |
+| [Pilot protocol](PILOT_PROTOCOL.md) and [pilot kit](pilot/) | How the product claim will be tested, with a rubric and decision rules set before data |
+| [What is left](LAUNCH_CHECKLIST.md) | The items that still need a recording, a deployment, or real participants |
 
-For a recruiter walkthrough, use the [PM demo runbook](PM_DEMO_RUNBOOK.md), [MVP PRD](PRD.md), and [portfolio case study](docs/PORTFOLIO_CASE_STUDY.md). The advanced AI and evaluation surfaces support the engineering story; they are hidden from the primary PM workflow.
+## The five-step loop
+
+1. **Frame:** state the decision, assumptions and confidence.
+2. **Evidence:** attach sources with location, owner and access status.
+3. **Challenge and recommend:** see counterarguments and an evidence-linked recommendation; a human reviews it.
+4. **Test:** design the smallest reversible experiment with a prediction and success rule.
+5. **Learn:** compare the prediction with the outcome and record what changes.
+
+AI is advisory only, cites only existing evidence records, and cannot write to external tools.
+
+## For engineering reviewers
+
+The same repository contains a substantial technical layer (an approval-gated agent runtime, tamper-evident audit chain, hybrid retrieval, and an evaluation pipeline). It is hidden from the PM workflow because the interviews did not support it as the first job. Everything below this line is that technical depth.
 
 ---
+
+## Technical depth
 
 ## System architecture
 
@@ -51,7 +68,7 @@ flowchart TB
     end
 
     subgraph EvalLayer["Evaluation Layer — never auto-promoted into product claims"]
-        GOLD[Human-adjudicated gold sets<br/>146 real cases, 3 raters, frozen]
+        GOLD[Human-adjudicated gold sets<br/>confidential layer excluded from public repo]
         BENCH[RAG + reasoning benchmarks]
         GATE[Regression gate]
     end
@@ -169,7 +186,7 @@ thinkforge/
 ├── supabase/ + db/       SQL migrations (Node-side persistence layer)
 ├── frontend/             React/TS types + decision-governance UI pieces
 ├── eval/                 Benchmarks, schemas, and the human-adjudicated gold layer
-│   └── external_gold/    146-case frozen gold set + full audit trail
+│   └── external_gold/    frozen gold-set pipeline (confidential capstone layer excluded from the public repo; see KNOWN_REPOSITORY_GAPS.md)
 ├── scripts/               CI checks, eval runners, research/readiness reports
 ├── tests/                Node test suite (241 tests)
 ├── docs/                 Architecture, deployment, results, dataset card
