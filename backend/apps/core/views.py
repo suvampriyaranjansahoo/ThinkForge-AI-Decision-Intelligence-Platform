@@ -1,5 +1,6 @@
 import hashlib
 import json
+from django.contrib.auth import get_user_model
 from django.db import transaction
 from rest_framework import generics, status
 from rest_framework.decorators import api_view, permission_classes
@@ -27,6 +28,27 @@ def membership_or_403(request, organization, minimum='viewer'):
 @permission_classes([IsAuthenticated])
 def health(request):
     return Response({'status': 'ok', 'service': 'thinkforge-django', 'version': '1.0'})
+
+@api_view(['POST'])
+@permission_classes([])
+def register(request):
+    """Create a fresh local Django account and its first private workspace."""
+    email = str(request.data.get('email', '')).strip().lower()
+    password = str(request.data.get('password', ''))
+    organization_name = str(request.data.get('organizationName', '')).strip() or 'My ThinkForge workspace'
+    if not email or '@' not in email:
+        return Response({'error': 'A valid email is required.', 'code': 'INVALID_EMAIL'}, status=400)
+    if len(password) < 8:
+        return Response({'error': 'Password must contain at least 8 characters.', 'code': 'WEAK_PASSWORD'}, status=400)
+    user_model = get_user_model()
+    if user_model.objects.filter(username=email).exists() or user_model.objects.filter(email__iexact=email).exists():
+        return Response({'error': 'An account already exists for this email.', 'code': 'ACCOUNT_EXISTS'}, status=409)
+    with transaction.atomic():
+        user = user_model.objects.create_user(username=email, email=email, password=password)
+        organization = Organization.objects.create(name=organization_name[:200], created_by=user)
+        Membership.objects.create(organization=organization, user=user, role='owner')
+        Workspace.objects.create(organization=organization)
+    return Response({'id': user.id, 'email': user.email, 'organizationId': str(organization.id)}, status=201)
 
 class OrganizationList(generics.ListCreateAPIView):
     serializer_class = OrganizationSerializer
