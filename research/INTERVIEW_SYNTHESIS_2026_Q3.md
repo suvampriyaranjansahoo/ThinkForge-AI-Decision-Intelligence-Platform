@@ -10,7 +10,9 @@
 
 ### 1. Every participant described missing a formal prediction-to-outcome review (10/10)
 
-Participants often knew something happened after launch, but none described a documented comparison of the initial expectation with the observed outcome. The pattern appeared in decisions ranging from feature sunsets to enterprise compliance choices.
+Participants often knew something happened after launch, but none described a documented comparison of the initial expectation with the observed outcome. The pattern appeared in decisions ranging from feature sunsets to enterprise compliance choices. This is the single strongest and most consistent finding in the sample — it holds across company stage, seniority, and decision type, and it maps directly onto the "Learn" stage of the product's five-step loop, which exists specifically to close this gap.
+
+A second coding pass (see `research/INTERVIEW_EVIDENCE_LOG_2026_Q3.md`) splits the 10/10 further: 8 of 10 described no comparison of any kind, and 2 of 10 (P9, P10) noticed informally that the actual result was close to or off their estimate but explicitly said they never checked or documented whether it invalidated their original assumption. All 10 lacked a *written* record either way.
 
 Consent-safe evidence: P1 said, "We just... moved on. Next fire, you know?" P10 said the team noticed different beta results but "didn't document whether it invalidated anything."
 
@@ -20,6 +22,8 @@ Consent-safe evidence: P1 said, "We just... moved on. Next fire, you know?" P10 
 
 Each participant named at least one important source that was hard to retrieve, unshared, lost, buried in comments/DMs, stored locally, or subject to unclear retention and permissions. The issue was not the absence of data. It was the loss of traceability between the source and the decision.
 
+Within that 10/10, 7 participants (P1, P2, P4, P5, P8, P9, P10) went further and stated a specific source was confirmed gone or access was confirmed uncertain — deleted files, expired retention windows, or unverified permissions — rather than merely scattered across systems. That stricter subset is the sharper number to cite when the claim is "evidence becomes unrecoverable," as opposed to "evidence is hard to find."
+
 Consent-safe evidence: P4 said, "Link the damn blog post in Jira. 'Source: industry research' is useless six months later." P10 had links but was unsure whether others could access them.
 
 **Product implication:** An evidence record needs source, location/URL, owner, access status, and a link to the assumption or decision it supports. Do not promise that an uploaded source is broadly accessible.
@@ -28,13 +32,15 @@ Consent-safe evidence: P4 said, "Link the damn blog post in Jira. 'Source: indus
 
 P1, P2, P5, P6, P7, P8, and P9 described assumptions that were undocumented, mixed into another field, kept verbally, thrown away, or difficult to use later. The remaining participants had at least some written assumptions, which is important disconfirming evidence: teams can create a record, but it is often incomplete.
 
+Under the stricter reading in the evidence log, 5/10 (P1, P2, P5, P6, P7) had no usable assumption record at all; P8 and P9 are in the broad 7/10 only. Cite 7/10 for "weak or non-durable" and 5/10 for "effectively lost".
+
 Consent-safe evidence: P7 said, "Not labeled 'Assumptions.' Just in Success Metrics. So... written but hidden?"
 
 **Product implication:** Ask for explicit assumptions in the framing step and keep them separate from goals, metrics, and notes. Make the field lightweight enough for a fast decision.
 
 ### 4. Five participants openly described overstating confidence (5/10)
 
-P1, P2, P4, P5, and P6 gave a higher confidence number to stakeholders than the confidence they described privately. This is an early signal, not proof that PMs generally misrepresent confidence. P3, P8, P9, and P10 also described uncertainty, but did not report the same public/private gap.
+P1, P2, P4, P5, and P6 (coded in the evidence log's theme table) gave a higher confidence number to stakeholders than the confidence they described privately. This is an early signal, not proof that PMs generally misrepresent confidence. P3, P8, P9, and P10 also described uncertainty, but did not report the same public/private gap.
 
 Consent-safe evidence: P6 said, "You can't show doubt as a founder." He later described the call as a "Hail Mary."
 
@@ -67,6 +73,7 @@ P3 and P8 raised data-privacy constraints themselves. The count is low, but the 
 - P3, P7, P9, and P10 show that formal records already exist in larger or more structured settings. The problem is not simply “teams do not document.” It is that assumptions, decision rationale, and follow-up are distributed across systems.
 - P7 described review process as overkill for a toggle. A full workflow may be wrong for small decisions.
 - This study does not establish willingness to pay, actual adoption, time saved, or whether ThinkForge improves decision quality.
+- Per-participant open items (unresolved or not asked) and cross-cutting gaps — stakeholder-dissent records, revisit triggers, prior template use, time spent on process, and participant regret/satisfaction — are logged in `research/INTERVIEW_EVIDENCE_LOG_2026_Q3.md`. None of this study's findings should be read as covering those gaps.
 
 ## Product decisions from the evidence
 
