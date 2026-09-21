@@ -1,0 +1,9 @@
+dimension,control_mean,thinkforge_mean,mean_difference,evidence_status
+Decision clarity,3.6,4,0.4,AI_EVALUATION
+Assumption quality,3.1,4,0.9,AI_EVALUATION
+Evidence traceability,2.6,4.3,1.7,AI_EVALUATION
+Alternative/trade-off clarity,3,3.9,0.9,AI_EVALUATION
+Counterargument quality,2.4,3.8,1.4,AI_EVALUATION
+Experiment quality,2.2,4.2,2,AI_EVALUATION
+Prediction specificity,1.6,3.8,2.2,AI_EVALUATION
+Outcome plan,1.6,3.8,2.2,AI_EVALUATION

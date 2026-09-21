@@ -1,0 +1,11 @@
+participant_profile,profile_type,scenario,control_total_40,thinkforge_total_40,paired_difference,max_score,evidence_status
+P1,Experienced PM,Integration prioritization,21,34,13,40,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,26,34,8,40,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,15,27,12,40,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,26,34,8,40,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,21,31,10,40,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,14,33,19,40,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,16,30,14,40,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,26,34,8,40,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,17,33,16,40,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,19,28,9,40,AI_EVALUATION

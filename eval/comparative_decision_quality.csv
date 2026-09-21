@@ -1,0 +1,161 @@
+participant_profile,profile_type,scenario,condition,dimension,score_1_to_5,evidence_status
+P1,Experienced PM,Integration prioritization,CONTROL,Decision clarity,4,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,CONTROL,Assumption quality,3,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,CONTROL,Evidence traceability,3,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Evidence traceability,5,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,CONTROL,Alternative/trade-off clarity,3,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Alternative/trade-off clarity,4,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,CONTROL,Counterargument quality,2,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Counterargument quality,4,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,CONTROL,Experiment quality,2,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Experiment quality,5,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,CONTROL,Prediction specificity,2,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,CONTROL,Outcome plan,2,AI_EVALUATION
+P1,Experienced PM,Integration prioritization,THINKFORGE,Outcome plan,4,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Decision clarity,3,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Assumption quality,2,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Evidence traceability,2,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Evidence traceability,4,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Alternative/trade-off clarity,2,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Alternative/trade-off clarity,3,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Counterargument quality,2,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Counterargument quality,3,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Experiment quality,2,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Experiment quality,3,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Prediction specificity,1,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Prediction specificity,3,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,CONTROL,Outcome plan,1,AI_EVALUATION
+P2,Early-Career PM,Chat-widget investment,THINKFORGE,Outcome plan,3,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Decision clarity,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Assumption quality,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Evidence traceability,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Evidence traceability,5,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Alternative/trade-off clarity,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Alternative/trade-off clarity,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Counterargument quality,3,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Counterargument quality,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Experiment quality,3,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Experiment quality,5,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Prediction specificity,2,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,CONTROL,Outcome plan,2,AI_EVALUATION
+P3,Enterprise PM,Enterprise integration rollout,THINKFORGE,Outcome plan,4,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Decision clarity,4,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Assumption quality,3,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Evidence traceability,2,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Evidence traceability,3,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Alternative/trade-off clarity,3,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Alternative/trade-off clarity,4,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Counterargument quality,3,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Counterargument quality,5,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Experiment quality,2,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Experiment quality,4,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Prediction specificity,2,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,CONTROL,Outcome plan,2,AI_EVALUATION
+P4,Whiteboard Thinker,Technical scalability decision,THINKFORGE,Outcome plan,3,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Decision clarity,3,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Assumption quality,2,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Evidence traceability,1,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Evidence traceability,5,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Alternative/trade-off clarity,2,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Alternative/trade-off clarity,4,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Counterargument quality,2,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Counterargument quality,4,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Experiment quality,2,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Experiment quality,4,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Prediction specificity,1,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,CONTROL,Outcome plan,1,AI_EVALUATION
+P5,Scattered PM,Evidence-heavy product change,THINKFORGE,Outcome plan,4,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Decision clarity,4,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Assumption quality,3,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Evidence traceability,2,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Evidence traceability,3,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Alternative/trade-off clarity,2,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Alternative/trade-off clarity,3,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Counterargument quality,2,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Counterargument quality,3,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Experiment quality,1,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Experiment quality,5,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Prediction specificity,1,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,CONTROL,Outcome plan,1,AI_EVALUATION
+P6,Founder,High-stakes spending/hiring decision,THINKFORGE,Outcome plan,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Decision clarity,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Assumption quality,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Evidence traceability,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Evidence traceability,5,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Alternative/trade-off clarity,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Alternative/trade-off clarity,5,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Counterargument quality,3,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Counterargument quality,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Experiment quality,3,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Experiment quality,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Prediction specificity,2,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,CONTROL,Outcome plan,2,AI_EVALUATION
+P7,Process-Heavy PM,Privacy-sensitive product change,THINKFORGE,Outcome plan,4,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Decision clarity,3,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Assumption quality,3,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Evidence traceability,2,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Evidence traceability,5,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Alternative/trade-off clarity,3,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Alternative/trade-off clarity,4,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Counterargument quality,2,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Counterargument quality,4,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Experiment quality,2,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Experiment quality,4,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Prediction specificity,1,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,CONTROL,Outcome plan,1,AI_EVALUATION
+P8,Fragmented Senior PM,Cross-team product decision,THINKFORGE,Outcome plan,4,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Decision clarity,3,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Assumption quality,3,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Evidence traceability,2,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Evidence traceability,3,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Alternative/trade-off clarity,3,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Alternative/trade-off clarity,4,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Counterargument quality,2,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Counterargument quality,3,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Experiment quality,2,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Experiment quality,3,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Prediction specificity,2,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Prediction specificity,3,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,CONTROL,Outcome plan,2,AI_EVALUATION
+P9,Visual / Remote PM,Remote collaboration decision,THINKFORGE,Outcome plan,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Decision clarity,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Decision clarity,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Assumption quality,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Assumption quality,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Evidence traceability,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Evidence traceability,5,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Alternative/trade-off clarity,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Alternative/trade-off clarity,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Counterargument quality,3,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Counterargument quality,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Experiment quality,3,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Experiment quality,5,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Prediction specificity,2,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Prediction specificity,4,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,CONTROL,Outcome plan,2,AI_EVALUATION
+P10,Structured Platform PM,Platform architecture decision,THINKFORGE,Outcome plan,4,AI_EVALUATION

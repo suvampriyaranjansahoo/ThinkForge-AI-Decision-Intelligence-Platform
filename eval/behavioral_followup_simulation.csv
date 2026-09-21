@@ -1,0 +1,41 @@
+participant_profile,timepoint,condition,simulated_observation,evidence_status
+P1,7-day,Control,No explicit prediction; follow-up dependent on memory/process,SIMULATED_AI_EVALUATION
+P1,7-day,ThinkForge,Prediction and rollback condition recorded; easier scheduled comparison,SIMULATED_AI_EVALUATION
+P1,30-day,Control,Outcome record may be reconstructed manually,SIMULATED_AI_EVALUATION
+P1,30-day,ThinkForge,Outcome can be compared against beta prediction and threshold,SIMULATED_AI_EVALUATION
+P2,7-day,Control,No clear success metric established,SIMULATED_AI_EVALUATION
+P2,7-day,ThinkForge,Prediction still weak unless metric guidance improves,SIMULATED_AI_EVALUATION
+P2,30-day,Control,Likely informal learning without durable comparison,SIMULATED_AI_EVALUATION
+P2,30-day,ThinkForge,"Potentially better record, but data/instrumentation remains a constraint",SIMULATED_AI_EVALUATION
+P3,7-day,Control,Decision documented; follow-up experiment may remain broad,SIMULATED_AI_EVALUATION
+P3,7-day,ThinkForge,Expected outcome and experiment explicitly captured,SIMULATED_AI_EVALUATION
+P3,30-day,Control,Outcome requires locating PRD/review artifacts,SIMULATED_AI_EVALUATION
+P3,30-day,ThinkForge,Outcome comparison is structurally easier,SIMULATED_AI_EVALUATION
+P4,7-day,Control,Technical decision likely followed through prototype/whiteboard workflow,SIMULATED_AI_EVALUATION
+P4,7-day,ThinkForge,"Experiment can be explicit, but format friction may reduce reuse",SIMULATED_AI_EVALUATION
+P4,30-day,Control,Learning remains distributed across technical artifacts,SIMULATED_AI_EVALUATION
+P4,30-day,ThinkForge,Decision trail exists if participant tolerates workflow,SIMULATED_AI_EVALUATION
+P5,7-day,Control,Evidence and rationale remain distributed,SIMULATED_AI_EVALUATION
+P5,7-day,ThinkForge,Centralized record makes planned check easier,SIMULATED_AI_EVALUATION
+P5,30-day,Control,Reconstruction requires searching multiple channels,SIMULATED_AI_EVALUATION
+P5,30-day,ThinkForge,Recorded evidence/decision makes retrospective review easier,SIMULATED_AI_EVALUATION
+P6,7-day,Control,Fast shipping may produce informal signal without predefined threshold,SIMULATED_AI_EVALUATION
+P6,7-day,ThinkForge,Defined test/threshold creates a clearer check,SIMULATED_AI_EVALUATION
+P6,30-day,Control,Learning likely happens through operational iteration,SIMULATED_AI_EVALUATION
+P6,30-day,ThinkForge,"Structured outcome comparison possible, but only if overhead was accepted",SIMULATED_AI_EVALUATION
+P7,7-day,Control,Existing workflow may already track risks and approvals,SIMULATED_AI_EVALUATION
+P7,7-day,ThinkForge,Challenge/privacy issue and experiment can be retained in one record,SIMULATED_AI_EVALUATION
+P7,30-day,Control,Outcome can be found but may remain duplicated across systems,SIMULATED_AI_EVALUATION
+P7,30-day,ThinkForge,Outcome trail useful only if synchronization avoids duplicate maintenance,SIMULATED_AI_EVALUATION
+P8,7-day,Control,Follow-up distributed across email/meetings/documents,SIMULATED_AI_EVALUATION
+P8,7-day,ThinkForge,Central record makes expected outcome visible,SIMULATED_AI_EVALUATION
+P8,30-day,Control,Retrospective reconstruction is costly,SIMULATED_AI_EVALUATION
+P8,30-day,ThinkForge,Prediction/outcome pair easier to revisit,SIMULATED_AI_EVALUATION
+P9,7-day,Control,Visual/async tools provide natural collaboration record,SIMULATED_AI_EVALUATION
+P9,7-day,ThinkForge,Shared structure helps once decision is formed; exploratory fit remains weaker,SIMULATED_AI_EVALUATION
+P9,30-day,Control,Outcome remains across visual/async artifacts,SIMULATED_AI_EVALUATION
+P9,30-day,ThinkForge,Central record helps alignment if visual context is retained,SIMULATED_AI_EVALUATION
+P10,7-day,Control,ADR/Jira/GitHub workflow provides existing follow-up artifacts,SIMULATED_AI_EVALUATION
+P10,7-day,ThinkForge,Experiment/prediction structure makes follow-up explicit,SIMULATED_AI_EVALUATION
+P10,30-day,Control,Outcome can be reconstructed through existing engineering artifacts,SIMULATED_AI_EVALUATION
+P10,30-day,ThinkForge,Outcome comparison can be attached to the decision record,SIMULATED_AI_EVALUATION
