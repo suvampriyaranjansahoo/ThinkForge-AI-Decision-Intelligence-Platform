@@ -13,9 +13,13 @@
 
 ## Verified in this session
 
-- `py -3.12 manage.py test apps.core.tests` — 10 tests passed.
+- `py -3.12 manage.py test apps.core.tests` — 18 tests passed.
 - `py -3.12 manage.py check` — no system-check issues.
 - `node scripts/check_es_module_syntax.js frontend/src/app.js` — completed successfully with no output.
+- `node scripts/eval_agent_policy.js` — 17 of 17 policy cases passed.
+- `node scripts/eval_agent_state_machine.js` — 15 transition cases completed with no mismatches or declared divergences.
+
+See `KNOWN_REPOSITORY_GAPS.md` for the separate full-suite status and the artifacts intentionally excluded from the public checkout.
 
 ## Still not performed and cannot be claimed
 

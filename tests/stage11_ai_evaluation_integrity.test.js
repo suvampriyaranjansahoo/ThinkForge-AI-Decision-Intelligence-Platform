@@ -26,7 +26,7 @@ test('api/evaluate.js live mode uses the identical callModel production path as 
 
 test('api/evaluate.js offline mode never invokes callModel', () => {
   const src = fs.readFileSync(path.join(__dirname, '..', 'api', 'evaluate.js'), 'utf8');
-  const offlineBlockMatch = src.match(/if\(mode===['"]offline['"]\)\{[\s\S]*?\n\s*\}\n/);
+  const offlineBlockMatch = src.match(/if\(mode===['"]offline['"]\)\{[\s\S]*?\r?\n\s*\}\r?\n/);
   assert.ok(offlineBlockMatch, 'expected to find the offline-mode branch');
   assert.doesNotMatch(offlineBlockMatch[0], /callModel/);
 });

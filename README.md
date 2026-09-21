@@ -82,8 +82,8 @@ flowchart TB
 | **Audit chain** (`audit_integrity.py`) | Every agent action gets a SHA-256 digest chained to the previous event's hash — tampering (deletion, mutation, stripped hash) is detectable, not just logged | Python, hashlib | ✅ fixed & verified — `create_run()` wasn't feeding the chain; now does |
 | **Tenant/role model** (`permissions.py`) | Viewer / editor / admin / reviewer roles scoped per organization; cross-org access is denied at the query level, not just the UI | Django ORM + DRF | ✅ covered by `test_permissions.py` |
 | **Hybrid retrieval** (`retrieval.py`) | Lexical search always available; cosine-distance vector search via pgvector when embeddings are enabled; falls back honestly (and says so in the response) if not | Python, pgvector | ✅ covered by `test_retrieval.py` |
-| **RAG evaluation harness** (`eval/`) | Benchmarks retrieval and reasoning quality against **frozen gold data**, not self-reported scores | Node scripts + JSON schemas | ✅ 236/241 Node tests pass, 5 correctly skipped (live-DB only) |
-| **Human ground-truth pipeline** (`eval/external_gold/`) | 150 real cases → 3 independent raters (450 raw annotations) → disagreement adjudication → frozen gold set | CSV/JSON pipeline + documented protocol | 146 real, adjudicated, frozen cases (`stage1_gold.json`) |
+| **RAG evaluation harness** (`eval/`) | Benchmarks retrieval and reasoning quality against frozen gold data, with a manifest-integrity check | Node scripts + JSON schemas | Public-suite status is recorded in `KNOWN_REPOSITORY_GAPS.md` |
+| **Human ground-truth pipeline** (`eval/external_gold/`) | Evaluation pipeline and frozen public artifacts; confidential human-study inputs are kept out of Git | CSV/JSON pipeline + documented protocol | Private-layer checks run only where confidential inputs are available |
 | **Decision workspace** (product layer) | Assumption → evidence → challenge → recommendation → experiment → predicted-vs-actual outcome, for a real product decision | Node API + Supabase/Postgres | Infrastructure complete; real-usage data not yet collected (see Evidence status) |
 | **CI/CD** (`.github/workflows/`) | Node checks + tests, Django tests, a staging DB-verification workflow that hard-fails without real staging secrets (won't silently pass) | GitHub Actions | — |
 
@@ -120,14 +120,14 @@ Run via `npm run research:readiness`. This table is the whole point of the proje
 | Signal | Status |
 |---|---|
 | Evaluation infrastructure (rater qualification, adjudication, frozen gold, regression gate) | Built and tested |
-| Real annotated case bank | **146 real cases, adjudicated, frozen** — 450 rater rows, 3 independent raters, real source URLs |
-| RAG gold-labeled queries | **124 real, frozen** |
+| Discovery research | **10 user-provided PM/APM interview records**, documented with consent-aware quote handling; directional, not product impact |
+| Evaluation layer | Public pipeline and frozen assets are present; confidential capstone inputs are excluded from GitHub |
 | Backend test suite (Django) | **18/18 passing**, verified this session against sqlite |
-| Full Node suite | **236/241 passing**, 5 correctly skipped (require a live DB, not faked) |
+| Full Node suite | See `KNOWN_REPOSITORY_GAPS.md` for the current public-clone result and the reason private-layer checks are skipped |
 | Decision-impact study | Not yet started — template exists, awaiting a real study run |
 | Outcome records (prediction vs. actual) | Not yet collected — requires real usage on a live deployment |
 
-See [`docs/RESULTS.md`](docs/RESULTS.md) for the real-case results log (currently an empty, honest template) and [`docs/LOCAL_SETUP_GUIDE.md`](docs/LOCAL_SETUP_GUIDE.md) for how to actually fill it in.
+See [`docs/RESULTS.md`](docs/RESULTS.md) for the real-case results log (currently an empty, honest template), [`research/INTERVIEW_SYNTHESIS_2026_Q3.md`](research/INTERVIEW_SYNTHESIS_2026_Q3.md) for discovery findings, and [`KNOWN_REPOSITORY_GAPS.md`](KNOWN_REPOSITORY_GAPS.md) for public verification limits.
 
 ---
 
@@ -191,6 +191,6 @@ thinkforge/
 
 ## Portfolio positioning
 
-> Built an evidence-backed AI decision-support system with a governed agent runtime, hybrid RAG retrieval, a tamper-evident audit chain, and a human-expert-gold evaluation pipeline — validated against real adjudicated data rather than self-reported quality scores.
+> Built an evidence-backed AI decision-support system with a governed agent runtime, hybrid RAG retrieval, a tamper-evident audit chain, consent-aware product discovery, and an evaluation pipeline that distinguishes verified checks from open product-impact questions.
 
 See [`docs/DATASET_CARD.md`](docs/DATASET_CARD.md) for evidence boundaries, [`CHANGELOG_AUDIT_FIXES.md`](CHANGELOG_AUDIT_FIXES.md) for what's been fixed and independently re-verified, and `archive_docs_legacy/` for version-by-version history. This README is the single current source of truth.

@@ -14,8 +14,10 @@ test('RAG gold has 150 queries and no embedded predictions',()=>{
 
 test('RAG gold freeze hash matches CSV',()=>{
   const m=JSON.parse(fs.readFileSync(path.join(root,'eval','rag_gold_v1_freeze_manifest.json'),'utf8'));
-  const csv=fs.readFileSync(path.join(root,'eval','rag_gold_v1.csv'));
-  const h=crypto.createHash('sha256').update(csv).digest('hex');
+  // Git may check the CSV out with CRLF on Windows. Hash the frozen LF form so the
+  // integrity check is stable across platforms and matches the freeze manifest.
+  const csv=fs.readFileSync(path.join(root,'eval','rag_gold_v1.csv'),'utf8').replace(/\r\n/g,'\n');
+  const h=crypto.createHash('sha256').update(csv,'utf8').digest('hex');
   assert.equal(m.gold_frozen,true);
   assert.equal(m.frozen_dataset_sha256,h);
 });

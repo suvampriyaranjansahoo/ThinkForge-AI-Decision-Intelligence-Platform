@@ -3,8 +3,12 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const root=path.join(__dirname,'..');
+const capstoneRoot=path.join(root,'eval','external_gold','capstone_gold_layer_v1');
+const capstoneTest=fs.existsSync(capstoneRoot)
+  ? test
+  : (name, fn)=>test(name,{skip:'private capstone artifact is intentionally excluded from the public checkout'},fn);
 
-test('frozen external gold is exactly the finalized 146-case scope and excludes the four unavailable cases',()=>{
+capstoneTest('frozen external gold is exactly the finalized 146-case scope and excludes the four unavailable cases',()=>{
   const candidate=JSON.parse(fs.readFileSync(path.join(root,'eval/external_gold/capstone_gold_layer_v1/02_gold/stage1_gold_candidate.json'),'utf8'));
   const gold=JSON.parse(fs.readFileSync(path.join(root,'eval/external_gold/stage1_gold.json'),'utf8'));
   const confirmed=new Set(candidate.records.filter(r=>r.status!=='PENDING_HUMAN_ADJUDICATION').map(r=>r.case_id));

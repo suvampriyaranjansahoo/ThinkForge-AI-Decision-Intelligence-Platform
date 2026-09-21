@@ -43,12 +43,16 @@ _One paragraph, written after the real runs, not before. What surprised you. Whe
 ThinkForge's judgment was better than your own gut call, and where it wasn't. This
 paragraph — not the table — is what you say out loud in an interview._
 
+## Discovery evidence already collected
+
+This project has a separately documented, user-provided qualitative discovery sample of 10 PM/APM interview records. It informed the five-step MVP scope: visible assumptions, traceable evidence, advisory recommendations, reversible experiments, and outcome review. It is directional research, not product-impact evidence. See `../research/INTERVIEW_EVIDENCE_LOG_2026_Q3.md` and `../research/INTERVIEW_SYNTHESIS_2026_Q3.md`.
+
 ## Relationship to the evaluation layer
 
 This page is deliberately separate from `eval/external_gold/` and the human-annotation
-gold-layer pipeline. That pipeline is **already real and complete**: 146 cases, 3
-independent raters, adjudicated, frozen — it validates whether the *AI's reasoning
-quality* is good against expert-labeled ground truth (a research question, already
-answered). This page validates a different, still-open question: whether *ThinkForge
-as a product* helps you make better calls day to day (a product question). Don't quote
-one as evidence for the other.
+gold-layer pipeline. The public repository contains its evaluation infrastructure and
+some frozen assets; the confidential capstone layer is intentionally excluded. Treat
+repository evaluation results as model-quality evidence only after their source assets
+and integrity checks pass. This page answers a different, still-open product question:
+whether *ThinkForge as a product* helps people make better calls day to day. Do not use
+either type of evidence as a substitute for the other. See `../KNOWN_REPOSITORY_GAPS.md`.

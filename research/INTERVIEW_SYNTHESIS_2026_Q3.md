@@ -52,7 +52,7 @@ Consent-safe evidence: P3 said, "Advisory only—compliance needs human sign-off
 
 P2, P4, P5, P6, and P10 explicitly named a launch, churn, runway, speed, or commercial deadline. The finding explains why a lighter workflow needs testing. It does not prove every PM will reject a fuller record.
 
-Consent-safe evidence: P2 said, "The 48-hour thing was brutal. Commercial pressure, man. Everything."
+Consent-safe evidence: P2 described a 48-hour decision under commercial pressure (P2 did not consent to publication of a direct quote).
 
 **Product implication:** Support a rapid decision capture path. Test whether a template is sufficient for small decisions before adding more workflow.
 

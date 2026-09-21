@@ -8,14 +8,26 @@ ThinkForge is an approval-gated research and decision-support system. It helps a
 
 Product teams often keep customer evidence, assumptions, recommendations, and outcomes in separate tools. This makes it hard to see why a decision was made, what uncertainty remained, and whether the result supported the original prediction.
 
-Replace this section with a real problem statement from your target users.
+### What discovery currently supports
+
+A user-provided, mixed-recruitment sample of 10 PM/APM interview records points to a
+directional problem: participants described decision rationale, evidence and follow-up
+as fragmented across tools. They also described time pressure and the need for an
+advisory workflow rather than an automated decision-maker. The full evidence log,
+consent handling and disconfirming evidence are in
+`../research/INTERVIEW_EVIDENCE_LOG_2026_Q3.md` and
+`../research/INTERVIEW_SYNTHESIS_2026_Q3.md`.
+
+This is qualitative discovery, not evidence that ThinkForge improves outcomes. A
+paired pilot is still required before making an impact claim.
 
 ## Research method
 
-1. Recruit [5–10] target participants with consent.
-2. Record the participant segment, method, source ID, date, and verbatim response.
+1. Maintain an anonymized evidence log with date, segment, recruitment route and quote-consent status.
+2. Synthesize themes with counts, disconfirming evidence, and only consented direct quotes.
 3. Use ThinkForge to preserve evidence provenance, identify assumptions and contradictions, and propose the smallest reversible experiment.
 4. Have an accountable product owner review the recommendation before acting.
+5. Run the preregistered paired pilot before reporting decision-quality, time-to-decision or funnel results.
 
 Do not claim user research, validation, or impact until it has actually happened. Synthetic examples must remain labeled synthetic and are excluded from empirical claims.
 
