@@ -10,6 +10,18 @@
 
 Most "AI decision tools" are a chatbot with a nicer prompt. ThinkForge separates two things that usually get blurred together: **the product** (a workspace that turns a fuzzy decision into assumptions → evidence → a recommendation → an experiment → a recorded outcome) and **the proof** (a research-grade evaluation layer — human-adjudicated gold labels, a tamper-evident audit chain, regression gates — that answers "how do we know the AI's judgment can be trusted?"). Nothing in this repo reports a quality number that wasn't measured against real, frozen, human-labeled data.
 
+## Start here: the product story
+
+ThinkForge now has two complementary portfolio paths built from the same product:
+
+| For a Product Analyst reviewer | For an AI Engineer reviewer |
+|---|---|
+| A five-step MVP: frame a decision, connect evidence, challenge and recommend, test, then learn. | A Django/DRF migration with tenant roles, pgvector-ready retrieval, Celery indexing, approval-gated tools, audit events, circuit breakers, and reviewer workflow. |
+| Ten PM/APM discovery interviews identified fragmented evidence, weak assumption records, and missing outcome checks. Read the [research synthesis](research/INTERVIEW_SYNTHESIS_2026_Q3.md) and its [limits](research/INTERVIEW_EVIDENCE_LOG_2026_Q3.md). | Run the verified checks described in [backend setup](backend/README.md), then inspect [Django architecture](docs/DJANGO_ARCHITECTURE.md) and the agent-hardening log. |
+| The pilot is intentionally still open. The repository does **not** claim that ThinkForge improves decision quality, time to decision, or outcomes yet. | The live-provider and staging claims are intentionally still open. The repository does **not** claim real agent traffic, production latency, or autonomous decision quality yet. |
+
+For a recruiter walkthrough, use the [PM demo runbook](PM_DEMO_RUNBOOK.md), [MVP PRD](PRD.md), and [portfolio case study](docs/PORTFOLIO_CASE_STUDY.md). The advanced AI and evaluation surfaces support the engineering story; they are hidden from the primary PM workflow.
+
 ---
 
 ## System architecture

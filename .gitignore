@@ -4,6 +4,8 @@
 node_modules
 coverage/
 .DS_Store
+__pycache__/
+*.py[cod]
 
 # Confidential capstone human-study artifacts (keep local/private; do not publish)
 eval/external_gold/capstone_gold_layer_v1/
